@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  cineenglish-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cineenglish-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - SECRET_KEY=replace-with-a-random-secure-secret-key-for-jwt
+      - DATABASE_URL=sqlite+aiosqlite:////app/data/cineenglish.db
+      - OPENSUBTITLES_API_KEY=${OPENSUBTITLES_API_KEY:-}
+      - DEFAULT_AI_BASE_URL=${DEFAULT_AI_BASE_URL:-https://api.openai.com/v1}
+      - DEFAULT_AI_API_KEY=${DEFAULT_AI_API_KEY:-}
+      - DEFAULT_CHAT_MODEL=${DEFAULT_CHAT_MODEL:-gpt-4o-mini}
+      - DEFAULT_TTS_MODEL=${DEFAULT_TTS_MODEL:-tts-1}
+      - DEFAULT_STT_MODEL=${DEFAULT_STT_MODEL:-whisper-1}
+    volumes:
+      - cine_data:/app/data
+
+volumes:
+  cine_data:
+    name: cineenglish_data

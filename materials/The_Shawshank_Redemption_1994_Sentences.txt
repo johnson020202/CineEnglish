@@ -1,0 +1,1656 @@
+# The Shawshank Redemption (1994) - Complete Oral Practice Sentences (1653 Sentences)
+# Format: [Index] [StartTime -> EndTime] Sentence
+
+[0001] [00:02:02 -> 00:02:04] Mr. Dufresne, describe...
+[0002] [00:02:05 -> 00:02:09] ...the confrontation you had with your wife the night she was murdered.
+[0003] [00:02:14 -> 00:02:15] It was very bitter.
+[0004] [00:02:16 -> 00:02:20] She said she was glad I knew, that she hated all the sneaking around.
+[0005] [00:02:21 -> 00:02:25] And she said that she wanted a divorce in Reno.
+[0006] [00:02:25 -> 00:02:29] - What was your response? - I told her I would not grant one.
+[0007] [00:02:29 -> 00:02:36] "I'll see you in hell before I see you in Reno." Those were your words, according to your neighbors.
+[0008] [00:02:37 -> 00:02:38] If they say so.
+[0009] [00:02:39 -> 00:02:41] I really don't remember. I was upset.
+[0010] [00:02:42 -> 00:02:44] What happened after you argued with your wife?
+[0011] [00:02:45 -> 00:02:47] She packed a bag.
+[0012] [00:02:48 -> 00:02:51] She packed a bag to go and stay with Mr. Quentin.
+[0013] [00:02:52 -> 00:02:56] Glenn Quentin, golf pro at the Snowden Hills Country Club...
+[0014] [00:02:56 -> 00:02:59] ...whom you had discovered was your wife's lover.
+[0015] [00:03:02 -> 00:03:03] Did you follow her?
+[0016] [00:03:04 -> 00:03:06] I went to a few bars first.
+[0017] [00:03:07 -> 00:03:11] Later, I drove to his house to confront them. They weren't home.
+[0018] [00:03:12 -> 00:03:13] I parked in the turnout...
+[0019] [00:03:14 -> 00:03:15] ...and waited.
+[0020] [00:03:15 -> 00:03:17] With what intention?
+[0021] [00:03:17 -> 00:03:19] I'm not sure.
+[0022] [00:03:20 -> 00:03:21] I was confused...
+[0023] [00:03:22 -> 00:03:23] ...drunk.
+[0024] [00:03:24 -> 00:03:25] I think...
+[0025] [00:03:26 -> 00:03:28] ...mostly I wanted to scare them.
+[0026] [00:03:28 -> 00:03:31] When they arrived, you went up to the house and murdered them.
+[0027] [00:03:32 -> 00:03:34] I was sobering up.
+[0028] [00:03:34 -> 00:03:38] I got back in the car and I drove home to sleep it off.
+[0029] [00:03:38 -> 00:03:41] Along the way, I threw my gun into the Royal River.
+[0030] [00:03:41 -> 00:03:43] I've been very clear on this point.
+[0031] [00:03:43 -> 00:03:47] I get hazy where the cleaning woman shows up the following morning...
+[0032] [00:03:47 -> 00:03:50] ...and finds your wife in bed with her lover...
+[0033] [00:03:50 -> 00:03:52] ...riddled with.38-caliber bullets.
+[0034] [00:03:54 -> 00:03:58] Does that strike you as a fantastic coincidence, or is it just me?
+[0035] [00:03:59 -> 00:04:00] Yes, it does.
+[0036] [00:04:00 -> 00:04:03] Yet you still maintain you threw your gun into the river...
+[0037] [00:04:03 -> 00:04:05] ...before the murders took place.
+[0038] [00:04:06 -> 00:04:08] That's very convenient.
+[0039] [00:04:08 -> 00:04:10] It's the truth.
+[0040] [00:04:10 -> 00:04:15] The police dragged that river for three days, and nary a gun was found...
+[0041] [00:04:15 -> 00:04:19] ...so no comparison could be made between your gun and the bullets...
+[0042] [00:04:19 -> 00:04:23] ...taken from the bloodstained corpses of the victims.
+[0043] [00:04:23 -> 00:04:26] And that also...
+[0044] [00:04:26 -> 00:04:30] ...is very convenient. Isn't it, Mr. Dufresne?
+[0045] [00:04:31 -> 00:04:33] Since I am innocent of this crime...
+[0046] [00:04:33 -> 00:04:38] ...I find it decidedly inconvenient that the gun was never found.
+[0047] [00:04:56 -> 00:04:59] Ladies and gentlemen, you've heard all the evidence.
+[0048] [00:04:59 -> 00:05:03] We have the accused at the scene of the crime. We have footprints.
+[0049] [00:05:03 -> 00:05:06] Bullets on the ground bearing his fingerprints.
+[0050] [00:05:06 -> 00:05:09] A broken bourbon bottle, likewise with fingerprints.
+[0051] [00:05:10 -> 00:05:11] And most of all...
+[0052] [00:05:11 -> 00:05:14] ...we have a beautiful young woman and her lover...
+[0053] [00:05:15 -> 00:05:17] ...lying dead in each other's arms.
+[0054] [00:05:18 -> 00:05:20] They had sinned.
+[0055] [00:05:22 -> 00:05:24] But was their crime so great...
+[0056] [00:05:24 -> 00:05:27] ...as to merit a death sentence?
+[0057] [00:05:27 -> 00:05:29] While you think about that...
+[0058] [00:05:31 -> 00:05:37] ...think about this: A revolver holds six bullets, not eight.
+[0059] [00:05:37 -> 00:05:41] I submit that this was not a hot-blooded crime of passion.
+[0060] [00:05:41 -> 00:05:44] That at least could be understood, if not condoned.
+[0061] [00:05:44 -> 00:05:45] No.
+[0062] [00:05:45 -> 00:05:46] This was revenge...
+[0063] [00:05:47 -> 00:05:54] ...of a much more brutal, cold-blooded nature. Consider this: Four bullets per victim.
+[0064] [00:05:54 -> 00:05:56] Not six shots fired, but eight.
+[0065] [00:05:57 -> 00:06:00] That means that he fired the gun empty...
+[0066] [00:06:00 -> 00:06:02] ...and then stopped to reload...
+[0067] [00:06:03 -> 00:06:06] ...so that he could shoot each of them again.
+[0068] [00:06:06 -> 00:06:09] An extra bullet per lover...
+[0069] [00:06:10 -> 00:06:11] ...right in the head.
+[0070] [00:06:15 -> 00:06:20] You strike me as a particularly icy and remorseless man, Mr. Dufresne.
+[0071] [00:06:20 -> 00:06:22] It chills my blood just to look at you.
+[0072] [00:06:24 -> 00:06:27] By the power vested in me by the state of Maine...
+[0073] [00:06:27 -> 00:06:31] ...I hereby order you to serve two life sentences back-to-back...
+[0074] [00:06:32 -> 00:06:34] ...one for each of your victims. So be it!
+[0075] [00:06:59 -> 00:07:01] Sit.
+[0076] [00:07:05 -> 00:07:08] We see you've served 20 years of a life sentence?
+[0077] [00:07:09 -> 00:07:12] - Yes, sir. - You feel you've been rehabilitated?
+[0078] [00:07:13 -> 00:07:15] Yes, sir. Absolutely, sir.
+[0079] [00:07:16 -> 00:07:18] I mean, I learned my lesson.
+[0080] [00:07:19 -> 00:07:23] I can honestly say that I'm a changed man.
+[0081] [00:07:26 -> 00:07:28] I'm no longer a danger to society.
+[0082] [00:07:29 -> 00:07:31] That's God's honest truth.
+[0083] [00:08:07 -> 00:08:08] Hey, Red.
+[0084] [00:08:08 -> 00:08:10] How'd it go?
+[0085] [00:08:10 -> 00:08:12] Same old shit, different day.
+[0086] [00:08:12 -> 00:08:14] Yeah, I know how you feel.
+[0087] [00:08:14 -> 00:08:16] I'm up for rejection next week.
+[0088] [00:08:17 -> 00:08:20] Yeah, I got rejected last week.
+[0089] [00:08:20 -> 00:08:21] It happens.
+[0090] [00:08:21 -> 00:08:23] Hey, Red, bump me a deck.
+[0091] [00:08:23 -> 00:08:26] Get out of my face, man! You're into me for five packs already.
+[0092] [00:08:27 -> 00:08:28] Four!
+[0093] [00:08:29 -> 00:08:32] There must be a con like me in every prison in America.
+[0094] [00:08:32 -> 00:08:34] I'm the guy who can get it for you.
+[0095] [00:08:34 -> 00:08:37] Cigarettes, a bag of reefer, if that's your thing...
+[0096] [00:08:38 -> 00:08:41] ...bottle of brandy to celebrate your kid's high school graduation.
+[0097] [00:08:41 -> 00:08:43] Damn near anything within reason.
+[0098] [00:08:44 -> 00:08:47] Yes, sir! I'm a regular Sears and Roebuck.
+[0099] [00:08:50 -> 00:08:53] So when Andy Dufresne came to me in 1949...
+[0100] [00:08:53 -> 00:08:57] ...and asked me to smuggle Rita Hayworth into the prison for him...
+[0101] [00:08:57 -> 00:08:59] ...I told him, "No problem."
+[0102] [00:09:41 -> 00:09:43] Andy came to Shawshank Prison...
+[0103] [00:09:44 -> 00:09:48] ...in early 1947 for murdering his wife and the fella she was banging.
+[0104] [00:09:48 -> 00:09:52] On the outside, he'd been vice president of a large Portland bank.
+[0105] [00:09:52 -> 00:09:54] Good work for a man so young.
+[0106] [00:10:37 -> 00:10:39] You speak English, butt-steak?
+[0107] [00:10:39 -> 00:10:41] You follow this officer.
+[0108] [00:10:54 -> 00:10:58] I never seen such a sorry-looking heap of maggot shit in all my life.
+[0109] [00:10:59 -> 00:11:01] Hey, fish! Come over here!
+[0110] [00:11:24 -> 00:11:26] Taking bets today, Red?
+[0111] [00:11:26 -> 00:11:28] Smokes or coin? Bettor's choice.
+[0112] [00:11:28 -> 00:11:30] Smokes. Put me down for two.
+[0113] [00:11:30 -> 00:11:32] All right, who's your horse?
+[0114] [00:11:32 -> 00:11:34] That little sack of shit.
+[0115] [00:11:35 -> 00:11:39] - Eighth. He'll be first. - Bullshit! I'll take that action.
+[0116] [00:11:39 -> 00:11:41] You're out some smokes, son.
+[0117] [00:11:41 -> 00:11:43] If you're so smart, you call it.
+[0118] [00:11:43 -> 00:11:46] I'll take that chubby fat-ass there.
+[0119] [00:11:47 -> 00:11:49] The fifth one. Put me down for a quarter deck.
+[0120] [00:11:52 -> 00:11:54] Fresh fish today!
+[0121] [00:11:55 -> 00:11:56] We're reeling them in!
+[0122] [00:11:57 -> 00:12:01] I admit I didn't think much of Andy first time I laid eyes on him.
+[0123] [00:12:01 -> 00:12:04] Looked like a stiff breeze would blow him over.
+[0124] [00:12:04 -> 00:12:07] That was my first impression of the man.
+[0125] [00:12:07 -> 00:12:08] What do you say?
+[0126] [00:12:08 -> 00:12:12] That tall drink of water with the silver spoon up his ass.
+[0127] [00:12:12 -> 00:12:14] That guy? Never happen.
+[0128] [00:12:14 -> 00:12:17] -10 cigarettes. - That's a rich bet.
+[0129] [00:12:17 -> 00:12:19] Who's going to prove me wrong?
+[0130] [00:12:19 -> 00:12:21] Heywood? Jigger?
+[0131] [00:12:21 -> 00:12:22] Skeets?
+[0132] [00:12:23 -> 00:12:24] Floyd!
+[0133] [00:12:25 -> 00:12:27] Four brave souls.
+[0134] [00:12:27 -> 00:12:30] Return to your cellblocks for evening count.
+[0135] [00:12:30 -> 00:12:33] All prisoners, return to your cellblocks.
+[0136] [00:12:54 -> 00:12:55] Turn to the right!
+[0137] [00:12:55 -> 00:12:56] Eyes front.
+[0138] [00:13:10 -> 00:13:12] This is Mr. Hadley. He's captain of the guards.
+[0139] [00:13:12 -> 00:13:14] I'm Mr. Norton, the warden.
+[0140] [00:13:15 -> 00:13:17] You are convicted felons.
+[0141] [00:13:17 -> 00:13:19] That's why they've sent you to me.
+[0142] [00:13:20 -> 00:13:23] Rule number one: No blasphemy.
+[0143] [00:13:23 -> 00:13:27] I'll not have the Lord's name taken in vain in my prison.
+[0144] [00:13:27 -> 00:13:28] The other rules...
+[0145] [00:13:28 -> 00:13:32] ...you'll figure out as you go along. Any questions?
+[0146] [00:13:32 -> 00:13:33] When do we eat?
+[0147] [00:13:42 -> 00:13:44] You eat when we say you eat.
+[0148] [00:13:44 -> 00:13:47] You shit when we say you shit, and piss when we say you piss.
+[0149] [00:13:47 -> 00:13:50] You got that, you maggot-dick motherfucker?
+[0150] [00:13:52 -> 00:13:54] On your feet.
+[0151] [00:13:54 -> 00:13:58] I believe in two things: Discipline and the Bible.
+[0152] [00:13:59 -> 00:14:01] Here, you'll receive both.
+[0153] [00:14:02 -> 00:14:04] Put your trust in the Lord.
+[0154] [00:14:04 -> 00:14:06] Your ass belongs to me.
+[0155] [00:14:08 -> 00:14:10] Welcome to Shawshank.
+[0156] [00:14:15 -> 00:14:17] Unhook them.
+[0157] [00:14:22 -> 00:14:24] Turn around.
+[0158] [00:14:30 -> 00:14:32] That's enough.
+[0159] [00:14:33 -> 00:14:35] Move to the end of the cage.
+[0160] [00:14:36 -> 00:14:38] Turn around. Delouse him.
+[0161] [00:14:40 -> 00:14:42] Turn around.
+[0162] [00:14:45 -> 00:14:47] Move out of the cage. Pick up your clothes and Bible.
+[0163] [00:14:47 -> 00:14:49] Next man up!
+[0164] [00:14:51 -> 00:14:53] To the right.
+[0165] [00:14:53 -> 00:14:54] Right. Right.
+[0166] [00:14:54 -> 00:14:56] Left.
+[0167] [00:14:56 -> 00:15:00] The first night's the toughest. No doubt about it.
+[0168] [00:15:00 -> 00:15:03] They march you in naked as the day you were born...
+[0169] [00:15:04 -> 00:15:07] ...skin burning and half-blind from that delousing shit.
+[0170] [00:15:08 -> 00:15:10] And when they put you in that cell...
+[0171] [00:15:11 -> 00:15:13] ...and those bars slam home...
+[0172] [00:15:13 -> 00:15:16] ...that's when you know it's for real.
+[0173] [00:15:16 -> 00:15:19] Old life blown away in the blink of an eye.
+[0174] [00:15:20 -> 00:15:24] Nothing left but all the time in the world to think about it.
+[0175] [00:15:25 -> 00:15:28] Most new fish come close to madness the first night.
+[0176] [00:15:29 -> 00:15:32] Somebody always breaks down crying.
+[0177] [00:15:32 -> 00:15:34] Happens every time.
+[0178] [00:15:35 -> 00:15:36] The only question is...
+[0179] [00:15:37 -> 00:15:38] ...who's it going to be?
+[0180] [00:15:40 -> 00:15:43] It's as good a thing to bet on as any, I guess.
+[0181] [00:15:44 -> 00:15:46] I had my money on Andy Dufresne.
+[0182] [00:15:56 -> 00:15:57] Lights out!
+[0183] [00:16:18 -> 00:16:20] I remember my first night.
+[0184] [00:16:21 -> 00:16:24] Seems like a long time ago.
+[0185] [00:16:27 -> 00:16:29] Hey, fish.
+[0186] [00:16:30 -> 00:16:31] Fish, fish.
+[0187] [00:16:33 -> 00:16:35] What are you, scared of the dark?
+[0188] [00:16:37 -> 00:16:40] Bet you wish your daddy never dicked your mama!
+[0189] [00:16:40 -> 00:16:44] Piggy! Pork! I want me a pork chop.
+[0190] [00:16:52 -> 00:16:55] The boys always go fishing with first-timers.
+[0191] [00:16:55 -> 00:16:58] And they don't quit till they reel someone in.
+[0192] [00:17:00 -> 00:17:01] Hey, Fat Ass.
+[0193] [00:17:03 -> 00:17:04] Fat Ass!
+[0194] [00:17:05 -> 00:17:07] Talk to me, boy.
+[0195] [00:17:08 -> 00:17:10] I know you're there. I can hear you breathing.
+[0196] [00:17:11 -> 00:17:14] Don't you listen to these nitwits, you hear me?
+[0197] [00:17:14 -> 00:17:16] This place ain't so bad.
+[0198] [00:17:16 -> 00:17:17] Tell you what...
+[0199] [00:17:19 -> 00:17:22] ...I'll introduce you around, make you feel right at home.
+[0200] [00:17:22 -> 00:17:25] I know a couple of big old bull queers that'd just...
+[0201] [00:17:26 -> 00:17:28] ...love to make your acquaintance.
+[0202] [00:17:28 -> 00:17:31] Especially that big, white, mushy butt of yours.
+[0203] [00:17:31 -> 00:17:33] God!
+[0204] [00:17:33 -> 00:17:35] I don't belong here!
+[0205] [00:17:35 -> 00:17:38] - We have a winner! - I want to go home!
+[0206] [00:17:38 -> 00:17:41] And it's Fat Ass by a nose!
+[0207] [00:17:43 -> 00:17:45] Fresh fish!
+[0208] [00:17:51 -> 00:17:53] I want to go home!
+[0209] [00:17:54 -> 00:17:55] I want my mother!
+[0210] [00:17:56 -> 00:17:58] I had your mother! She wasn't that great!
+[0211] [00:18:02 -> 00:18:04] What the Christ is this horseshit?
+[0212] [00:18:04 -> 00:18:06] He blasphemed. I'll tell the warden.
+[0213] [00:18:07 -> 00:18:09] You'll tell him with my baton up your ass!
+[0214] [00:18:09 -> 00:18:10] Let me out!
+[0215] [00:18:10 -> 00:18:14] What is your malfunction, you fat barrel of monkey spunk?
+[0216] [00:18:14 -> 00:18:17] Please! I ain't supposed to be here.
+[0217] [00:18:17 -> 00:18:18] Not me!
+[0218] [00:18:19 -> 00:18:21] I won't count to three. Not even to one.
+[0219] [00:18:21 -> 00:18:23] You shut up, or I'll sing you a lullaby!
+[0220] [00:18:24 -> 00:18:26] Shut up, man. Shut up!
+[0221] [00:18:27 -> 00:18:30] You don't understand. I'm not supposed to be here.
+[0222] [00:18:30 -> 00:18:31] Open that cell.
+[0223] [00:18:31 -> 00:18:35] Me neither! They run this place like a fucking prison!
+[0224] [00:18:43 -> 00:18:44] Son of a bitch!
+[0225] [00:18:49 -> 00:18:52] Captain, take it easy!
+[0226] [00:19:14 -> 00:19:17] If I hear so much as a mouse fart in here tonight...
+[0227] [00:19:17 -> 00:19:21] ...I swear by God and Jesus, you will all visit the infirmary.
+[0228] [00:19:21 -> 00:19:24] Every last motherfucker in here.
+[0229] [00:19:27 -> 00:19:31] Call the trustees. Take that tub of shit down to the infirmary.
+[0230] [00:19:45 -> 00:19:50] His first night in the joint, Dufresne cost me two packs of cigarettes.
+[0231] [00:19:50 -> 00:19:53] He never made a sound.
+[0232] [00:20:08 -> 00:20:11] Tier 3 north, clear count!
+[0233] [00:20:12 -> 00:20:13] Tier 2 north, clear count.
+[0234] [00:20:14 -> 00:20:16] Tier 3 south, clear.
+[0235] [00:20:21 -> 00:20:23] Prepare to roll out.
+[0236] [00:20:26 -> 00:20:28] Roll out!
+[0237] [00:21:22 -> 00:21:24] Are you going to eat that?
+[0238] [00:21:24 -> 00:21:27] I hadn't planned on it.
+[0239] [00:21:28 -> 00:21:29] Do you mind?
+[0240] [00:21:38 -> 00:21:39] That's nice and ripe.
+[0241] [00:21:51 -> 00:21:53] Jake says thank you.
+[0242] [00:21:53 -> 00:21:56] Fell out of his nest over by the plate shop.
+[0243] [00:21:58 -> 00:22:01] I'm going to look after him until he's big enough to fly.
+[0244] [00:22:03 -> 00:22:04] Oh, no! Here he comes.
+[0245] [00:22:08 -> 00:22:09] Morning, fellas.
+[0246] [00:22:09 -> 00:22:11] Fine morning, isn't it?
+[0247] [00:22:11 -> 00:22:14] You know why it's a fine morning, don't you?
+[0248] [00:22:14 -> 00:22:16] Send them down. I want them lined up...
+[0249] [00:22:17 -> 00:22:19] ...just like a pretty little chorus line.
+[0250] [00:22:20 -> 00:22:21] Look at that.
+[0251] [00:22:22 -> 00:22:25] - I can't stand this guy. - Oh, Lord!
+[0252] [00:22:26 -> 00:22:28] Yes! Richmond, Virginia.
+[0253] [00:22:28 -> 00:22:30] Smell my ass!
+[0254] [00:22:30 -> 00:22:32] After he smells mine.
+[0255] [00:22:32 -> 00:22:36] That's a shame about your horse coming in last and all.
+[0256] [00:22:36 -> 00:22:39] But I sure do love that winning horse of mine, though.
+[0257] [00:22:39 -> 00:22:42] I owe that boy a big kiss when I see him.
+[0258] [00:22:43 -> 00:22:47] Why don't you give him some of your cigarettes instead? Lucky fuck!
+[0259] [00:22:47 -> 00:22:49] Hey, Tyrell.
+[0260] [00:22:49 -> 00:22:51] You pull infirmary duty this week?
+[0261] [00:22:52 -> 00:22:53] How's my horse doing anyway?
+[0262] [00:22:54 -> 00:22:55] Dead.
+[0263] [00:22:56 -> 00:22:58] Hadley busted his head up pretty good.
+[0264] [00:22:58 -> 00:23:00] Doc had gone home for the night.
+[0265] [00:23:01 -> 00:23:03] Poor bastard lay there till this morning.
+[0266] [00:23:03 -> 00:23:06] By then, there wasn't nothing we could do.
+[0267] [00:23:12 -> 00:23:14] What was his name?
+[0268] [00:23:17 -> 00:23:18] What'd you say?
+[0269] [00:23:20 -> 00:23:22] I was just wondering if anyone knew his name.
+[0270] [00:23:23 -> 00:23:26] What the fuck do you care, new fish?
+[0271] [00:23:27 -> 00:23:30] Doesn't fucking matter what his name was. He's dead.
+[0272] [00:23:52 -> 00:23:54] Anybody come at you yet?
+[0273] [00:23:56 -> 00:23:58] Anybody get to you yet?
+[0274] [00:24:00 -> 00:24:02] Hey, we all need friends in here.
+[0275] [00:24:03 -> 00:24:04] I could be a friend to you.
+[0276] [00:24:13 -> 00:24:15] Hard to get.
+[0277] [00:24:17 -> 00:24:18] I like that.
+[0278] [00:24:25 -> 00:24:29] Andy kept pretty much to himself at first.
+[0279] [00:24:29 -> 00:24:31] I guess he had a lot on his mind...
+[0280] [00:24:31 -> 00:24:34] ...trying to adapt to life on the inside.
+[0281] [00:24:35 -> 00:24:38] Wasn't until a month went by before he opened his mouth...
+[0282] [00:24:38 -> 00:24:41] ...to say more than two words to somebody.
+[0283] [00:24:42 -> 00:24:43] As it turned out...
+[0284] [00:24:44 -> 00:24:46] ...that somebody was me.
+[0285] [00:24:55 -> 00:24:56] I'm Andy Dufresne.
+[0286] [00:24:58 -> 00:24:59] Wife-killing banker.
+[0287] [00:25:02 -> 00:25:03] Why'd you do it?
+[0288] [00:25:03 -> 00:25:05] I didn't, since you ask.
+[0289] [00:25:06 -> 00:25:08] You're going to fit right in.
+[0290] [00:25:08 -> 00:25:11] Everybody in here's innocent. Didn't you know that?
+[0291] [00:25:11 -> 00:25:15] - What you in here for? - Didn't do it. Lawyer fucked me.
+[0292] [00:25:18 -> 00:25:20] Rumor has it you're a real cold fish.
+[0293] [00:25:20 -> 00:25:24] You think your shit smells sweeter than most. Is that right?
+[0294] [00:25:24 -> 00:25:26] What do you think?
+[0295] [00:25:26 -> 00:25:29] To tell you the truth, I haven't made up my mind.
+[0296] [00:25:30 -> 00:25:33] I understand you're a man that knows how to get things.
+[0297] [00:25:34 -> 00:25:37] I'm known to locate certain things from time to time.
+[0298] [00:25:37 -> 00:25:40] I wonder if you might get me a rock hammer.
+[0299] [00:25:41 -> 00:25:42] A rock hammer.
+[0300] [00:25:42 -> 00:25:45] - What is it and why? - What do you care?
+[0301] [00:25:46 -> 00:25:49] For a toothbrush, I wouldn't ask. I'd quote a price.
+[0302] [00:25:49 -> 00:25:52] But a toothbrush is a non-lethal object, isn't it?
+[0303] [00:25:53 -> 00:25:55] Fair enough.
+[0304] [00:25:55 -> 00:25:58] A rock hammer is about six or seven inches long.
+[0305] [00:25:58 -> 00:26:00] - Looks like a miniature pickax. - Pickax?
+[0306] [00:26:01 -> 00:26:02] For rocks.
+[0307] [00:26:04 -> 00:26:06] Quartz?
+[0308] [00:26:10 -> 00:26:13] And some mica, shale...
+[0309] [00:26:14 -> 00:26:16] ...limestone.
+[0310] [00:26:16 -> 00:26:17] So?
+[0311] [00:26:18 -> 00:26:20] So I'm a rock hound.
+[0312] [00:26:20 -> 00:26:23] At least I was in my old life. I'd like to be again.
+[0313] [00:26:23 -> 00:26:27] Or maybe you'd like to sink your toy into somebody's skull.
+[0314] [00:26:28 -> 00:26:30] No, I have no enemies here.
+[0315] [00:26:30 -> 00:26:32] No? Wait a while.
+[0316] [00:26:34 -> 00:26:35] Word gets around.
+[0317] [00:26:36 -> 00:26:39] The Sisters have taken quite a liking to you.
+[0318] [00:26:40 -> 00:26:42] Especially Bogs.
+[0319] [00:26:43 -> 00:26:46] Don't suppose it would help if I told them I'm not homosexual.
+[0320] [00:26:46 -> 00:26:48] Neither are they.
+[0321] [00:26:48 -> 00:26:51] You have to be human first. They don't qualify.
+[0322] [00:26:56 -> 00:27:00] Bull queers take by force. That's all they want or understand.
+[0323] [00:27:01 -> 00:27:04] If I were you, I'd grow eyes in the back of my head.
+[0324] [00:27:04 -> 00:27:07] - Thanks for the advice. - Well, that's free.
+[0325] [00:27:07 -> 00:27:09] You understand my concern.
+[0326] [00:27:10 -> 00:27:12] If there's trouble, I won't use the rock hammer.
+[0327] [00:27:13 -> 00:27:17] Then I'd guess you want to escape. Tunnel under the wall, maybe.
+[0328] [00:27:18 -> 00:27:20] What did I miss? What's so funny?
+[0329] [00:27:20 -> 00:27:23] You'll understand when you see the rock hammer.
+[0330] [00:27:25 -> 00:27:27] What's an item like this usually go for?
+[0331] [00:27:27 -> 00:27:30] Seven dollars in any rock-and-gem shop.
+[0332] [00:27:30 -> 00:27:33] My normal markup's 20 percent.
+[0333] [00:27:33 -> 00:27:35] But this is a specialty item.
+[0334] [00:27:35 -> 00:27:40] Risk goes up, price goes up. Let's make it an even 10 bucks.
+[0335] [00:27:40 -> 00:27:41] Ten it is.
+[0336] [00:27:43 -> 00:27:45] Waste of money, if you ask me.
+[0337] [00:27:45 -> 00:27:47] Why's that?
+[0338] [00:27:48 -> 00:27:51] Folks around this joint love surprise inspections.
+[0339] [00:27:53 -> 00:27:55] They find it, you're going to lose it.
+[0340] [00:27:55 -> 00:27:57] If they catch you, you don't know me.
+[0341] [00:27:57 -> 00:27:59] Mention my name, we never do business again.
+[0342] [00:28:00 -> 00:28:03] Not for shoelaces or a stick of gum. Now you got that?
+[0343] [00:28:04 -> 00:28:05] I understand.
+[0344] [00:28:07 -> 00:28:09] Thank you, Mr...
+[0345] [00:28:09 -> 00:28:10] Red.
+[0346] [00:28:11 -> 00:28:12] Name's Red.
+[0347] [00:28:13 -> 00:28:15] Why do they call you that?
+[0348] [00:28:19 -> 00:28:21] Maybe it's because I'm Irish.
+[0349] [00:28:29 -> 00:28:32] I could see why some of the boys took him for snobby.
+[0350] [00:28:33 -> 00:28:35] He had a quiet way about him...
+[0351] [00:28:36 -> 00:28:40] ...a walk and a talk that just wasn't normal around here.
+[0352] [00:28:40 -> 00:28:42] He strolled...
+[0353] [00:28:42 -> 00:28:46] ...like a man in the park without a care or a worry in the world.
+[0354] [00:28:46 -> 00:28:51] Like he had on an invisible coat that would shield him from this place.
+[0355] [00:28:53 -> 00:28:55] I think it'd be fair to say...
+[0356] [00:28:55 -> 00:28:57] ...I liked Andy from the start.
+[0357] [00:28:59 -> 00:29:03] Let's go! Some of us got a schedule to keep.
+[0358] [00:29:06 -> 00:29:09] Move it! Come on, move it!
+[0359] [00:29:11 -> 00:29:14] How you doing? How's the wife treating you?
+[0360] [00:29:52 -> 00:29:54] Andy was right.
+[0361] [00:29:54 -> 00:29:56] I finally got the joke.
+[0362] [00:29:57 -> 00:29:59] It would take a man about 600 years...
+[0363] [00:29:59 -> 00:30:02] ...to tunnel under the wall with one of these.
+[0364] [00:30:05 -> 00:30:08] - Book? - Not today.
+[0365] [00:30:14 -> 00:30:15] Book?
+[0366] [00:30:22 -> 00:30:24] Delivery for Dufresne.
+[0367] [00:30:42 -> 00:30:44] Here's your book.
+[0368] [00:30:49 -> 00:30:50] Thanks.
+[0369] [00:30:56 -> 00:31:00] We're running low on hexite. Get on back and fetch us up some.
+[0370] [00:31:37 -> 00:31:39] This will blind you.
+[0371] [00:31:39 -> 00:31:42] Honey, hush.
+[0372] [00:31:54 -> 00:31:56] That's it. You fight!
+[0373] [00:31:56 -> 00:31:58] Better that way.
+[0374] [00:32:06 -> 00:32:09] I wish I could tell you Andy fought the good fight...
+[0375] [00:32:09 -> 00:32:11] ...and the Sisters let him be.
+[0376] [00:32:12 -> 00:32:14] I wish I could tell you that...
+[0377] [00:32:14 -> 00:32:17] ...but prison is no fairy-tale world.
+[0378] [00:32:18 -> 00:32:20] He never said who did it.
+[0379] [00:32:20 -> 00:32:22] But we all knew.
+[0380] [00:32:27 -> 00:32:29] Things went on like that for a while.
+[0381] [00:32:29 -> 00:32:32] Prison life consists of routine...
+[0382] [00:32:32 -> 00:32:34] ...and then more routine.
+[0383] [00:32:37 -> 00:32:40] Every so often, Andy would show up with fresh bruises.
+[0384] [00:32:42 -> 00:32:44] The Sisters kept at him.
+[0385] [00:32:44 -> 00:32:46] Sometimes he was able to fight them off.
+[0386] [00:32:46 -> 00:32:48] Sometimes not.
+[0387] [00:32:49 -> 00:32:51] And that's how it went for Andy.
+[0388] [00:32:51 -> 00:32:53] That was his routine.
+[0389] [00:32:54 -> 00:32:58] I do believe those first two years were the worst for him.
+[0390] [00:32:58 -> 00:33:01] And I also believe that if things had gone on that way...
+[0391] [00:33:02 -> 00:33:04] ...this place would have got the best of him.
+[0392] [00:33:05 -> 00:33:08] But then, in the spring of 1949...
+[0393] [00:33:08 -> 00:33:13] ...the powers that be decided: The roof of the license-plate factory needs resurfacing.
+[0394] [00:33:14 -> 00:33:17] I need a dozen volunteers for a week's work.
+[0395] [00:33:17 -> 00:33:19] As you know...
+[0396] [00:33:20 -> 00:33:23] ...special detail carries with it special privileges.
+[0397] [00:33:23 -> 00:33:26] It was outdoor detail...
+[0398] [00:33:26 -> 00:33:31] ...and May is one damned fine month to be working outdoors.
+[0399] [00:33:31 -> 00:33:32] Stay in line there.
+[0400] [00:33:32 -> 00:33:35] More than a hundred men volunteered for the job.
+[0401] [00:33:40 -> 00:33:43] Wallace E. Unger.
+[0402] [00:33:43 -> 00:33:46] Ellis Redding.
+[0403] [00:33:46 -> 00:33:47] Wouldn't you know it?
+[0404] [00:33:48 -> 00:33:51] Me and some fellows I know were among the names called.
+[0405] [00:33:51 -> 00:33:53] Andrew Dufresne.
+[0406] [00:33:54 -> 00:33:57] It only cost us a pack of smokes per man.
+[0407] [00:33:57 -> 00:34:00] I made my usual 20 percent, of course.
+[0408] [00:34:00 -> 00:34:03] So this big-shot lawyer calls me long-distance from Texas.
+[0409] [00:34:03 -> 00:34:13] I say, "Yeah?" He says, "Sorry to inform you, but your brother just died." - I'm sorry to hear that. - I'm not. He was an asshole.
+[0410] [00:34:13 -> 00:34:15] Ran off years ago. Figured him for dead.
+[0411] [00:34:16 -> 00:34:22] So this lawyer fellow says to me: "He died a rich man." Oil wells and shit. Close to a million bucks.
+[0412] [00:34:23 -> 00:34:25] A million bucks?
+[0413] [00:34:25 -> 00:34:30] - Incredible how lucky some assholes get. - You going to see any of that?
+[0414] [00:34:30 -> 00:34:33] Thirty-five thousand. That's what he left me.
+[0415] [00:34:33 -> 00:34:34] Dollars?
+[0416] [00:34:35 -> 00:34:38] That's great! That's like winning the sweepstakes.
+[0417] [00:34:38 -> 00:34:40] Isn't it?
+[0418] [00:34:40 -> 00:34:43] Dumb shit, what do you think the government will do to me?
+[0419] [00:34:43 -> 00:34:45] Take a big wet bite out of my ass is what.
+[0420] [00:34:46 -> 00:34:47] Poor Byron.
+[0421] [00:34:48 -> 00:34:52] Terrible fucking luck, huh? Crying shame.
+[0422] [00:34:52 -> 00:34:54] Some people really got it awful.
+[0423] [00:34:54 -> 00:34:56] Andy, are you nuts?
+[0424] [00:34:56 -> 00:34:58] Keep your eyes on your mop, man!
+[0425] [00:34:58 -> 00:35:04] You'll pay some tax, but you'll still end up- Yeah, maybe enough to buy a new car, and then what?
+[0426] [00:35:04 -> 00:35:06] I got to pay tax on the car. Repair...
+[0427] [00:35:06 -> 00:35:10] ...maintenance, kids pestering you to take them for a ride all the time.
+[0428] [00:35:10 -> 00:35:14] Then if you figure your tax wrong, you pay out of your own pocket.
+[0429] [00:35:14 -> 00:35:16] I tell you! Uncle Sam!
+[0430] [00:35:17 -> 00:35:21] He puts his hand in your shirt and squeezes your tit till it's purple.
+[0431] [00:35:23 -> 00:35:25] - Getting himself killed. - Keep tarring.
+[0432] [00:35:26 -> 00:35:28] Some brother. Shit!
+[0433] [00:35:33 -> 00:35:35] Mr. Hadley...
+[0434] [00:35:35 -> 00:35:37] ...do you trust your wife?
+[0435] [00:35:38 -> 00:35:40] Oh, that's funny.
+[0436] [00:35:40 -> 00:35:43] You'll look funnier sucking my dick with no teeth.
+[0437] [00:35:43 -> 00:35:47] What I mean is, do you think she'd go behind your back?
+[0438] [00:35:48 -> 00:35:51] Step aside, Mert. This fucker's having himself an accident.
+[0439] [00:35:51 -> 00:35:52] He'll push him off!
+[0440] [00:35:53 -> 00:35:54] If you trust her, you can keep...
+[0441] [00:35:55 -> 00:35:56] ...that 35,000.
+[0442] [00:35:57 -> 00:35:59] - What did you say? - Thirty-five thousand.
+[0443] [00:36:00 -> 00:36:01] All of it.
+[0444] [00:36:01 -> 00:36:04] - Every penny. - You better start making sense.
+[0445] [00:36:05 -> 00:36:07] If you want to keep it, give it to your wife.
+[0446] [00:36:07 -> 00:36:11] The IRS allows a one-time-only gift to your spouse for up to $60,000.
+[0447] [00:36:11 -> 00:36:14] - Bullshit. Tax-free? - Tax-free.
+[0448] [00:36:14 -> 00:36:16] IRS can't touch one cent.
+[0449] [00:36:16 -> 00:36:19] You're that smart banker that killed his wife.
+[0450] [00:36:19 -> 00:36:22] Why should I believe you? So I can end up in here with you?
+[0451] [00:36:23 -> 00:36:25] It's legal. Ask the IRS. They'll say the same thing.
+[0452] [00:36:26 -> 00:36:30] I feel stupid telling you this. I'm sure you would have investigated.
+[0453] [00:36:30 -> 00:36:34] I don't need you to tell me where the bear shit in the buckwheat.
+[0454] [00:36:34 -> 00:36:37] Of course not. But you do need someone to set it up for you.
+[0455] [00:36:37 -> 00:36:39] That'll cost you. A lawyer.
+[0456] [00:36:39 -> 00:36:41] A bunch of ball-washing bastards!
+[0457] [00:36:42 -> 00:36:45] I suppose I could set it up for you. That would save you some money.
+[0458] [00:36:46 -> 00:36:48] You get the forms, I'll prepare them...
+[0459] [00:36:48 -> 00:36:50] ...nearly free of charge.
+[0460] [00:36:51 -> 00:36:54] I'd only ask three beers apiece for each of my coworkers.
+[0461] [00:36:55 -> 00:36:57] "Coworkers." That's rich!
+[0462] [00:36:57 -> 00:37:00] A man working outdoors feels more like a man...
+[0463] [00:37:00 -> 00:37:04] ...if he can have a bottle of suds. That's only my opinion...
+[0464] [00:37:04 -> 00:37:05] ...sir.
+[0465] [00:37:09 -> 00:37:11] What are you jimmies staring at?
+[0466] [00:37:11 -> 00:37:13] Let's go! Work!
+[0467] [00:37:22 -> 00:37:24] And that's how it came to pass...
+[0468] [00:37:24 -> 00:37:27] ...that on the second-to-last day of the job...
+[0469] [00:37:27 -> 00:37:32] ...the convict crew that tarred the factory roof in the spring of '49...
+[0470] [00:37:32 -> 00:37:35] ...wound up sitting in a row at 10:00 in the morning...
+[0471] [00:37:35 -> 00:37:41] ...drinking icy-cold beer, courtesy of the hardest screw...
+[0472] [00:37:41 -> 00:37:44] ...that ever walked a turn at Shawshank State Prison.
+[0473] [00:37:45 -> 00:37:47] Drink up while it's cold, ladies.
+[0474] [00:37:48 -> 00:37:53] The colossal prick even managed to sound magnanimous.
+[0475] [00:37:54 -> 00:37:58] We sat and drank with the sun on our shoulders and felt like free men.
+[0476] [00:37:59 -> 00:38:02] We could have been tarring the roof of one of our own houses.
+[0477] [00:38:02 -> 00:38:05] We were the lords of all creation.
+[0478] [00:38:06 -> 00:38:07] As for Andy...
+[0479] [00:38:07 -> 00:38:10] ...he spent that break hunkered in the shade...
+[0480] [00:38:10 -> 00:38:13] ...a strange little smile on his face...
+[0481] [00:38:13 -> 00:38:15] ...watching us drink his beer.
+[0482] [00:38:23 -> 00:38:25] Want a cold one?
+[0483] [00:38:25 -> 00:38:28] No, thanks. I gave up drinking.
+[0484] [00:38:32 -> 00:38:35] You could argue he done it to curry favor with the guards.
+[0485] [00:38:36 -> 00:38:40] Or maybe make a few friends among us cons.
+[0486] [00:38:41 -> 00:38:42] Me?
+[0487] [00:38:42 -> 00:38:45] I think he did it just to feel normal again...
+[0488] [00:38:45 -> 00:38:47] ...if only for a short while.
+[0489] [00:38:50 -> 00:38:51] King me.
+[0490] [00:38:53 -> 00:38:56] - Chess. Now there's a game of kings. - What?
+[0491] [00:38:56 -> 00:38:57] Civilized. Strategic.
+[0492] [00:38:58 -> 00:39:01] And a total fucking mystery. I hate it.
+[0493] [00:39:01 -> 00:39:03] Let me teach you someday.
+[0494] [00:39:05 -> 00:39:06] Sure.
+[0495] [00:39:06 -> 00:39:08] We could get a board together.
+[0496] [00:39:08 -> 00:39:11] You're talking to the right man. I can get things, right?
+[0497] [00:39:11 -> 00:39:15] We might do business on a board, and I'll carve the pieces myself.
+[0498] [00:39:16 -> 00:39:19] One side in alabaster, one in soapstone. What do you think?
+[0499] [00:39:20 -> 00:39:21] I think it'll take years.
+[0500] [00:39:21 -> 00:39:24] Years I got. What I don't have are the rocks.
+[0501] [00:39:24 -> 00:39:26] Pickings are pretty slim in the yard.
+[0502] [00:39:26 -> 00:39:28] Pebbles, mostly.
+[0503] [00:39:32 -> 00:39:35] We're getting to be kind of friends, aren't we?
+[0504] [00:39:36 -> 00:39:37] Yeah, I guess.
+[0505] [00:39:38 -> 00:39:40] Can I ask you something?
+[0506] [00:39:41 -> 00:39:43] Why'd you do it?
+[0507] [00:39:44 -> 00:39:45] I'm innocent, Red.
+[0508] [00:39:46 -> 00:39:48] Just like everybody else here.
+[0509] [00:39:52 -> 00:39:53] What are you in for?
+[0510] [00:39:56 -> 00:39:58] Murder. Same as you.
+[0511] [00:39:59 -> 00:40:00] Innocent?
+[0512] [00:40:02 -> 00:40:05] Only guilty man in Shawshank.
+[0513] [00:41:04 -> 00:41:06] Where's the canary?
+[0514] [00:41:06 -> 00:41:07] How did you know?
+[0515] [00:41:07 -> 00:41:10] - How did I know what? - So you don't know.
+[0516] [00:41:10 -> 00:41:11] Come.
+[0517] [00:41:14 -> 00:41:16] This is where the canary is.
+[0518] [00:41:18 -> 00:41:22] Quite a surprise to hear a woman singing in my house, eh?
+[0519] [00:41:25 -> 00:41:27] That's quite a...
+[0520] [00:41:27 -> 00:41:29] ...surprise.
+[0521] [00:41:33 -> 00:41:35] Wait, wait.
+[0522] [00:41:35 -> 00:41:37] Here she comes.
+[0523] [00:41:37 -> 00:41:40] I like this part when she does that shit with her hair.
+[0524] [00:41:40 -> 00:41:43] I know. I've seen it three times this month.
+[0525] [00:41:43 -> 00:41:45] Gilda, are you decent?
+[0526] [00:41:46 -> 00:41:47] Me?
+[0527] [00:41:50 -> 00:41:52] God, I love it.
+[0528] [00:41:57 -> 00:42:00] I understand you're a man that knows how to get things.
+[0529] [00:42:01 -> 00:42:05] I'm known to locate certain things from time to time. What do you want?
+[0530] [00:42:05 -> 00:42:07] - Rita Hayworth. - What?
+[0531] [00:42:07 -> 00:42:09] Can you get her?
+[0532] [00:42:10 -> 00:42:14] So this is Johnny Farrel. I've heard a lot about you.
+[0533] [00:42:15 -> 00:42:17] - Take a few weeks. - Weeks?
+[0534] [00:42:17 -> 00:42:22] I don't have her stuffed down the front of my pants right now, sorry to say.
+[0535] [00:42:22 -> 00:42:24] But I'll get her.
+[0536] [00:42:24 -> 00:42:25] Relax.
+[0537] [00:42:27 -> 00:42:28] Thanks.
+[0538] [00:42:49 -> 00:42:51] - Get out! - I got to change reels!
+[0539] [00:42:51 -> 00:42:53] I said fuck off!
+[0540] [00:42:59 -> 00:43:00] Ain't you going to scream?
+[0541] [00:43:02 -> 00:43:04] Let's get this over with.
+[0542] [00:43:09 -> 00:43:11] He broke my fucking nose!
+[0543] [00:43:20 -> 00:43:21] Now...
+[0544] [00:43:22 -> 00:43:24] ...I'm going to open my fly...
+[0545] [00:43:24 -> 00:43:27] ...and you'll swallow what I give you to swallow.
+[0546] [00:43:28 -> 00:43:31] Then you'll swallow Rooster's. You broke his nose.
+[0547] [00:43:31 -> 00:43:33] He ought to have something to show for it.
+[0548] [00:43:33 -> 00:43:35] You put it in my mouth, you lose it.
+[0549] [00:43:35 -> 00:43:38] No, you don't understand.
+[0550] [00:43:38 -> 00:43:41] Do that and I'll put all eight inches of this in your ear.
+[0551] [00:43:42 -> 00:43:45] All right, but you should know that sudden, serious brain injury...
+[0552] [00:43:45 -> 00:43:47] ...causes the victim to bite down hard.
+[0553] [00:43:47 -> 00:43:51] In fact, I hear the bite reflex is so strong...
+[0554] [00:43:52 -> 00:43:54] ...they have to pry the victim's jaws open...
+[0555] [00:43:54 -> 00:43:56] ...with a crowbar.
+[0556] [00:43:59 -> 00:44:00] Where do you get this shit?
+[0557] [00:44:00 -> 00:44:02] I read it.
+[0558] [00:44:03 -> 00:44:06] You know how to read, you ignorant fuck?
+[0559] [00:44:08 -> 00:44:09] Honey!
+[0560] [00:44:11 -> 00:44:12] You shouldn't!
+[0561] [00:44:15 -> 00:44:18] Bogs didn't put anything in Andy's mouth.
+[0562] [00:44:18 -> 00:44:20] And neither did his friends.
+[0563] [00:44:21 -> 00:44:24] What they did do is beat him within an inch of his life.
+[0564] [00:44:25 -> 00:44:28] Andy spent a month in the infirmary.
+[0565] [00:44:28 -> 00:44:31] Bogs spent a week in the hole.
+[0566] [00:44:35 -> 00:44:37] Time's up, Bogs.
+[0567] [00:44:40 -> 00:44:42] It's your world, boss.
+[0568] [00:44:45 -> 00:44:48] Return to your cellblocks for evening count.
+[0569] [00:44:48 -> 00:44:51] All prisoners report for lock down.
+[0570] [00:45:06 -> 00:45:07] What?
+[0571] [00:45:20 -> 00:45:22] - Where's he going? - Grab his ankles.
+[0572] [00:45:28 -> 00:45:29] Help!
+[0573] [00:45:33 -> 00:45:35] Two things never happened again after that.
+[0574] [00:45:36 -> 00:45:39] The Sisters never laid a finger on Andy again.
+[0575] [00:45:40 -> 00:45:42] And Bogs would never walk again.
+[0576] [00:45:43 -> 00:45:47] They transferred him to a minimum-security hospital upstate.
+[0577] [00:45:47 -> 00:45:50] To my knowledge, he lived out the rest of his days...
+[0578] [00:45:50 -> 00:45:52] ...drinking his food through a straw.
+[0579] [00:45:53 -> 00:45:57] Andy could use a nice welcome back when he gets out of the infirmary.
+[0580] [00:45:59 -> 00:46:00] Sounds good to us.
+[0581] [00:46:01 -> 00:46:03] I figure we owe him that much for the beer.
+[0582] [00:46:04 -> 00:46:06] The man likes to play chess.
+[0583] [00:46:07 -> 00:46:08] Let's get him some rocks.
+[0584] [00:46:41 -> 00:46:42] Guys!
+[0585] [00:46:43 -> 00:46:44] I got one.
+[0586] [00:46:44 -> 00:46:46] I got one. Look!
+[0587] [00:46:48 -> 00:46:52] Heywood, that isn't soapstone! And it ain't alabaster either.
+[0588] [00:46:52 -> 00:46:54] What are you, a fucking geologist?
+[0589] [00:46:54 -> 00:46:56] He's right. It ain't.
+[0590] [00:46:56 -> 00:46:59] - What the hell is it then? - It's a horse apple.
+[0591] [00:47:00 -> 00:47:02] - Bullshit! - No, horseshit.
+[0592] [00:47:03 -> 00:47:04] Petrified.
+[0593] [00:47:13 -> 00:47:14] Damn!
+[0594] [00:47:15 -> 00:47:19] Despite a few hitches, the boys came through in fine style.
+[0595] [00:47:19 -> 00:47:21] And by the weekend he was due back...
+[0596] [00:47:21 -> 00:47:25] ...we had enough rocks saved up to keep him busy till rapture.
+[0597] [00:47:26 -> 00:47:28] Also got a big shipment in that week.
+[0598] [00:47:28 -> 00:47:30] Cigarettes...
+[0599] [00:47:30 -> 00:47:31] ...chewing gum...
+[0600] [00:47:31 -> 00:47:33] ...sipping whisky...
+[0601] [00:47:33 -> 00:47:36] ...playing cards with naked ladies on them. You name it.
+[0602] [00:47:36 -> 00:47:39] And of course, the most important item:
+[0603] [00:47:41 -> 00:47:43] Rita Hayworth herself.
+[0604] [00:48:20 -> 00:48:22] Heads up. They're tossing cells.
+[0605] [00:48:23 -> 00:48:25] Heads up. They're tossing cells!
+[0606] [00:48:27 -> 00:48:28] 119.
+[0607] [00:48:30 -> 00:48:32] 123.
+[0608] [00:48:42 -> 00:48:43] On your feet.
+[0609] [00:48:46 -> 00:48:47] Face the wall.
+[0610] [00:49:21 -> 00:49:23] Turn around and face the warden.
+[0611] [00:49:30 -> 00:49:32] Pleased to see you reading this.
+[0612] [00:49:33 -> 00:49:35] Any favorite passages?
+[0613] [00:49:36 -> 00:49:39] "Watch ye, therefore, for ye know not...
+[0614] [00:49:39 -> 00:49:44] ...when the master of the house cometh." Mark 13:35.
+[0615] [00:49:45 -> 00:49:47] I've always liked that one.
+[0616] [00:49:48 -> 00:49:49] But I prefer...
+[0617] [00:49:50 -> 00:49:52] ..."I am the light of the world.
+[0618] [00:49:52 -> 00:49:58] Ye that followeth me shall have the light of life." John, chapter 8, verse 12.
+[0619] [00:49:59 -> 00:50:01] I hear you're good with numbers.
+[0620] [00:50:01 -> 00:50:02] How nice.
+[0621] [00:50:03 -> 00:50:05] Man should have a skill.
+[0622] [00:50:08 -> 00:50:09] Explain this.
+[0623] [00:50:10 -> 00:50:14] It's called a rock blanket. It's for shaping and polishing rocks.
+[0624] [00:50:14 -> 00:50:16] A little hobby of mine.
+[0625] [00:50:27 -> 00:50:29] It's pretty clean.
+[0626] [00:50:29 -> 00:50:32] Some contraband here, but nothing to get in a twist over.
+[0627] [00:50:36 -> 00:50:38] I can't say I approve of this.
+[0628] [00:50:40 -> 00:50:41] But I suppose...
+[0629] [00:50:43 -> 00:50:45] ...exceptions can be made.
+[0630] [00:50:56 -> 00:50:57] Lock them up!
+[0631] [00:51:00 -> 00:51:02] I almost forgot.
+[0632] [00:51:02 -> 00:51:04] I'd hate to deprive you of this.
+[0633] [00:51:05 -> 00:51:07] Salvation lies within.
+[0634] [00:51:07 -> 00:51:08] Yes, sir.
+[0635] [00:51:17 -> 00:51:19] Tossing cells was just an excuse.
+[0636] [00:51:20 -> 00:51:21] Truth is...
+[0637] [00:51:21 -> 00:51:24] ...Norton wanted to size Andy up.
+[0638] [00:51:37 -> 00:51:40] My wife made that in church group.
+[0639] [00:51:42 -> 00:51:44] Very nice, sir.
+[0640] [00:51:45 -> 00:51:47] You enjoy working the laundry?
+[0641] [00:51:48 -> 00:51:50] No, sir. Not especially.
+[0642] [00:51:50 -> 00:51:53] Perhaps we can find something more...
+[0643] [00:51:53 -> 00:51:55] ...befitting a man of your education.
+[0644] [00:52:04 -> 00:52:05] Hey, Jake. Where's Brooks?
+[0645] [00:52:07 -> 00:52:10] I thought I heard you out here.
+[0646] [00:52:10 -> 00:52:12] I've been reassigned to you.
+[0647] [00:52:12 -> 00:52:14] I know, they told me.
+[0648] [00:52:15 -> 00:52:17] Ain't that a kick in the head?
+[0649] [00:52:18 -> 00:52:20] Well, I'll give you the dime tour.
+[0650] [00:52:20 -> 00:52:21] Come on.
+[0651] [00:52:23 -> 00:52:24] Well, here she is.
+[0652] [00:52:25 -> 00:52:27] The Shawshank Prison Library.
+[0653] [00:52:27 -> 00:52:29] National Geographics...
+[0654] [00:52:30 -> 00:52:33] ...Reader's Digest condensed books...
+[0655] [00:52:33 -> 00:52:35] ...and Louis L'Amour.
+[0656] [00:52:35 -> 00:52:37] Look magazine.
+[0657] [00:52:38 -> 00:52:40] Erle Stanley Gardners.
+[0658] [00:52:40 -> 00:52:44] Every evening I load up the cart and make my rounds.
+[0659] [00:52:44 -> 00:52:46] I enter the names on this clipboard here.
+[0660] [00:52:47 -> 00:52:50] Easy, peasy, Japanese-y.
+[0661] [00:52:50 -> 00:52:53] - Any questions? - How long have you been librarian?
+[0662] [00:52:55 -> 00:52:59] I come here in '05, and they made me librarian in 1912.
+[0663] [00:53:00 -> 00:53:02] And have you ever had an assistant?
+[0664] [00:53:02 -> 00:53:05] No. Not much to it, really.
+[0665] [00:53:05 -> 00:53:07] Why me? Why now?
+[0666] [00:53:07 -> 00:53:08] I don't know.
+[0667] [00:53:09 -> 00:53:12] But it'd be nice to have some company down here.
+[0668] [00:53:23 -> 00:53:25] That's him. That's the one.
+[0669] [00:53:33 -> 00:53:34] I'm Dekins.
+[0670] [00:53:34 -> 00:53:36] I was thinking...
+[0671] [00:53:37 -> 00:53:41] ...about setting up some kind of trust fund for my kids' educations.
+[0672] [00:53:45 -> 00:53:46] I see.
+[0673] [00:53:51 -> 00:53:54] Why don't we have a seat and talk it over.
+[0674] [00:53:57 -> 00:54:00] Do you have a piece of paper and a pencil?
+[0675] [00:54:12 -> 00:54:13] Thanks.
+[0676] [00:54:14 -> 00:54:15] So...
+[0677] [00:54:16 -> 00:54:18] Mister Dekins...
+[0678] [00:54:19 -> 00:54:21] And then Andy says, "Mr. Dekins...
+[0679] [00:54:21 -> 00:54:26] ...do you want your sons to go to Harvard or Yale?" He didn't say that!
+[0680] [00:54:26 -> 00:54:28] As God as my witness!
+[0681] [00:54:29 -> 00:54:30] Dekins blinked for a second...
+[0682] [00:54:31 -> 00:54:34] ...then he laughed and actually shook Andy's hand.
+[0683] [00:54:34 -> 00:54:36] - My ass! - Shook his hand.
+[0684] [00:54:37 -> 00:54:40] I tell you, I near soiled myself!
+[0685] [00:54:40 -> 00:54:44] All he needed was a suit and tie and a jiggly hula gal on his desk...
+[0686] [00:54:44 -> 00:54:47] ...he'd have been "Mr. Dufresne," if you please.
+[0687] [00:54:47 -> 00:54:49] Making a few friends?
+[0688] [00:54:50 -> 00:54:56] I wouldn't say "friends." I'm a convicted murderer who provides sound financial planning.
+[0689] [00:54:56 -> 00:54:58] It's a wonderful pet to have.
+[0690] [00:54:58 -> 00:55:00] Got you out of the laundry, though.
+[0691] [00:55:01 -> 00:55:03] It might do more than that.
+[0692] [00:55:03 -> 00:55:06] How about expanding the library. Get some new books.
+[0693] [00:55:06 -> 00:55:08] If you ask for something, ask for a pool table.
+[0694] [00:55:10 -> 00:55:13] How do you expect to do that? I mean...
+[0695] [00:55:13 -> 00:55:19] ...get new books in here, "Mr. Dufresne, if you please." I'll ask the warden for funds.
+[0696] [00:55:20 -> 00:55:24] Six wardens have been through here in my tenure, and I've learned...
+[0697] [00:55:24 -> 00:55:28] ...one immutable, universal truth: Not one born whose asshole...
+[0698] [00:55:28 -> 00:55:33] ...wouldn't pucker up tighter than a snare drum when you ask for funds.
+[0699] [00:55:34 -> 00:55:37] - The budget's stretched thin as it is. - I see.
+[0700] [00:55:37 -> 00:55:41] Maybe I could write the state senate and request funds from them.
+[0701] [00:55:41 -> 00:55:48] They have only three ways to spend the taxpayers' money for prisons: More walls, more bars, more guards.
+[0702] [00:55:48 -> 00:55:50] I'd like to try, with permission. A letter a week.
+[0703] [00:55:51 -> 00:55:53] - They can't ignore me forever. - Sure can.
+[0704] [00:55:54 -> 00:55:56] But you write your letters if it makes you happy.
+[0705] [00:55:57 -> 00:55:59] I'll even mail them for you. How's that?
+[0706] [00:56:01 -> 00:56:04] So Andy started writing a letter a week...
+[0707] [00:56:04 -> 00:56:05] ...just like he said.
+[0708] [00:56:10 -> 00:56:12] And like Norton said...
+[0709] [00:56:12 -> 00:56:14] ...Andy got no answers.
+[0710] [00:56:22 -> 00:56:27] The following April, he did tax returns for half the guards at Shawshank.
+[0711] [00:56:28 -> 00:56:31] Year after that, he did them all...
+[0712] [00:56:31 -> 00:56:33] ...including the warden's.
+[0713] [00:56:35 -> 00:56:38] Year after that, they rescheduled the intramural season...
+[0714] [00:56:38 -> 00:56:41] ...to coincide with tax season.
+[0715] [00:56:42 -> 00:56:47] The guards on the opposing teams all remembered to bring their W-2s.
+[0716] [00:56:47 -> 00:56:48] So Moresby Prison...
+[0717] [00:56:48 -> 00:56:51] ...issued you a gun, but you paid for it.
+[0718] [00:56:51 -> 00:56:53] Right. The holster too.
+[0719] [00:56:53 -> 00:56:55] That's tax-deductible. You can write that off.
+[0720] [00:56:56 -> 00:56:59] Yes, sir! Andy was a regular cottage industry.
+[0721] [00:56:59 -> 00:57:04] In fact, it got so busy at tax time, he was allowed a staff.
+[0722] [00:57:04 -> 00:57:07] Could you hand me a stack of 1040s?
+[0723] [00:57:07 -> 00:57:12] Got me out of the wood shop a month out of the year, and that was fine by me.
+[0724] [00:57:13 -> 00:57:16] And still, he kept sending those letters.
+[0725] [00:57:23 -> 00:57:24] It's Brooks.
+[0726] [00:57:25 -> 00:57:26] Watch the door.
+[0727] [00:57:27 -> 00:57:28] Please, Brooks.
+[0728] [00:57:28 -> 00:57:30] - Calm the fuck down. - Stay back!
+[0729] [00:57:30 -> 00:57:33] - Stay back, goddamn it! - What's going on?
+[0730] [00:57:33 -> 00:57:36] One second he's fine, then out come the knives.
+[0731] [00:57:36 -> 00:57:38] We can talk about this, right?
+[0732] [00:57:38 -> 00:57:42] There's nothing to talk about. I'll cut his fucking throat.
+[0733] [00:57:42 -> 00:57:44] What's he done to you?
+[0734] [00:57:44 -> 00:57:46] It's what they done!
+[0735] [00:57:46 -> 00:57:48] I got no choice.
+[0736] [00:57:48 -> 00:57:50] You won't hurt Heywood. We all know that.
+[0737] [00:57:51 -> 00:57:53] - Right, Heywood? - Sure.
+[0738] [00:57:53 -> 00:57:57] He's a friend of yours, and Brooks is a reasonable man.
+[0739] [00:57:57 -> 00:57:58] Right, guys?
+[0740] [00:57:59 -> 00:58:01] So put the knife down. Look at me.
+[0741] [00:58:02 -> 00:58:04] Put the knife down.
+[0742] [00:58:06 -> 00:58:08] Look at his neck, for God's sake.
+[0743] [00:58:09 -> 00:58:11] Look at his neck. He's bleeding.
+[0744] [00:58:12 -> 00:58:13] It's the only way...
+[0745] [00:58:14 -> 00:58:16] ...they'd let me stay.
+[0746] [00:58:16 -> 00:58:18] This is crazy. You don't want to do this.
+[0747] [00:58:18 -> 00:58:21] Put it, put it down.
+[0748] [00:58:29 -> 00:58:31] Take it easy.
+[0749] [00:58:31 -> 00:58:33] You'll be all right.
+[0750] [00:58:34 -> 00:58:36] Him? What about me?
+[0751] [00:58:36 -> 00:58:38] Crazy old fool damn near cut my throat!
+[0752] [00:58:38 -> 00:58:40] You've had worse from shaving.
+[0753] [00:58:41 -> 00:58:43] What did you do to set him off?
+[0754] [00:58:43 -> 00:58:45] Nothing. I come in here to say farewell.
+[0755] [00:58:46 -> 00:58:48] Ain't you heard? His parole's come through.
+[0756] [00:58:51 -> 00:58:54] I just don't understand what happened in there.
+[0757] [00:58:54 -> 00:58:57] Old man's crazy as a rat in a tin shithouse.
+[0758] [00:58:57 -> 00:58:59] That's enough out of you.
+[0759] [00:58:59 -> 00:59:02] - Heard he had you shitting your pants. - Fuck you.
+[0760] [00:59:02 -> 00:59:03] Knock it off.
+[0761] [00:59:04 -> 00:59:05] Brooks ain't no bug.
+[0762] [00:59:09 -> 00:59:11] He's just institutionalized.
+[0763] [00:59:12 -> 00:59:14] "Institutionalized," my ass.
+[0764] [00:59:15 -> 00:59:19] The man's been in here 50 years, Heywood, 50 years!
+[0765] [00:59:19 -> 00:59:21] This is all he knows.
+[0766] [00:59:21 -> 00:59:23] In here, he's an important man...
+[0767] [00:59:23 -> 00:59:24] ...an educated man.
+[0768] [00:59:25 -> 00:59:27] Outside, he's nothing.
+[0769] [00:59:28 -> 00:59:31] Just a used-up con with arthritis in both hands.
+[0770] [00:59:32 -> 00:59:35] Probably couldn't get a library card if he tried.
+[0771] [00:59:35 -> 00:59:37] You know what I'm trying to say?
+[0772] [00:59:37 -> 00:59:40] I do believe you're talking out of your ass.
+[0773] [00:59:41 -> 00:59:43] You believe whatever you want.
+[0774] [00:59:44 -> 00:59:46] But I tell you these walls are funny.
+[0775] [00:59:48 -> 00:59:50] First you hate them.
+[0776] [00:59:51 -> 00:59:53] Then you get used to them.
+[0777] [00:59:55 -> 00:59:57] Enough time passes...
+[0778] [00:59:58 -> 01:00:00] ...you get so you depend on them.
+[0779] [01:00:01 -> 01:00:05] That's "institutionalized." Shit.
+[0780] [01:00:05 -> 01:00:08] - I could never get like that. - Oh, yeah?
+[0781] [01:00:08 -> 01:00:11] Wait till you've been here as long as Brooks.
+[0782] [01:00:11 -> 01:00:13] Goddamn right.
+[0783] [01:00:15 -> 01:00:17] They send you here for life...
+[0784] [01:00:18 -> 01:00:20] ...that's exactly what they take.
+[0785] [01:00:22 -> 01:00:24] Part that counts, anyway.
+[0786] [01:00:32 -> 01:00:35] I can't take care of you no more, Jake.
+[0787] [01:00:36 -> 01:00:37] You go on now.
+[0788] [01:00:39 -> 01:00:40] You're free.
+[0789] [01:00:41 -> 01:00:43] You're free.
+[0790] [01:01:02 -> 01:01:04] Good luck, Brooksie.
+[0791] [01:01:42 -> 01:01:48] Dear fellas: I can't believe how fast things move on the outside.
+[0792] [01:01:49 -> 01:01:52] Watch it, old-timer! Want to get killed?
+[0793] [01:01:53 -> 01:01:56] I saw an automobile once when I was a kid...
+[0794] [01:01:57 -> 01:01:59] ...but now they're everywhere.
+[0795] [01:02:03 -> 01:02:07] The world went and got itself in a big damn hurry.
+[0796] [01:02:23 -> 01:02:27] The parole board got me into this halfway house...
+[0797] [01:02:27 -> 01:02:29] ...called "The Brewer"...
+[0798] [01:02:29 -> 01:02:30] ...and a job...
+[0799] [01:02:30 -> 01:02:33] ...bagging groceries at the Food-Way.
+[0800] [01:02:35 -> 01:02:37] It's hard work and I try to keep up...
+[0801] [01:02:38 -> 01:02:40] ...but my hands hurt most of the time.
+[0802] [01:02:40 -> 01:02:42] Make sure your man double-bags.
+[0803] [01:02:42 -> 01:02:44] Last time, the bottom near came out.
+[0804] [01:02:45 -> 01:02:48] Make sure you double-bag like the lady says. Understand?
+[0805] [01:02:48 -> 01:02:50] Yes, sir. Surely will.
+[0806] [01:02:50 -> 01:02:53] I don't think the store manager likes me very much.
+[0807] [01:02:56 -> 01:03:01] Sometimes after work, I go to the park and feed the birds.
+[0808] [01:03:01 -> 01:03:03] I keep thinking...
+[0809] [01:03:03 -> 01:03:06] ...Jake might just show up and say hello.
+[0810] [01:03:07 -> 01:03:09] But he never does.
+[0811] [01:03:10 -> 01:03:15] I hope, wherever he is, he's doing okay and making new friends.
+[0812] [01:03:18 -> 01:03:21] I have trouble sleeping at night.
+[0813] [01:03:21 -> 01:03:25] I have bad dreams like I'm falling.
+[0814] [01:03:25 -> 01:03:27] I wake up scared.
+[0815] [01:03:27 -> 01:03:32] Sometimes it takes me a while to remember where I am.
+[0816] [01:03:33 -> 01:03:38] Maybe I should get a gun and rob the Food-Way so they'd send me home.
+[0817] [01:03:38 -> 01:03:43] I could shoot the manager while I was at it. Sort of like a bonus.
+[0818] [01:03:44 -> 01:03:48] I guess I'm too old for that sort of nonsense anymore.
+[0819] [01:03:49 -> 01:03:50] I don't like it here.
+[0820] [01:03:51 -> 01:03:55] I'm tired of being afraid all the time. I've decided...
+[0821] [01:03:55 -> 01:03:57] ...not to stay.
+[0822] [01:04:08 -> 01:04:11] I doubt they'll kick up any fuss...
+[0823] [01:04:11 -> 01:04:14] ...not for an old crook like me.
+[0824] [01:05:17 -> 01:05:21] "I doubt they'll kick up any fuss, not for an old crook like me.
+[0825] [01:05:22 -> 01:05:26] P.S. Tell Heywood I'm sorry I put a knife to his throat.
+[0826] [01:05:26 -> 01:05:28] No hard feelings. Brooks."
+[0827] [01:05:39 -> 01:05:41] He should have died in here.
+[0828] [01:05:46 -> 01:05:48] What the fuck have you done?
+[0829] [01:05:48 -> 01:05:51] It's a goddamn mess, I'll tell you that.
+[0830] [01:05:56 -> 01:06:00] - What's all this? - You tell me. They're addressed to you.
+[0831] [01:06:01 -> 01:06:03] Take it.
+[0832] [01:06:11 -> 01:06:16] "Dear Mr. Dufresne: In response to your inquiries...
+[0833] [01:06:16 -> 01:06:23] ...the state has allocated the enclosed funds for your library project." This is $200.
+[0834] [01:06:23 -> 01:06:27] "In addition, the library district has generously responded...
+[0835] [01:06:27 -> 01:06:30] ...with a donation of used books and sundries.
+[0836] [01:06:30 -> 01:06:34] We trust this will fill your needs. We now consider the matter closed.
+[0837] [01:06:34 -> 01:06:39] Please stop sending us letters." Clear all this out before the warden gets back.
+[0838] [01:06:39 -> 01:06:40] Yes, sir.
+[0839] [01:06:45 -> 01:06:46] Good for you, Andy.
+[0840] [01:06:49 -> 01:06:50] Wow!
+[0841] [01:06:51 -> 01:06:53] It only took six years.
+[0842] [01:06:55 -> 01:06:57] From now on, I'll write two letters a week instead of one.
+[0843] [01:06:58 -> 01:07:01] I believe you're crazy enough. Get this stuff out...
+[0844] [01:07:01 -> 01:07:02] ...like he said.
+[0845] [01:07:02 -> 01:07:04] I've got to pinch a loaf.
+[0846] [01:07:04 -> 01:07:05] When I come back...
+[0847] [01:07:05 -> 01:07:07] ...this is all gone, all right?
+[0848] [01:07:56 -> 01:07:57] Do you hear that?
+[0849] [01:09:06 -> 01:09:07] Dufresne!
+[0850] [01:09:10 -> 01:09:11] Andy, let me out!
+[0851] [01:09:18 -> 01:09:23] I have no idea to this day what those two Italian ladies were singing about.
+[0852] [01:09:23 -> 01:09:26] Truth is, I don't want to know.
+[0853] [01:09:26 -> 01:09:28] Some things are best left unsaid.
+[0854] [01:09:32 -> 01:09:35] I like to think it was something so beautiful...
+[0855] [01:09:35 -> 01:09:37] ...it can't be expressed in words...
+[0856] [01:09:37 -> 01:09:40] ...and makes your heart ache because of it.
+[0857] [01:09:42 -> 01:09:44] I tell you, those voices soared...
+[0858] [01:09:45 -> 01:09:49] ...higher and farther than anybody in a gray place dares to dream.
+[0859] [01:09:49 -> 01:09:52] It was like a beautiful bird flapped into our drab cage...
+[0860] [01:09:53 -> 01:09:55] ...and made those walls dissolve away.
+[0861] [01:09:56 -> 01:09:58] And for the briefest of moments...
+[0862] [01:09:58 -> 01:10:01] ...every last man at Shawshank felt free.
+[0863] [01:10:04 -> 01:10:07] It pissed the warden off something awful.
+[0864] [01:10:08 -> 01:10:09] Open the door.
+[0865] [01:10:12 -> 01:10:13] Open it up!
+[0866] [01:10:15 -> 01:10:18] Dufresne, open this door!
+[0867] [01:10:19 -> 01:10:20] Turn that off!
+[0868] [01:10:27 -> 01:10:30] I am warning you. Turn that off!
+[0869] [01:10:47 -> 01:10:49] You're mine now.
+[0870] [01:10:56 -> 01:11:00] Andy got two weeks in the hole for that little stunt.
+[0871] [01:11:00 -> 01:11:01] On your feet.
+[0872] [01:11:03 -> 01:11:05] - Hey, look who's here. - Maestro!
+[0873] [01:11:07 -> 01:11:10] You couldn't play something good, huh? Like Hank Williams?
+[0874] [01:11:11 -> 01:11:14] They broke the door down before I could take requests.
+[0875] [01:11:14 -> 01:11:17] - Was it worth two weeks? - Easiest time I ever did.
+[0876] [01:11:17 -> 01:11:21] - No such thing as easy time in the hole. - A week in the hole is like a year.
+[0877] [01:11:21 -> 01:11:25] - Damn straight. - I had Mr. Mozart to keep me company.
+[0878] [01:11:25 -> 01:11:28] So they let you tote that record player down there, huh?
+[0879] [01:11:30 -> 01:11:32] It was in here.
+[0880] [01:11:33 -> 01:11:34] In here.
+[0881] [01:11:35 -> 01:11:37] That's the beauty of music. They...
+[0882] [01:11:37 -> 01:11:40] ...can't get that from you.
+[0883] [01:11:43 -> 01:11:45] Haven't you ever felt that way about music?
+[0884] [01:11:47 -> 01:11:50] Well, I played a mean harmonica as a younger man.
+[0885] [01:11:51 -> 01:11:53] Lost interest in it, though.
+[0886] [01:11:53 -> 01:11:55] Didn't make much sense in here.
+[0887] [01:11:55 -> 01:11:57] Here's where it makes the most sense.
+[0888] [01:11:58 -> 01:12:00] You need it so you don't forget.
+[0889] [01:12:00 -> 01:12:02] Forget?
+[0890] [01:12:02 -> 01:12:05] Forget that there are...
+[0891] [01:12:05 -> 01:12:07] ...places...
+[0892] [01:12:07 -> 01:12:11] ...in the world that aren't made out of stone.
+[0893] [01:12:12 -> 01:12:14] There's something...
+[0894] [01:12:14 -> 01:12:15] ...inside...
+[0895] [01:12:16 -> 01:12:18] ...that they can't get to...
+[0896] [01:12:18 -> 01:12:19] ...that they can't touch.
+[0897] [01:12:20 -> 01:12:21] That's yours.
+[0898] [01:12:23 -> 01:12:24] What are you talking about?
+[0899] [01:12:25 -> 01:12:26] Hope.
+[0900] [01:12:28 -> 01:12:29] Hope.
+[0901] [01:12:31 -> 01:12:33] Let me tell you something, my friend.
+[0902] [01:12:34 -> 01:12:36] Hope is a dangerous thing.
+[0903] [01:12:37 -> 01:12:39] Hope can drive a man insane.
+[0904] [01:12:40 -> 01:12:42] It's got no use on the inside.
+[0905] [01:12:43 -> 01:12:45] You'd better get used to that idea.
+[0906] [01:12:47 -> 01:12:49] Like Brooks did?
+[0907] [01:13:14 -> 01:13:15] Sit down.
+[0908] [01:13:20 -> 01:13:24] Says here that you've served 30 years of a life sentence.
+[0909] [01:13:25 -> 01:13:27] You feel you've been rehabilitated?
+[0910] [01:13:27 -> 01:13:28] Oh, yes, sir.
+[0911] [01:13:30 -> 01:13:31] Without a doubt.
+[0912] [01:13:32 -> 01:13:35] I can honestly say I'm a changed man.
+[0913] [01:13:37 -> 01:13:39] No danger to society here.
+[0914] [01:13:39 -> 01:13:41] God's honest truth.
+[0915] [01:13:43 -> 01:13:45] Absolutely rehabilitated.
+[0916] [01:13:55 -> 01:13:57] Thirty years.
+[0917] [01:13:59 -> 01:14:00] Jesus, when you say it like that...
+[0918] [01:14:01 -> 01:14:03] You wonder where it went.
+[0919] [01:14:06 -> 01:14:08] I wonder where 10 years went.
+[0920] [01:14:13 -> 01:14:14] Here.
+[0921] [01:14:14 -> 01:14:17] A little parole rejection present.
+[0922] [01:14:18 -> 01:14:20] Go ahead and open it.
+[0923] [01:14:21 -> 01:14:23] Went through one of your competitors.
+[0924] [01:14:23 -> 01:14:26] I hope you don't mind. I wanted it to be a surprise.
+[0925] [01:14:36 -> 01:14:38] It's very pretty.
+[0926] [01:14:40 -> 01:14:41] Thank you.
+[0927] [01:14:43 -> 01:14:45] You going to play it?
+[0928] [01:14:49 -> 01:14:51] No.
+[0929] [01:14:54 -> 01:14:56] Not right now.
+[0930] [01:15:13 -> 01:15:14] Roll in!
+[0931] [01:15:51 -> 01:15:52] Lights out!
+[0932] [01:16:26 -> 01:16:29] Andy was as good as his word.
+[0933] [01:16:29 -> 01:16:32] He wrote two letters a week instead of one.
+[0934] [01:16:34 -> 01:16:38] In 1959, the state senate finally clued in to the fact...
+[0935] [01:16:38 -> 01:16:41] ...they couldn't buy him off with just a $200 check.
+[0936] [01:16:42 -> 01:16:46] Appropriations Committee voted an annual payment of $500...
+[0937] [01:16:46 -> 01:16:48] ...just to shut him up.
+[0938] [01:16:48 -> 01:16:51] And you'd be amazed how far Andy could stretch it.
+[0939] [01:16:51 -> 01:16:54] He made deals with book clubs, charity groups.
+[0940] [01:16:54 -> 01:16:57] He bought remaindered books by the pound...
+[0941] [01:16:58 -> 01:16:59] Treasure Island.
+[0942] [01:17:00 -> 01:17:02] Robert Louis- Stevenson.
+[0943] [01:17:03 -> 01:17:04] Fiction, adventure.
+[0944] [01:17:06 -> 01:17:08] What's next?
+[0945] [01:17:08 -> 01:17:11] I got here Auto Repair...
+[0946] [01:17:12 -> 01:17:13] ...and Soap Carving.
+[0947] [01:17:13 -> 01:17:16] Trade skills and hobbies. Under "Educational," behind you.
+[0948] [01:17:16 -> 01:17:18] Count of Monte Crisco.
+[0949] [01:17:19 -> 01:17:21] That's "Cristo," you dumb shit.
+[0950] [01:17:22 -> 01:17:23] By Alexandree...
+[0951] [01:17:24 -> 01:17:25] ...Dum-ass.
+[0952] [01:17:25 -> 01:17:26] Dumb ass.
+[0953] [01:17:29 -> 01:17:30] Dumb ass?
+[0954] [01:17:32 -> 01:17:34] Dumas. Know what that's about?
+[0955] [01:17:37 -> 01:17:39] You'd like it. It's about a prison break.
+[0956] [01:17:39 -> 01:17:43] We ought to file that under "Educational" too, oughtn't we?
+[0957] [01:17:44 -> 01:17:48] The rest of us did our best to pitch in when and where we could.
+[0958] [01:17:48 -> 01:17:50] By the year Kennedy was shot...
+[0959] [01:17:50 -> 01:17:55] ...Andy had transformed a storage room smelling of turpentine...
+[0960] [01:17:55 -> 01:17:58] ...into the best prison library in New England...
+[0961] [01:17:59 -> 01:18:02] ...complete with a fine selection of Hank Williams.
+[0962] [01:18:09 -> 01:18:11] That was also when Warden Norton...
+[0963] [01:18:11 -> 01:18:14] ...instituted his famous "Inside Out" program.
+[0964] [01:18:15 -> 01:18:17] You may remember reading about it.
+[0965] [01:18:17 -> 01:18:20] It made the papers and got his picture in Look magazine.
+[0966] [01:18:20 -> 01:18:22] It's no free ride...
+[0967] [01:18:22 -> 01:18:25] .. but rather a genuine progressive advance...
+[0968] [01:18:25 -> 01:18:28] ...in corrections and rehabilitation.
+[0969] [01:18:28 -> 01:18:31] Our inmates, properly supervised...
+[0970] [01:18:31 -> 01:18:34] ...will be put to work outside these walls...
+[0971] [01:18:34 -> 01:18:37] ...performing all manner of public service.
+[0972] [01:18:38 -> 01:18:40] These men can learn the value...
+[0973] [01:18:40 -> 01:18:44] ...of an honest day's labor and provide a service to the community...
+[0974] [01:18:44 -> 01:18:49] ...at a bare minimum of expense to Mr. and Mrs. John Q. Taxpayer.
+[0975] [01:18:49 -> 01:18:51] Of course he didn't tell the press...
+[0976] [01:18:52 -> 01:18:55] ...that "bare minimum of expense" is a fairly loose term.
+[0977] [01:18:55 -> 01:18:58] There are 100 different ways to skim off the top.
+[0978] [01:18:59 -> 01:19:01] Men, materials, you name it.
+[0979] [01:19:01 -> 01:19:04] And oh, my Lord, how the money rolled in!
+[0980] [01:19:05 -> 01:19:07] At this rate, you'll put me out of business.
+[0981] [01:19:07 -> 01:19:12] With this pool of slave labor, you can underbid any contractor in town.
+[0982] [01:19:12 -> 01:19:15] We're providing a valuable community service.
+[0983] [01:19:15 -> 01:19:19] That's fine for the papers, but I've got a family to feed.
+[0984] [01:19:22 -> 01:19:23] We go back a long way.
+[0985] [01:19:25 -> 01:19:30] I need this highway contract. I don't get it and I go under. That's a fact.
+[0986] [01:19:30 -> 01:19:32] You have some of this fine pie...
+[0987] [01:19:32 -> 01:19:36] ...my missus made for you. You think about that.
+[0988] [01:19:44 -> 01:19:47] I wouldn't worry too much about this contract.
+[0989] [01:19:47 -> 01:19:50] I already got my boys committed elsewhere.
+[0990] [01:19:52 -> 01:19:55] You be sure and thank Maisie for this fine pie.
+[0991] [01:19:56 -> 01:19:58] And behind every shady deal...
+[0992] [01:19:59 -> 01:20:01] ...behind every dollar earned...
+[0993] [01:20:02 -> 01:20:05] ...there was Andy, keeping the books.
+[0994] [01:20:05 -> 01:20:06] Two deposits.
+[0995] [01:20:07 -> 01:20:11] Maine National and New England First. Night drops as always, sir.
+[0996] [01:20:41 -> 01:20:45] Get my stuff to the laundry. Two suits for dry-clean and a bag of whatnot.
+[0997] [01:20:46 -> 01:20:49] If they over-starch my shirts again, they'll hear from me.
+[0998] [01:20:49 -> 01:20:51] How do I look?
+[0999] [01:20:52 -> 01:20:54] - Very nice. - Big charity to-do up Portland way.
+[1000] [01:20:55 -> 01:20:56] Governor will be there.
+[1001] [01:20:58 -> 01:20:59] You want the rest of this?
+[1002] [01:21:00 -> 01:21:02] Woman can't bake worth shit.
+[1003] [01:21:03 -> 01:21:05] Thank you, sir.
+[1004] [01:21:08 -> 01:21:11] He's got his fingers in a lot of pies, from what I hear.
+[1005] [01:21:11 -> 01:21:16] He's got scams you haven't even dreamed of. Kickbacks on his kickbacks.
+[1006] [01:21:16 -> 01:21:18] A river of dirty money running through here.
+[1007] [01:21:19 -> 01:21:23] Sooner or later, he'll have to explain where it came from.
+[1008] [01:21:23 -> 01:21:24] That's where I come in.
+[1009] [01:21:25 -> 01:21:27] I channel it. Filter it. Funnel it.
+[1010] [01:21:28 -> 01:21:30] Stocks, securities, tax-free municipals.
+[1011] [01:21:31 -> 01:21:34] I send it out into the real world, and when it comes back...
+[1012] [01:21:34 -> 01:21:37] - Clean as a virgin's honeypot, huh? - Cleaner.
+[1013] [01:21:38 -> 01:21:42] By the time Norton retires, I'll have made him a millionaire.
+[1014] [01:21:44 -> 01:21:48] If they ever catch on, he'll wind up in here wearing a number himself.
+[1015] [01:21:49 -> 01:21:51] I thought you had more faith in me than that.
+[1016] [01:21:52 -> 01:21:55] I know you're good, but all that paper leaves a trail.
+[1017] [01:21:55 -> 01:21:58] Now anybody gets curious, FBI, IRS...
+[1018] [01:21:58 -> 01:21:59] ...whatever.
+[1019] [01:22:00 -> 01:22:01] It'll lead to somebody.
+[1020] [01:22:01 -> 01:22:05] Sure it is, but not to me, and certainly not to the warden.
+[1021] [01:22:10 -> 01:22:11] All right, who?
+[1022] [01:22:11 -> 01:22:12] Randall Stevens.
+[1023] [01:22:13 -> 01:22:14] Who?
+[1024] [01:22:14 -> 01:22:16] The "silent" silent partner.
+[1025] [01:22:16 -> 01:22:19] He's the guilty one, the man with the bank accounts.
+[1026] [01:22:19 -> 01:22:22] It's where the filtering process starts.
+[1027] [01:22:22 -> 01:22:25] They trace anything, it'll just lead to him.
+[1028] [01:22:25 -> 01:22:27] But who is he?
+[1029] [01:22:27 -> 01:22:31] He's a phantom, an apparition. Second cousin to Harvey the Rabbit.
+[1030] [01:22:32 -> 01:22:33] I conjured him...
+[1031] [01:22:33 -> 01:22:35] ...out of thin air.
+[1032] [01:22:35 -> 01:22:38] He doesn't exist, except on paper.
+[1033] [01:22:41 -> 01:22:44] You can't just make a person up.
+[1034] [01:22:44 -> 01:22:47] Sure you can, if you know how the system works.
+[1035] [01:22:47 -> 01:22:50] It's amazing what you can accomplish by mail.
+[1036] [01:22:50 -> 01:22:53] Mr. Stevens has a birth certificate...
+[1037] [01:22:53 -> 01:22:55] ...driver's license, Social Security.
+[1038] [01:22:56 -> 01:22:57] You're shitting me.
+[1039] [01:22:57 -> 01:23:00] If they trace any accounts, they'll wind up chasing...
+[1040] [01:23:01 -> 01:23:02] ...a figment of my imagination.
+[1041] [01:23:02 -> 01:23:04] Well, I'll be damned!
+[1042] [01:23:06 -> 01:23:08] Did I say you were good?
+[1043] [01:23:08 -> 01:23:10] Shit, you are Rembrandt.
+[1044] [01:23:10 -> 01:23:12] The funny thing is...
+[1045] [01:23:12 -> 01:23:16] ...on the outside, I was an honest man, straight as an arrow.
+[1046] [01:23:17 -> 01:23:19] I had to come to prison to be a crook.
+[1047] [01:23:28 -> 01:23:29] Ever bother you?
+[1048] [01:23:31 -> 01:23:34] I don't run the scams. I just process the profits.
+[1049] [01:23:34 -> 01:23:36] A fine line, maybe...
+[1050] [01:23:37 -> 01:23:39] ...but I also built that library...
+[1051] [01:23:39 -> 01:23:42] ...and used it to help guys get their high school diploma.
+[1052] [01:23:42 -> 01:23:44] Why do you think he lets me do all that?
+[1053] [01:23:45 -> 01:23:47] Keep you happy and doing the laundry.
+[1054] [01:23:47 -> 01:23:48] Money instead of sheets.
+[1055] [01:23:49 -> 01:23:51] Well, I work cheap. That's the tradeoff.
+[1056] [01:24:09 -> 01:24:11] Tommy Williams came to Shawshank in 1965...
+[1057] [01:24:11 -> 01:24:14] ...on a two-year stretch for B and E.
+[1058] [01:24:14 -> 01:24:16] That's breaking and entering to you.
+[1059] [01:24:17 -> 01:24:21] Cops caught him sneaking TV sets out the back door of a JC Penney.
+[1060] [01:24:21 -> 01:24:22] Young punk.
+[1061] [01:24:23 -> 01:24:24] Mr. Rock 'n' Roll...
+[1062] [01:24:25 -> 01:24:26] ...cocky as hell.
+[1063] [01:24:26 -> 01:24:29] Come on, old boys. Moving like molasses!
+[1064] [01:24:29 -> 01:24:31] Making me look bad.
+[1065] [01:24:31 -> 01:24:33] We liked him immediately.
+[1066] [01:24:33 -> 01:24:37] I'm backing out the door and I got the TV like this.
+[1067] [01:24:37 -> 01:24:41] A big old thing. I couldn't see shit. Then I hear this voice.
+[1068] [01:24:41 -> 01:24:52] "Freeze, kid, hands in the air." I was standing there, holding onto that TV. Finally the voice says: "You hear what I said, boy?" I say, "Yes, sir. I did.
+[1069] [01:24:52 -> 01:24:56] But if I drop this, you get me on destruction of property too."
+[1070] [01:25:00 -> 01:25:02] You done some stretch in Cashman, right?
+[1071] [01:25:03 -> 01:25:07] Yeah, that was an easy piece of time, let me tell you.
+[1072] [01:25:07 -> 01:25:09] Weekend furloughs. Work programs.
+[1073] [01:25:09 -> 01:25:10] Not like here.
+[1074] [01:25:10 -> 01:25:13] Sounds like you done time all over.
+[1075] [01:25:13 -> 01:25:16] I've been in and out since I was 13.
+[1076] [01:25:16 -> 01:25:18] Name it, chances are I've been there.
+[1077] [01:25:18 -> 01:25:21] Perhaps you should try a new profession.
+[1078] [01:25:22 -> 01:25:24] What I mean is...
+[1079] [01:25:24 -> 01:25:28] ...you're not a very good thief. You should try something else.
+[1080] [01:25:28 -> 01:25:31] Yeah, what the hell you know about it, Capone?
+[1081] [01:25:32 -> 01:25:33] What are you in for?
+[1082] [01:25:33 -> 01:25:34] Me?
+[1083] [01:25:37 -> 01:25:39] A lawyer fucked me.
+[1084] [01:25:42 -> 01:25:45] Everybody's innocent in here. Don't you know that?
+[1085] [01:25:53 -> 01:25:58] As it turned out, Tommy had himself a young wife and a new baby girl.
+[1086] [01:25:58 -> 01:26:00] Maybe he thought of them on the streets...
+[1087] [01:26:01 -> 01:26:03] ...or his child growing up not knowing her daddy.
+[1088] [01:26:04 -> 01:26:05] Whatever it was...
+[1089] [01:26:05 -> 01:26:08] ...something lit a fire under that boy's ass.
+[1090] [01:26:11 -> 01:26:14] Thought I might try for my high school equivalency.
+[1091] [01:26:15 -> 01:26:17] Hear you helped a couple of fellas with that.
+[1092] [01:26:18 -> 01:26:21] I don't waste time with losers, Tommy.
+[1093] [01:26:22 -> 01:26:25] I ain't no goddamn loser.
+[1094] [01:26:26 -> 01:26:28] - You mean that? - Yeah.
+[1095] [01:26:30 -> 01:26:31] You really mean that?
+[1096] [01:26:32 -> 01:26:34] Yes, sir, I do.
+[1097] [01:26:34 -> 01:26:36] Good. Because if we do this...
+[1098] [01:26:36 -> 01:26:40] ...we do it all the way, a hundred percent, nothing half-assed.
+[1099] [01:26:40 -> 01:26:42] Thing is, see...
+[1100] [01:26:43 -> 01:26:45] ...I don't read so good.
+[1101] [01:26:46 -> 01:26:47] "Well."
+[1102] [01:26:49 -> 01:26:51] You don't read...
+[1103] [01:26:51 -> 01:26:53] ...so well.
+[1104] [01:26:55 -> 01:26:56] We'll get to that.
+[1105] [01:27:01 -> 01:27:03] So Andy took Tommy under his wing.
+[1106] [01:27:03 -> 01:27:06] Started walking him through his ABC's.
+[1107] [01:27:08 -> 01:27:10] Tommy took to it pretty well too.
+[1108] [01:27:10 -> 01:27:13] Boy found brains he never knew he had.
+[1109] [01:27:16 -> 01:27:19] Before long, Andy started him on his course requirements.
+[1110] [01:27:19 -> 01:27:21] He really liked the kid.
+[1111] [01:27:21 -> 01:27:25] Gave him a thrill to help a youngster crawl off the shit heap.
+[1112] [01:27:25 -> 01:27:27] But that wasn't the only reason.
+[1113] [01:27:28 -> 01:27:30] Prison time is slow time.
+[1114] [01:27:31 -> 01:27:33] So you do what you can to keep going.
+[1115] [01:27:34 -> 01:27:36] Some fellas collect stamps.
+[1116] [01:27:36 -> 01:27:39] Others build matchstick houses.
+[1117] [01:27:39 -> 01:27:42] Andy built a library.
+[1118] [01:27:42 -> 01:27:44] Now he needed a new project.
+[1119] [01:27:45 -> 01:27:47] Tommy was it.
+[1120] [01:27:47 -> 01:27:51] It was the same reason he spent years shaping and polishing those rocks.
+[1121] [01:27:52 -> 01:27:55] The same reason he hung his fantasy girlies on the wall.
+[1122] [01:27:56 -> 01:27:57] In prison...
+[1123] [01:27:58 -> 01:28:01] ...a man will do most anything to keep his mind occupied.
+[1124] [01:28:02 -> 01:28:07] By 1966, right about the time Tommy was getting ready to take his exams...
+[1125] [01:28:07 -> 01:28:09] ...it was lovely Raquel.
+[1126] [01:28:26 -> 01:28:27] Time.
+[1127] [01:28:33 -> 01:28:34] Well?
+[1128] [01:28:36 -> 01:28:38] Well, it's for shit.
+[1129] [01:28:38 -> 01:28:41] I wasted a whole year of my time with this bullshit.
+[1130] [01:28:41 -> 01:28:43] It's probably not that bad.
+[1131] [01:28:43 -> 01:28:47] I didn't get a thing right. It might as well have been in Chinese.
+[1132] [01:28:47 -> 01:28:49] Let's see how the score comes out.
+[1133] [01:28:49 -> 01:28:52] I'll tell you how the goddamn score comes out.
+[1134] [01:28:54 -> 01:28:56] Two points, right there!
+[1135] [01:28:56 -> 01:28:57] There's your goddamn score!
+[1136] [01:28:58 -> 01:29:01] Goddamn cats crawling up trees, 5 times 5 is 25...
+[1137] [01:29:02 -> 01:29:04] Fuck this place!
+[1138] [01:29:04 -> 01:29:05] Fuck it!
+[1139] [01:29:24 -> 01:29:26] I feel bad.
+[1140] [01:29:26 -> 01:29:27] I let him down.
+[1141] [01:29:27 -> 01:29:29] That's crap, kid.
+[1142] [01:29:29 -> 01:29:31] He's proud of you.
+[1143] [01:29:31 -> 01:29:34] We're old friends, I know him as good as anybody.
+[1144] [01:29:34 -> 01:29:35] Smart fellow, ain't he?
+[1145] [01:29:36 -> 01:29:39] Smart as they come. He was a banker on the outside.
+[1146] [01:29:39 -> 01:29:41] What's he in here for anyway?
+[1147] [01:29:42 -> 01:29:43] Murder.
+[1148] [01:29:44 -> 01:29:45] The hell, you say.
+[1149] [01:29:48 -> 01:29:50] You wouldn't think it to look at the guy.
+[1150] [01:29:51 -> 01:29:55] Caught his wife in bed with some golf pro. Greased them both.
+[1151] [01:30:03 -> 01:30:04] What?
+[1152] [01:30:06 -> 01:30:08] About four years ago...
+[1153] [01:30:08 -> 01:30:12] ...I was in Thomaston on a two-to-three stretch.
+[1154] [01:30:12 -> 01:30:13] I stole a car.
+[1155] [01:30:14 -> 01:30:16] It was a dumb-fuck thing to do.
+[1156] [01:30:16 -> 01:30:19] About six months left to go...
+[1157] [01:30:19 -> 01:30:21] ...I get a new cellmate in.
+[1158] [01:30:22 -> 01:30:23] Elmo Blatch.
+[1159] [01:30:24 -> 01:30:25] Big, twitchy fucker.
+[1160] [01:30:26 -> 01:30:30] Kind of roomie you pray you don't get. You know what I'm saying?
+[1161] [01:30:30 -> 01:30:33] Six-to-twelve, armed burglary.
+[1162] [01:30:33 -> 01:30:35] Said he pulled hundreds of jobs.
+[1163] [01:30:35 -> 01:30:40] Hard to believe, high-strung as he was. You cut a loud fart, he jumped three feet.
+[1164] [01:30:41 -> 01:30:46] Talked all the time too. That's the other thing. He never shut up.
+[1165] [01:30:46 -> 01:30:48] Places he'd been in...
+[1166] [01:30:48 -> 01:30:51] ...jobs he'd pulled, women he fucked.
+[1167] [01:30:51 -> 01:30:54] Even people he killed.
+[1168] [01:30:55 -> 01:31:00] People who "gave him shit." That's how he put it.
+[1169] [01:31:02 -> 01:31:04] So one night, like a joke...
+[1170] [01:31:06 -> 01:31:15] ...I say to him, "Elmo, who did you kill?" So he says: I got me this job one time, busing tables at a country club...
+[1171] [01:31:15 -> 01:31:19] ...so I could case all these big rich pricks that come in.
+[1172] [01:31:21 -> 01:31:23] So I pick out this guy...
+[1173] [01:31:24 -> 01:31:26] ...go in one night...
+[1174] [01:31:26 -> 01:31:28] ...and do his place.
+[1175] [01:31:29 -> 01:31:30] He wakes up...
+[1176] [01:31:31 -> 01:31:33] ...and gives me shit.
+[1177] [01:31:34 -> 01:31:36] So I killed him.
+[1178] [01:31:37 -> 01:31:40] Him and this tasty bitch he was with.
+[1179] [01:31:42 -> 01:31:44] And that's the best part.
+[1180] [01:31:45 -> 01:31:47] She's fucking this prick, see...
+[1181] [01:31:47 -> 01:31:50] ...this golf pro, but she's married to some other guy.
+[1182] [01:31:51 -> 01:31:54] Some hotshot banker.
+[1183] [01:31:55 -> 01:31:57] And he's the one they pinned it on.
+[1184] [01:32:09 -> 01:32:13] I have to say that's the most amazing story I ever heard.
+[1185] [01:32:14 -> 01:32:17] What amazes me most is you'd be taken in by it.
+[1186] [01:32:17 -> 01:32:18] Sir?
+[1187] [01:32:21 -> 01:32:24] It's obvious this fellow Williams is impressed with you.
+[1188] [01:32:25 -> 01:32:29] He hears your tale of woe and naturally wants to cheer you up.
+[1189] [01:32:29 -> 01:32:31] He's young, not terribly bright.
+[1190] [01:32:32 -> 01:32:35] It's not surprising he wouldn't know what a state he put you in.
+[1191] [01:32:35 -> 01:32:37] Sir, he's telling the truth.
+[1192] [01:32:38 -> 01:32:42] Let's say for the moment this Blatch does exist.
+[1193] [01:32:42 -> 01:32:47] You think he'd just fall to his knees and cry, "Yes, I did it. I confess.
+[1194] [01:32:47 -> 01:32:53] By the way, add a life term to my sentence." With Tommy's testimony, I can get a new trial.
+[1195] [01:32:53 -> 01:32:55] That's assuming Blatch is still there.
+[1196] [01:32:56 -> 01:32:58] Chances are, he'd be released by now.
+[1197] [01:32:58 -> 01:33:00] They'd have his last known address.
+[1198] [01:33:00 -> 01:33:02] It's a chance, isn't it?
+[1199] [01:33:05 -> 01:33:06] How can you be so obtuse?
+[1200] [01:33:07 -> 01:33:08] What?
+[1201] [01:33:10 -> 01:33:11] What did you call me?
+[1202] [01:33:12 -> 01:33:13] Obtuse. Is it deliberate?
+[1203] [01:33:14 -> 01:33:15] You're forgetting yourself.
+[1204] [01:33:15 -> 01:33:18] The country club will have his old timecards.
+[1205] [01:33:19 -> 01:33:21] Records, W-2s with his name on them.
+[1206] [01:33:22 -> 01:33:24] If you want to indulge this fantasy, it's your business.
+[1207] [01:33:24 -> 01:33:27] Don't make it mine. This meeting is over.
+[1208] [01:33:27 -> 01:33:30] If I got out, I'd never mention what happens here.
+[1209] [01:33:31 -> 01:33:34] I'd be as indictable as you for laundering that money.
+[1210] [01:33:35 -> 01:33:38] Don't ever mention money to me, you son of a bitch!
+[1211] [01:33:39 -> 01:33:40] Not in this office...
+[1212] [01:33:40 -> 01:33:42] ...not anywhere. Get in here, now!
+[1213] [01:33:43 -> 01:33:45] I just wanted to put you at ease, that's all.
+[1214] [01:33:46 -> 01:33:47] Solitary. A month.
+[1215] [01:33:48 -> 01:33:49] What's wrong with you?
+[1216] [01:33:50 -> 01:33:51] Get him out of here.
+[1217] [01:33:51 -> 01:33:53] This is my chance to get out!
+[1218] [01:33:53 -> 01:33:55] It's my life! Understand?!
+[1219] [01:33:55 -> 01:33:57] Get him out!
+[1220] [01:33:59 -> 01:34:01] A month in the hole.
+[1221] [01:34:01 -> 01:34:04] That's the longest stretch I ever heard of.
+[1222] [01:34:04 -> 01:34:05] It's all my fault.
+[1223] [01:34:05 -> 01:34:07] Bullshit.
+[1224] [01:34:08 -> 01:34:10] You didn't pull the trigger or convict him.
+[1225] [01:34:11 -> 01:34:13] Are you saying Andy is innocent?
+[1226] [01:34:13 -> 01:34:15] I mean, for real innocent?
+[1227] [01:34:15 -> 01:34:17] It looks that way.
+[1228] [01:34:17 -> 01:34:19] Sweet Jesus.
+[1229] [01:34:19 -> 01:34:21] How long has he been here now?
+[1230] [01:34:22 -> 01:34:25] 1947. What is that? Nineteen years.
+[1231] [01:34:25 -> 01:34:28] - Williams, Thomas. - Yeah, over here.
+[1232] [01:34:33 -> 01:34:35] What you got?
+[1233] [01:34:35 -> 01:34:37] Board of Education.
+[1234] [01:34:37 -> 01:34:38] That son of a bitch mailed it.
+[1235] [01:34:39 -> 01:34:42] You going to open it or stand there with your thumb up your butt?
+[1236] [01:34:43 -> 01:34:45] Thumb up my butt sounds better.
+[1237] [01:34:45 -> 01:34:48] Skeets, come on. Give me that, you shithead.
+[1238] [01:34:49 -> 01:34:50] Floyd, come on.
+[1239] [01:34:56 -> 01:34:58] Will you throw that away, please?
+[1240] [01:35:04 -> 01:35:06] Well, shit.
+[1241] [01:35:18 -> 01:35:21] The kid passed. C + average.
+[1242] [01:35:21 -> 01:35:23] Thought you'd like to know.
+[1243] [01:35:40 -> 01:35:41] Warden wants to talk.
+[1244] [01:35:55 -> 01:35:56] Out here?
+[1245] [01:35:56 -> 01:35:58] That's what the man said.
+[1246] [01:36:14 -> 01:36:15] Warden?
+[1247] [01:36:25 -> 01:36:29] I'm asking you to keep this conversation just between us.
+[1248] [01:36:31 -> 01:36:33] I feel awkward enough as it is.
+[1249] [01:36:52 -> 01:36:54] We got a situation here.
+[1250] [01:36:55 -> 01:36:57] I think you can appreciate that.
+[1251] [01:36:57 -> 01:36:58] Yes, sir.
+[1252] [01:36:58 -> 01:37:00] I sure can.
+[1253] [01:37:00 -> 01:37:04] I tell you, son, this thing really came along and knocked my wind out.
+[1254] [01:37:06 -> 01:37:08] It's got me up nights. That's the truth.
+[1255] [01:37:10 -> 01:37:12] The right thing to do...
+[1256] [01:37:14 -> 01:37:18] ...sometimes it's hard to know what that is.
+[1257] [01:37:19 -> 01:37:20] Do you understand?
+[1258] [01:37:22 -> 01:37:24] I need your help, son.
+[1259] [01:37:25 -> 01:37:28] If I'm going to move on this...
+[1260] [01:37:28 -> 01:37:31] ...there can't be the least little shred of doubt.
+[1261] [01:37:32 -> 01:37:33] I have to know...
+[1262] [01:37:33 -> 01:37:36] ...if what you told Dufresne was the truth.
+[1263] [01:37:36 -> 01:37:37] Yes, sir.
+[1264] [01:37:37 -> 01:37:39] Absolutely.
+[1265] [01:37:39 -> 01:37:42] Would you be willing to swear before a judge and jury...
+[1266] [01:37:42 -> 01:37:44] ...with your hand on the Good Book...
+[1267] [01:37:44 -> 01:37:47] ...and take an oath before Almighty God himself?
+[1268] [01:37:47 -> 01:37:49] Just give me that chance.
+[1269] [01:37:53 -> 01:37:55] That's what I thought.
+[1270] [01:38:42 -> 01:38:44] I'm sure by now you've heard.
+[1271] [01:38:45 -> 01:38:47] Terrible thing.
+[1272] [01:38:48 -> 01:38:50] A man that young...
+[1273] [01:38:50 -> 01:38:53] ...less than a year to go, trying to escape.
+[1274] [01:38:53 -> 01:38:56] Broke Captain Hadley's heart to shoot him.
+[1275] [01:38:56 -> 01:38:58] Truly, it did.
+[1276] [01:39:01 -> 01:39:03] We just have to put it behind us.
+[1277] [01:39:05 -> 01:39:06] Move on.
+[1278] [01:39:08 -> 01:39:09] I'm done.
+[1279] [01:39:11 -> 01:39:12] Everything stops.
+[1280] [01:39:14 -> 01:39:16] Get someone else to run your scams.
+[1281] [01:39:18 -> 01:39:20] Nothing stops.
+[1282] [01:39:21 -> 01:39:22] Nothing.
+[1283] [01:39:25 -> 01:39:29] Or you will do the hardest time there is.
+[1284] [01:39:29 -> 01:39:31] No more protection from the guards.
+[1285] [01:39:32 -> 01:39:36] I'll pull you out of that 1-bunk Hilton and cast you down with the sodomites.
+[1286] [01:39:38 -> 01:39:40] You'll think you've been fucked by a train.
+[1287] [01:39:42 -> 01:39:43] And the library?
+[1288] [01:39:44 -> 01:39:45] Gone.
+[1289] [01:39:45 -> 01:39:48] Sealed off, brick by brick.
+[1290] [01:39:49 -> 01:39:51] We'll have us a little book barbecue in the yard.
+[1291] [01:39:51 -> 01:39:53] They'll see the flames for miles.
+[1292] [01:39:54 -> 01:39:57] We'll dance around it like wild Injuns.
+[1293] [01:39:58 -> 01:40:01] You understand me? Catching my drift?
+[1294] [01:40:05 -> 01:40:06] Or am I being obtuse?
+[1295] [01:40:18 -> 01:40:21] Give him another month to think about it.
+[1296] [01:41:08 -> 01:41:11] My wife used to say I'm a hard man to know.
+[1297] [01:41:11 -> 01:41:13] Like a closed book.
+[1298] [01:41:14 -> 01:41:16] Complained about it all the time.
+[1299] [01:41:17 -> 01:41:19] She was beautiful.
+[1300] [01:41:21 -> 01:41:23] God, I loved her.
+[1301] [01:41:26 -> 01:41:28] I didn't know how to show it, that's all.
+[1302] [01:41:31 -> 01:41:33] I killed her, Red.
+[1303] [01:41:35 -> 01:41:37] I didn't pull the trigger...
+[1304] [01:41:38 -> 01:41:40] ...but I drove her away.
+[1305] [01:41:41 -> 01:41:44] That's why she died, because of me...
+[1306] [01:41:44 -> 01:41:45] ...the way I am.
+[1307] [01:41:55 -> 01:41:56] That don't make you a murderer.
+[1308] [01:42:00 -> 01:42:01] Bad husband, maybe.
+[1309] [01:42:05 -> 01:42:08] Feel bad about it if you want, but you didn't pull the trigger.
+[1310] [01:42:09 -> 01:42:10] No, I didn't.
+[1311] [01:42:10 -> 01:42:12] Somebody else did.
+[1312] [01:42:13 -> 01:42:16] And I wound up in here.
+[1313] [01:42:18 -> 01:42:20] Bad luck, I guess.
+[1314] [01:42:25 -> 01:42:26] It floats around.
+[1315] [01:42:27 -> 01:42:30] It's got to land on somebody.
+[1316] [01:42:30 -> 01:42:32] It was my turn, that's all.
+[1317] [01:42:33 -> 01:42:36] I was in the path of the tornado.
+[1318] [01:42:42 -> 01:42:46] I just didn't expect the storm would last as long as it has.
+[1319] [01:42:50 -> 01:42:52] Think you'll ever get out of here?
+[1320] [01:42:53 -> 01:42:54] Me?
+[1321] [01:42:57 -> 01:42:58] Yeah.
+[1322] [01:42:59 -> 01:43:02] One day, when I got a long, white beard...
+[1323] [01:43:02 -> 01:43:05] ...and two or three marbles rolling around upstairs.
+[1324] [01:43:07 -> 01:43:09] I tell you where I'd go.
+[1325] [01:43:10 -> 01:43:12] Zihuatanejo.
+[1326] [01:43:13 -> 01:43:14] Say what?
+[1327] [01:43:14 -> 01:43:16] Zihuatanejo.
+[1328] [01:43:17 -> 01:43:19] It's in Mexico.
+[1329] [01:43:20 -> 01:43:22] A little place on the Pacific Ocean.
+[1330] [01:43:23 -> 01:43:26] You know what the Mexicans say about the Pacific?
+[1331] [01:43:28 -> 01:43:30] They say it has no memory.
+[1332] [01:43:32 -> 01:43:35] That's where I want to live the rest of my life.
+[1333] [01:43:36 -> 01:43:39] A warm place with no memory.
+[1334] [01:43:42 -> 01:43:44] Open up a little hotel...
+[1335] [01:43:46 -> 01:43:47] ...right on the beach.
+[1336] [01:43:48 -> 01:43:50] Buy some worthless old boat...
+[1337] [01:43:50 -> 01:43:52] ...and fix it up new.
+[1338] [01:43:55 -> 01:43:56] Take my guests out...
+[1339] [01:43:57 -> 01:43:58] ...charter fishing.
+[1340] [01:44:02 -> 01:44:04] Zihuatanejo.
+[1341] [01:44:07 -> 01:44:11] In a place like that, I could use a man that knows how to get things.
+[1342] [01:44:18 -> 01:44:21] I don't think I could make it on the outside.
+[1343] [01:44:27 -> 01:44:29] I been in here most of my life.
+[1344] [01:44:31 -> 01:44:32] I'm an institutional man now.
+[1345] [01:44:33 -> 01:44:35] Just like Brooks was.
+[1346] [01:44:37 -> 01:44:38] You underestimate yourself.
+[1347] [01:44:39 -> 01:44:40] I don't think so.
+[1348] [01:44:44 -> 01:44:48] In here I'm the guy who can get things for you, sure, but...
+[1349] [01:44:49 -> 01:44:52] ...outside all you need is the Yellow Pages.
+[1350] [01:44:52 -> 01:44:54] Hell, I wouldn't know where to begin.
+[1351] [01:44:56 -> 01:44:58] Pacific Ocean?
+[1352] [01:44:58 -> 01:44:59] Shit.
+[1353] [01:45:00 -> 01:45:02] Scare me to death, something that big.
+[1354] [01:45:02 -> 01:45:03] Not me.
+[1355] [01:45:05 -> 01:45:07] I didn't shoot my wife, and I didn't shoot her lover.
+[1356] [01:45:09 -> 01:45:12] Whatever mistakes I made, I've paid for them and then some.
+[1357] [01:45:13 -> 01:45:15] That hotel, that boat...
+[1358] [01:45:17 -> 01:45:19] I don't think that's too much to ask.
+[1359] [01:45:24 -> 01:45:26] You shouldn't be doing this to yourself.
+[1360] [01:45:27 -> 01:45:29] This is just shitty pipe dreams.
+[1361] [01:45:29 -> 01:45:31] Mexico is way down there and you're in here...
+[1362] [01:45:32 -> 01:45:33] ...and that's the way it is.
+[1363] [01:45:34 -> 01:45:36] Yeah, right. That's the way it is.
+[1364] [01:45:38 -> 01:45:40] It's down there and I'm in here.
+[1365] [01:45:43 -> 01:45:46] I guess it comes down to a simple choice.
+[1366] [01:45:48 -> 01:45:50] Get busy living...
+[1367] [01:45:51 -> 01:45:53] ...or get busy dying.
+[1368] [01:46:06 -> 01:46:08] If you ever get out of here, do me a favor.
+[1369] [01:46:08 -> 01:46:11] Sure, Andy. Anything.
+[1370] [01:46:13 -> 01:46:16] There's a big hayfield up near Buxton. You know where Buxton is?
+[1371] [01:46:18 -> 01:46:21] - A lot of hayfields up there. - One in particular.
+[1372] [01:46:21 -> 01:46:25] It's got a long rock wall with a big oak tree at the north end.
+[1373] [01:46:25 -> 01:46:28] It's like something out of a Robert Frost poem.
+[1374] [01:46:29 -> 01:46:32] It's where I asked my wife to marry me.
+[1375] [01:46:33 -> 01:46:35] We went there for a picnic...
+[1376] [01:46:36 -> 01:46:38] ...and made love under that oak...
+[1377] [01:46:38 -> 01:46:41] ...and I asked and she said yes.
+[1378] [01:46:45 -> 01:46:46] Promise me, Red.
+[1379] [01:46:47 -> 01:46:49] If you ever get out...
+[1380] [01:46:49 -> 01:46:51] ...find that spot.
+[1381] [01:46:52 -> 01:46:57] At the base of that wall, there's a rock that has no earthly business in Maine.
+[1382] [01:46:58 -> 01:47:01] Piece of black, volcanic glass.
+[1383] [01:47:03 -> 01:47:06] Something's buried under it I want you to have.
+[1384] [01:47:07 -> 01:47:08] What, Andy?
+[1385] [01:47:09 -> 01:47:10] What's buried under there?
+[1386] [01:47:12 -> 01:47:14] You'll have to pry it up...
+[1387] [01:47:14 -> 01:47:15] ...to see.
+[1388] [01:47:21 -> 01:47:23] No, I'm telling you. The guy is...
+[1389] [01:47:24 -> 01:47:25] He's talking funny.
+[1390] [01:47:27 -> 01:47:28] I'm really worried about him.
+[1391] [01:47:29 -> 01:47:30] Let's keep an eye on him.
+[1392] [01:47:30 -> 01:47:34] That's fine during the day, but at night he's all alone.
+[1393] [01:47:35 -> 01:47:36] Oh, Lord.
+[1394] [01:47:37 -> 01:47:38] What?
+[1395] [01:47:40 -> 01:47:43] Andy come down to the loading dock today.
+[1396] [01:47:43 -> 01:47:45] He asked me for a length of rope.
+[1397] [01:47:45 -> 01:47:46] Rope?
+[1398] [01:47:46 -> 01:47:48] Six feet long.
+[1399] [01:47:48 -> 01:47:49] And you gave it to him.
+[1400] [01:47:50 -> 01:47:52] Sure. Why wouldn't I?
+[1401] [01:47:52 -> 01:47:54] Jesus! Heywood.
+[1402] [01:47:54 -> 01:47:56] How was I supposed to know?
+[1403] [01:47:57 -> 01:47:58] Remember Brooks Hatlen?
+[1404] [01:48:00 -> 01:48:02] Andy would never do that.
+[1405] [01:48:03 -> 01:48:04] Never.
+[1406] [01:48:06 -> 01:48:07] I don't know.
+[1407] [01:48:10 -> 01:48:12] Every man has his breaking point.
+[1408] [01:48:14 -> 01:48:17] Lickety-split. Want to get home.
+[1409] [01:48:17 -> 01:48:19] Just about finished, sir.
+[1410] [01:48:36 -> 01:48:37] Three deposits tonight.
+[1411] [01:48:45 -> 01:48:47] Get my stuff down to the laundry.
+[1412] [01:48:48 -> 01:48:49] And shine my shoes.
+[1413] [01:48:49 -> 01:48:52] - I want them looking like mirrors. - Yes, sir.
+[1414] [01:48:58 -> 01:48:59] It's good having you back.
+[1415] [01:49:00 -> 01:49:02] Place wasn't the same without you.
+[1416] [01:49:49 -> 01:49:50] Lights out!
+[1417] [01:50:23 -> 01:50:25] I've had some long nights in stir.
+[1418] [01:50:26 -> 01:50:29] Alone in the dark with nothing but your thoughts...
+[1419] [01:50:29 -> 01:50:31] ...time can draw out like a blade.
+[1420] [01:50:37 -> 01:50:40] That was the longest night of my life.
+[1421] [01:50:56 -> 01:50:57] Give me a count!
+[1422] [01:51:01 -> 01:51:04] Tier 3 south, clear!
+[1423] [01:51:07 -> 01:51:10] Man missing on tier 2, cell 245!
+[1424] [01:51:11 -> 01:51:12] Dufresne!
+[1425] [01:51:12 -> 01:51:15] Come out. You're holding up the show!
+[1426] [01:51:18 -> 01:51:21] Don't make me come down or I'll thump your skull for you!
+[1427] [01:51:29 -> 01:51:33] Damn it, you're putting me behind! I got a schedule to keep.
+[1428] [01:51:33 -> 01:51:36] You'd better be sick or dead in there. I shit you not!
+[1429] [01:51:36 -> 01:51:38] You hear me?
+[1430] [01:51:44 -> 01:51:46] Oh, my Holy God.
+[1431] [01:52:03 -> 01:52:05] I want every man on this cellblock questioned.
+[1432] [01:52:06 -> 01:52:08] - Start with that friend of his. - Who?
+[1433] [01:52:11 -> 01:52:13] Open 237.
+[1434] [01:52:16 -> 01:52:20] What do you mean, "He just wasn't here"? Don't say that to me.
+[1435] [01:52:21 -> 01:52:22] Don't tell me that again.
+[1436] [01:52:22 -> 01:52:23] But sir, he wasn't.
+[1437] [01:52:23 -> 01:52:27] I can see that, Haig! Think I'm blind?
+[1438] [01:52:28 -> 01:52:29] Is that what you're saying?
+[1439] [01:52:29 -> 01:52:32] - Am I blind, Haig? - No, sir!
+[1440] [01:52:33 -> 01:52:35] What about you. You blind?
+[1441] [01:52:36 -> 01:52:38] - Tell me what this is. - Last night's count.
+[1442] [01:52:39 -> 01:52:42] You see Dufresne's name there? I sure do. Right there.
+[1443] [01:52:42 -> 01:52:43] "Dufresne."
+[1444] [01:52:45 -> 01:52:47] He was in his cell...
+[1445] [01:52:47 -> 01:52:48] ...at lights out.
+[1446] [01:52:48 -> 01:52:50] Reasonable he'd be here in the morning.
+[1447] [01:52:51 -> 01:52:53] I want him found.
+[1448] [01:52:53 -> 01:52:57] Not tomorrow, not after breakfast. Now!
+[1449] [01:52:57 -> 01:52:58] Yes, sir.
+[1450] [01:52:59 -> 01:53:01] Let's go. Move your butts.
+[1451] [01:53:05 -> 01:53:06] Stand.
+[1452] [01:53:07 -> 01:53:08] Well?
+[1453] [01:53:12 -> 01:53:13] Well, what?
+[1454] [01:53:13 -> 01:53:16] I see you two all the time. You're thick as thieves, you are.
+[1455] [01:53:17 -> 01:53:19] He must have said something.
+[1456] [01:53:20 -> 01:53:21] No, sir, Warden.
+[1457] [01:53:21 -> 01:53:22] Not a word.
+[1458] [01:53:24 -> 01:53:27] Lord, it's a miracle!
+[1459] [01:53:27 -> 01:53:30] Man vanished like a fart in the wind.
+[1460] [01:53:31 -> 01:53:32] Nothing left...
+[1461] [01:53:33 -> 01:53:35] ...but some damn rocks on a windowsill.
+[1462] [01:53:36 -> 01:53:38] And that cupcake on the wall. Let's ask her.
+[1463] [01:53:39 -> 01:53:40] Maybe she knows.
+[1464] [01:53:41 -> 01:53:43] What say there, fuzzy-britches? Feel like talking?
+[1465] [01:53:45 -> 01:53:46] Guess not.
+[1466] [01:53:47 -> 01:53:49] Why should she be any different?
+[1467] [01:53:50 -> 01:53:52] This is a conspiracy.
+[1468] [01:53:52 -> 01:53:54] That's what this is.
+[1469] [01:53:55 -> 01:53:58] One big, damn conspiracy!
+[1470] [01:53:59 -> 01:54:01] And everyone's in on it!
+[1471] [01:54:01 -> 01:54:02] Including her!
+[1472] [01:54:37 -> 01:54:39] In 1966...
+[1473] [01:54:39 -> 01:54:42] ...Andy Dufresne escaped...
+[1474] [01:54:42 -> 01:54:44] ...from Shawshank Prison.
+[1475] [01:54:46 -> 01:54:48] All they found was a muddy set of prison clothes...
+[1476] [01:54:49 -> 01:54:50] ...a bar of soap...
+[1477] [01:54:51 -> 01:54:52] ...and an old rock hammer...
+[1478] [01:54:52 -> 01:54:55] ...damn near worn down to the nub.
+[1479] [01:54:59 -> 01:55:04] I had thought it'd take a man 600 years to tunnel through the wall with it.
+[1480] [01:55:05 -> 01:55:07] Old Andy did it in less than 20.
+[1481] [01:55:26 -> 01:55:28] Oh, Andy loved geology.
+[1482] [01:55:29 -> 01:55:32] I imagine it appealed to his meticulous nature.
+[1483] [01:55:32 -> 01:55:34] An ice age here...
+[1484] [01:55:35 -> 01:55:37] ...million years of mountain building there.
+[1485] [01:55:38 -> 01:55:41] Geology is the study of pressure and time.
+[1486] [01:55:42 -> 01:55:44] That's all it takes, really.
+[1487] [01:55:45 -> 01:55:46] Pressure...
+[1488] [01:55:46 -> 01:55:48] ...and time.
+[1489] [01:55:49 -> 01:55:51] That and a big goddamn poster.
+[1490] [01:55:55 -> 01:55:56] Like I said...
+[1491] [01:55:56 -> 01:56:00] ...in prison, a man will do anything to keep his mind occupied.
+[1492] [01:56:03 -> 01:56:08] Seems Andy's favorite hobby was toting his wall out into the exercise yard...
+[1493] [01:56:09 -> 01:56:11] ...a handful at a time.
+[1494] [01:56:12 -> 01:56:14] I guess after Tommy was killed...
+[1495] [01:56:14 -> 01:56:17] ...Andy decided he'd been here long enough.
+[1496] [01:56:17 -> 01:56:20] Lickety-split. I want to get home.
+[1497] [01:56:21 -> 01:56:23] I'm just about finished, sir.
+[1498] [01:56:44 -> 01:56:46] Three deposits tonight.
+[1499] [01:56:53 -> 01:56:56] Andy did like he was told.
+[1500] [01:56:56 -> 01:56:59] Buffed those shoes to a high mirror-shine.
+[1501] [01:57:03 -> 01:57:05] The guards simply didn't notice.
+[1502] [01:57:06 -> 01:57:07] Neither did I.
+[1503] [01:57:07 -> 01:57:09] I mean, seriously...
+[1504] [01:57:09 -> 01:57:12] ...how often do you really look at a man's shoes?
+[1505] [01:59:16 -> 01:59:19] Andy crawled to freedom through 500 yards...
+[1506] [01:59:19 -> 01:59:22] ...of shit-smelling foulness I can't even imagine.
+[1507] [01:59:23 -> 01:59:26] Or maybe I just don't want to.
+[1508] [01:59:30 -> 01:59:32] Five hundred yards.
+[1509] [01:59:33 -> 01:59:36] That's the length of five football fields.
+[1510] [01:59:37 -> 01:59:39] Just shy of half a mile.
+[1511] [02:00:34 -> 02:00:39] The next morning, right about the time Raquel was spilling her secret...
+[1512] [02:00:39 -> 02:00:42] ...a man nobody ever laid eyes on before...
+[1513] [02:00:42 -> 02:00:45] ...strolled into the Maine National Bank.
+[1514] [02:00:46 -> 02:00:49] Until that moment, he didn't exist.
+[1515] [02:00:49 -> 02:00:52] - Except on paper. - May I help you?
+[1516] [02:00:52 -> 02:00:54] He had all the proper ID...
+[1517] [02:00:54 -> 02:00:58] ...driver's license, birth certificate, Social Security card...
+[1518] [02:00:58 -> 02:01:01] And the signature was a spot-on match.
+[1519] [02:01:01 -> 02:01:04] I must say I'm sorry to be losing your business.
+[1520] [02:01:04 -> 02:01:06] I hope you'll enjoy living abroad.
+[1521] [02:01:07 -> 02:01:08] Thank you.
+[1522] [02:01:09 -> 02:01:10] I'm sure I will.
+[1523] [02:01:11 -> 02:01:14] Here's your cashier's check, sir. Will there be anything else?
+[1524] [02:01:14 -> 02:01:15] Please.
+[1525] [02:01:16 -> 02:01:18] Would you add this to your outgoing mail?
+[1526] [02:01:19 -> 02:01:20] I'd be happy to.
+[1527] [02:01:22 -> 02:01:23] Good day, sir.
+[1528] [02:01:24 -> 02:01:29] Mr. Stevens visited nearly a dozen banks in the Portland area that morning.
+[1529] [02:01:29 -> 02:01:31] All told, he blew town...
+[1530] [02:01:31 -> 02:01:36] ...with better than $370,000 of Warden Norton's money.
+[1531] [02:01:36 -> 02:01:39] Severance pay for 19 years.
+[1532] [02:01:46 -> 02:01:49] Good morning, Portland Daily Bugle.
+[1533] [02:02:41 -> 02:02:44] Byron Hadley? You have the right to remain silent.
+[1534] [02:02:45 -> 02:02:49] If you give up this right, anything you say can be held against you in court.
+[1535] [02:02:50 -> 02:02:54] I wasn't there to see, but I hear Byron Hadley sobbed like a girl...
+[1536] [02:02:54 -> 02:02:56] ...when they took him away.
+[1537] [02:03:02 -> 02:03:05] Norton had no intention of going that quietly.
+[1538] [02:03:21 -> 02:03:22] Samuel Norton.
+[1539] [02:03:22 -> 02:03:25] We have a warrant for your arrest. Open up.
+[1540] [02:03:30 -> 02:03:31] Open the door.
+[1541] [02:03:31 -> 02:03:33] I'm not sure which key.
+[1542] [02:03:43 -> 02:03:45] Make it easy on yourself, Norton!
+[1543] [02:03:56 -> 02:04:00] I like to think the last thing that went through his head...
+[1544] [02:04:00 -> 02:04:01] ...other than that bullet...
+[1545] [02:04:02 -> 02:04:06] ...was to wonder how the hell Andy Dufresne ever got the best of him.
+[1546] [02:04:08 -> 02:04:12] Not long after the warden deprived us of his company...
+[1547] [02:04:12 -> 02:04:14] ...I got a postcard in the mail.
+[1548] [02:04:16 -> 02:04:19] It was blank, but the postmark said...
+[1549] [02:04:19 -> 02:04:21] ...Fort Hancock, Texas.
+[1550] [02:04:21 -> 02:04:23] Fort Hancock...
+[1551] [02:04:23 -> 02:04:25] ...right on the border.
+[1552] [02:04:25 -> 02:04:27] That's where Andy crossed.
+[1553] [02:04:28 -> 02:04:32] When I picture him heading south in his own car with the top down...
+[1554] [02:04:32 -> 02:04:35] ...it always makes me laugh.
+[1555] [02:04:36 -> 02:04:38] Andy Dufresne...
+[1556] [02:04:38 -> 02:04:40] ...who crawled through a river of shit...
+[1557] [02:04:41 -> 02:04:43] ...and came out clean on the other side.
+[1558] [02:04:44 -> 02:04:45] Andy Dufresne...
+[1559] [02:04:46 -> 02:04:48] ...headed for the Pacific.
+[1560] [02:04:50 -> 02:04:53] Hadley's got him by the throat, right?
+[1561] [02:04:53 -> 02:05:00] He says, "I believe this boy's about to have himself an accident." Those of us who knew him best talk about him often.
+[1562] [02:05:00 -> 02:05:02] I swear, the stuff he pulled...
+[1563] [02:05:02 -> 02:05:07] "My friends could use a couple of beers." And he got it!
+[1564] [02:05:09 -> 02:05:11] Sometimes it makes me sad, though...
+[1565] [02:05:11 -> 02:05:13] ...Andy being gone.
+[1566] [02:05:13 -> 02:05:17] I have to remind myself that some birds aren't meant to be caged.
+[1567] [02:05:18 -> 02:05:20] Their feathers are just too bright.
+[1568] [02:05:22 -> 02:05:23] And when they fly away...
+[1569] [02:05:24 -> 02:05:28] ...the part of you that knows it was a sin to lock them up does rejoice.
+[1570] [02:05:29 -> 02:05:31] But still...
+[1571] [02:05:31 -> 02:05:35] ...the place you live in is that much more drab and empty that they're gone.
+[1572] [02:05:40 -> 02:05:42] I guess I just miss my friend.
+[1573] [02:06:07 -> 02:06:08] Please sit down.
+[1574] [02:06:13 -> 02:06:15] Ellis Boyd Redding...
+[1575] [02:06:16 -> 02:06:19] ...your files say you've served 40 years of a life sentence.
+[1576] [02:06:20 -> 02:06:22] You feel you've been rehabilitated?
+[1577] [02:06:24 -> 02:06:25] Rehabilitated?
+[1578] [02:06:27 -> 02:06:29] Well, now, let me see.
+[1579] [02:06:30 -> 02:06:32] I don't have any idea what that means.
+[1580] [02:06:35 -> 02:06:40] It means you're ready to rejoin society- I know what you think it means, sonny.
+[1581] [02:06:42 -> 02:06:44] To me it's just a made-up word.
+[1582] [02:06:45 -> 02:06:48] A politician's word so that...
+[1583] [02:06:48 -> 02:06:52] ...young fellas like yourself can wear a suit and a tie...
+[1584] [02:06:52 -> 02:06:54] ...and have a job.
+[1585] [02:06:56 -> 02:06:58] What do you really want to know?
+[1586] [02:06:58 -> 02:07:00] Am I sorry for what I did?
+[1587] [02:07:01 -> 02:07:02] Well, are you?
+[1588] [02:07:04 -> 02:07:07] There's not a day goes by I don't feel regret.
+[1589] [02:07:08 -> 02:07:12] Not because I'm in here or because you think I should.
+[1590] [02:07:15 -> 02:07:18] I look back on the way I was then...
+[1591] [02:07:20 -> 02:07:21] ...a young...
+[1592] [02:07:22 -> 02:07:26] ...stupid kid who committed that terrible crime.
+[1593] [02:07:29 -> 02:07:30] I want to talk to him.
+[1594] [02:07:32 -> 02:07:35] I want to try and talk some sense to him.
+[1595] [02:07:35 -> 02:07:37] Tell him the way things are.
+[1596] [02:07:39 -> 02:07:41] But I can't.
+[1597] [02:07:43 -> 02:07:45] That kid's long gone...
+[1598] [02:07:46 -> 02:07:49] ...and this old man is all that's left.
+[1599] [02:07:50 -> 02:07:52] I got to live with that.
+[1600] [02:07:53 -> 02:07:55] Rehabilitated?
+[1601] [02:07:55 -> 02:07:57] It's just a bullshit word.
+[1602] [02:07:58 -> 02:08:03] So you go on and stamp your forms, sonny, and stop wasting my time.
+[1603] [02:08:04 -> 02:08:06] Because to tell you the truth...
+[1604] [02:08:07 -> 02:08:09] ...I don't give a shit.
+[1605] [02:09:35 -> 02:09:37] Here you go, miss.
+[1606] [02:09:40 -> 02:09:41] Restroom break?
+[1607] [02:09:46 -> 02:09:51] You don't need to ask me every time you need to go take a piss. Just go.
+[1608] [02:10:04 -> 02:10:07] Forty years I've been asking permission to piss.
+[1609] [02:10:08 -> 02:10:11] I can't squeeze a drop without say-so.
+[1610] [02:10:14 -> 02:10:17] There's a harsh truth to face.
+[1611] [02:10:18 -> 02:10:21] No way I'm going to make it on the outside.
+[1612] [02:10:29 -> 02:10:33] All I do anymore is think of ways to break my parole...
+[1613] [02:10:34 -> 02:10:36] ...so maybe they'd send me back.
+[1614] [02:10:41 -> 02:10:44] Terrible thing, to live in fear.
+[1615] [02:10:45 -> 02:10:46] Brooks Hatlen knew it.
+[1616] [02:10:46 -> 02:10:48] Knew it all too well.
+[1617] [02:10:50 -> 02:10:53] All I want is to be back where things make sense.
+[1618] [02:10:54 -> 02:10:57] Where I won't have to be afraid all the time.
+[1619] [02:10:59 -> 02:11:01] Only one thing stops me.
+[1620] [02:11:02 -> 02:11:05] A promise I made to Andy.
+[1621] [02:11:25 -> 02:11:26] There it is.
+[1622] [02:11:37 -> 02:11:39] Much obliged, sir.
+[1623] [02:15:18 -> 02:15:22] Dear Red: If you're reading this, you've gotten out...
+[1624] [02:15:22 -> 02:15:26] ...and if you've come this far, maybe you'd come a bit further.
+[1625] [02:15:27 -> 02:15:29] You remember the name of the town, don't you?
+[1626] [02:15:31 -> 02:15:33] Zihuatanejo.
+[1627] [02:15:34 -> 02:15:38] I could use a good man to help me get my project on wheels.
+[1628] [02:15:39 -> 02:15:42] I'll keep an eye out for you, and the chessboard ready.
+[1629] [02:15:43 -> 02:15:44] Remember, Red...
+[1630] [02:15:45 -> 02:15:47] ...hope is a good thing...
+[1631] [02:15:47 -> 02:15:49] ...maybe the best of things.
+[1632] [02:15:49 -> 02:15:51] And no good thing ever dies.
+[1633] [02:15:52 -> 02:15:55] I will be hoping that this letter finds you...
+[1634] [02:15:55 -> 02:15:57] ...and finds you well.
+[1635] [02:15:57 -> 02:15:58] Your friend...
+[1636] [02:15:59 -> 02:16:00] ...Andy.
+[1637] [02:16:34 -> 02:16:35] "Get busy living...
+[1638] [02:16:35 -> 02:16:37] ...or get busy dying."
+[1639] [02:16:40 -> 02:16:42] That's goddamn right.
+[1640] [02:16:48 -> 02:16:50] For the second time in my life...
+[1641] [02:16:50 -> 02:16:52] ...I'm guilty of committing a crime.
+[1642] [02:16:54 -> 02:16:55] Parole violation.
+[1643] [02:16:56 -> 02:17:00] Of course I doubt they'll toss up any roadblocks for that.
+[1644] [02:17:00 -> 02:17:02] Not for an old crook like me.
+[1645] [02:17:03 -> 02:17:05] Fort Hancock, Texas, please.
+[1646] [02:17:08 -> 02:17:13] I find I'm so excited I can barely sit still or hold a thought in my head.
+[1647] [02:17:14 -> 02:17:17] I think it's the excitement only a free man can feel.
+[1648] [02:17:17 -> 02:17:20] A free man at the start of a long journey...
+[1649] [02:17:20 -> 02:17:22] ...whose conclusion is uncertain.
+[1650] [02:17:25 -> 02:17:28] I hope I can make it across the border.
+[1651] [02:17:30 -> 02:17:33] I hope to see my friend and shake his hand.
+[1652] [02:17:34 -> 02:17:39] I hope the Pacific is as blue as it has been in my dreams.
+[1653] [02:17:40 -> 02:17:42] I hope.
