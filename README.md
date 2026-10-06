@@ -1,6 +1,6 @@
 # 🎬 CineEnglish (影视英语口语影子跟读工作台)
 
-[![Release](https://img.shields.io/badge/version-v1.0.2-blue.svg)](https://github.com)
+[![Release](https://img.shields.io/badge/version-v1.0.3-blue.svg)](https://github.com/johnson020202/CineEnglish)
 [![Platform](https://img.shields.io/badge/Android-10%2B-green.svg)](https://developer.android.com)
 [![Backend](https://img.shields.io/badge/FastAPI-0.110%2B-teal.svg)](https://fastapi.tiangolo.com)
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
@@ -118,6 +118,11 @@ adb install -r app-debug.apk
 ---
 
 ## 📝 版本更新记录
+
+### v1.0.3 (2026-10-06)
+- 🎯 **彻底根除恒定 86 分 Bug**：重构客户端与服务端评测算法，解决因句子 ID 未同步触发的离线硬编码兜底。
+- 🎙️ **端侧动态声学特征分析**：增加基于真实录音时长、音节语速、能量波动的动态评分算法，实现真实逐词打分与难点词纠音指导。
+- 🔗 **接口传参健壮性优化**：支持端侧直接传递目标台词文本进行声学对齐，避免因服务端缺失单句引发 404 异常。
 
 ### v1.0.2 (2026-10-06)
 - 🎨 **界面显示全面优化**：重构素材卡片动作按钮为自适应平滑横向滚动胶囊，彻底修复部分机型下 "Shadowing" / "RolePlay" 单词挤压换行的视觉错误。

@@ -55,6 +55,7 @@ interface CineApiService {
     @POST("/api/v1/assessment/evaluate-sentence")
     suspend fun evaluateSentence(
         @Part("sentence_id") sentenceId: RequestBody,
+        @Part("reference_text") referenceText: RequestBody? = null,
         @Part("attempt_count") attemptCount: RequestBody,
         @Part("pass_threshold_overall") thresholdOverall: RequestBody,
         @Part("pass_threshold_completeness") thresholdCompleteness: RequestBody,

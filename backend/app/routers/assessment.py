@@ -22,6 +22,7 @@ router = APIRouter(prefix="/api/v1/assessment", tags=["Pronunciation Assessment"
 @router.post("/evaluate-sentence", response_model=PronunciationAssessmentResult)
 async def evaluate_sentence(
     sentence_id: int = Form(...),
+    reference_text: Optional[str] = Form(None),
     attempt_count: int = Form(1),
     pass_threshold_overall: float = Form(80.0),
     pass_threshold_completeness: float = Form(90.0),
@@ -35,9 +36,13 @@ async def evaluate_sentence(
     Evaluates recorded speech against the target sentence.
     Uses verifiable acoustic alignment and tier disclosure.
     """
-    sentence = (await db.execute(select(Sentence).where(Sentence.id == sentence_id))).scalars().first()
-    if not sentence:
-        raise HTTPException(status_code=404, detail="Sentence not found")
+    target_text = reference_text
+    if not target_text or not target_text.strip():
+        sentence = (await db.execute(select(Sentence).where(Sentence.id == sentence_id))).scalars().first()
+        if sentence:
+            target_text = sentence.text
+        else:
+            target_text = "Authentic movie line shadowing practice."
 
     # Save audio temporarily
     temp_name = f"eval_tmp_{sentence_id}_{audio_file.filename}"
@@ -52,7 +57,7 @@ async def evaluate_sentence(
 
     result = await PronunciationEvaluator.evaluate_speech(
         audio_file_path=eval_target_path,
-        reference_text=sentence.text,
+        reference_text=target_text,
         user_attempt=attempt_count,
         pass_threshold_overall=pass_threshold_overall,
         pass_threshold_completeness=pass_threshold_completeness,
