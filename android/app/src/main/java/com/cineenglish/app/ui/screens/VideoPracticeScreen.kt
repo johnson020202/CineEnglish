@@ -7,6 +7,8 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -187,29 +189,32 @@ fun VideoPracticeScreen(
                 }
             }
 
-            // Timeline Controls
+            // Timeline Controls (Anti-squeeze horizontal scroll)
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
                     .background(DarkSurface)
-                    .padding(horizontal = 16.dp, vertical = 8.dp),
-                horizontalArrangement = Arrangement.SpaceBetween,
+                    .horizontalScroll(rememberScrollState())
+                    .padding(horizontal = 16.dp, vertical = 6.dp),
+                horizontalArrangement = Arrangement.spacedBy(12.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
                     FilterChip(
                         selected = pauseAtSentenceEnd,
                         onClick = { pauseAtSentenceEnd = !pauseAtSentenceEnd },
-                        label = { Text("Pause at End", fontSize = 12.sp) },
+                        label = { Text("Pause at End", fontSize = 12.sp, maxLines = 1) },
                         leadingIcon = {
                             Icon(Icons.Default.PauseCircle, contentDescription = null, modifier = Modifier.size(16.dp))
                         }
                     )
-                    Spacer(Modifier.width(8.dp))
                     FilterChip(
                         selected = loopCurrentSentence,
                         onClick = { loopCurrentSentence = !loopCurrentSentence },
-                        label = { Text("Loop", fontSize = 12.sp) },
+                        label = { Text("Loop", fontSize = 12.sp, maxLines = 1) },
                         leadingIcon = {
                             Icon(Icons.Default.Repeat, contentDescription = null, modifier = Modifier.size(16.dp))
                         }
@@ -217,8 +222,14 @@ fun VideoPracticeScreen(
                 }
 
                 // Timeline Offset Controls (+ / - 500ms)
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    TextButton(onClick = { timelineOffsetMs -= 500 }) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                ) {
+                    TextButton(
+                        onClick = { timelineOffsetMs -= 500 },
+                        contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp)
+                    ) {
                         Text("-0.5s", color = TextSecondary, fontSize = 12.sp)
                     }
                     Text(
@@ -227,7 +238,10 @@ fun VideoPracticeScreen(
                         fontSize = 12.sp,
                         fontWeight = FontWeight.Bold
                     )
-                    TextButton(onClick = { timelineOffsetMs += 500 }) {
+                    TextButton(
+                        onClick = { timelineOffsetMs += 500 },
+                        contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp)
+                    ) {
                         Text("+0.5s", color = TextSecondary, fontSize = 12.sp)
                     }
                 }
@@ -239,6 +253,7 @@ fun VideoPracticeScreen(
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(horizontal = 16.dp, vertical = 8.dp),
+                contentPadding = PaddingValues(bottom = 24.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 itemsIndexed(sentences, key = { _, s -> s.id }) { idx, s ->

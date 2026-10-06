@@ -1,6 +1,6 @@
 # 🎬 CineEnglish (影视英语口语影子跟读工作台)
 
-[![Release](https://img.shields.io/badge/version-v1.0.3-blue.svg)](https://github.com/johnson020202/CineEnglish)
+[![Release](https://img.shields.io/badge/version-v1.0.4-blue.svg)](https://github.com/johnson020202/CineEnglish)
 [![Platform](https://img.shields.io/badge/Android-10%2B-green.svg)](https://developer.android.com)
 [![Backend](https://img.shields.io/badge/FastAPI-0.110%2B-teal.svg)](https://fastapi.tiangolo.com)
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
@@ -118,6 +118,19 @@ adb install -r app-debug.apk
 ---
 
 ## 📝 版本更新记录
+
+### v1.0.4 (2026-10-06)
+- 🖥️ **全界面 10 大页面视觉走查与防遮挡/防折叠优化**：
+  - **遮字幕复述 (ShadowRecall)**：重构为内容区自适应滚动 + 底部录音与切句控制栏固定停靠，彻底根治评测反馈长文本将录音大按钮挤出屏幕的严重隐患。
+  - **学习记录 (LearningRecords)**：修复只查单素材记录的逻辑缺陷，支持全局聚合呈现所有电影台词录音与打分回放，列表增加底部安全沉底间距。
+  - **视频时间轴练习 (VideoPractice)**：控制栏（句尾暂停/循环复读/微调偏移）支持平滑横滑，杜绝小屏与系统大字体下的换行重叠。
+  - **间隔复习 (ReviewScreen)**：优化 SRS 质量按钮（Forgot/Hard/Good/Mastered）为单行防折断排版，防止长单词破相换行。
+  - **生词本 (Vocabulary)**：单词标题行采用弹性自适应与文字省略号截断保护，杜绝长单词将右侧删除按钮挤压出屏。
+  - **角色扮演 (RolePlay)**：剧中所有识别的角色 Chips 增加横向平滑滚动支持，彻底避免多角色时被屏幕右边缘切断。
+  - **字幕搜索 (SearchSubtitle)**：长 Release 标签与标题增加单行防护与省略号，优化下载按钮布局。
+  - **台词精练 (SentencePractice)**：词典长释义弹窗增加纵向滚动支持；顶部栏标题长文本防护。
+  - **系统设置 (Settings)**：TTS / STT 双对称验证按钮精炼防换行。
+- 📱 **真机逐屏高保真验证**：在真机小米设备完成全部 10 个界面的冷启动与截图审计，达到发布级工业美观度。
 
 ### v1.0.3 (2026-10-06)
 - 🎯 **彻底根除恒定 86 分 Bug**：重构客户端与服务端评测算法，解决因句子 ID 未同步触发的离线硬编码兜底。

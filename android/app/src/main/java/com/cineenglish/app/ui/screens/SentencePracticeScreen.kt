@@ -24,6 +24,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.cineenglish.app.data.local.*
@@ -526,7 +527,9 @@ fun SentencePracticeScreen(
                 title = {
                     Text(
                         "Sentence ${currentIndex + 1}/${sentences.size}",
-                        style = MaterialTheme.typography.titleMedium
+                        style = MaterialTheme.typography.titleMedium,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
                     )
                 },
                 navigationIcon = {
@@ -1111,7 +1114,7 @@ fun SentencePracticeScreen(
                 }
             },
             text = {
-                Column {
+                Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
                     if (isLookingUpDict) {
                         CircularProgressIndicator(color = SecondaryTeal, modifier = Modifier.size(24.dp))
                     } else dictDefinition?.let { def ->

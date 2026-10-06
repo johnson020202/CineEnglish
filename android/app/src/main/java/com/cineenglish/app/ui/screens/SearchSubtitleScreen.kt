@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.cineenglish.app.data.local.AppDatabase
@@ -248,6 +249,7 @@ fun SearchSubtitleScreen(
             // Results List
             LazyColumn(
                 modifier = Modifier.fillMaxSize(),
+                contentPadding = PaddingValues(bottom = 24.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 items(results, key = { it.subtitleId }) { item ->
@@ -270,19 +272,38 @@ fun SearchSubtitleScreen(
                                     item.movieName,
                                     style = MaterialTheme.typography.titleMedium,
                                     color = TextPrimary,
-                                    fontWeight = FontWeight.Bold
+                                    fontWeight = FontWeight.Bold,
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
                                 )
                                 Spacer(Modifier.height(3.dp))
-                                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                ) {
                                     if (item.seasonNumber != null && item.episodeNumber != null) {
-                                        Text("S${item.seasonNumber}E${item.episodeNumber}", color = SecondaryTeal, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+                                        Text(
+                                            "S${item.seasonNumber}E${item.episodeNumber}",
+                                            color = SecondaryTeal,
+                                            fontSize = 12.sp,
+                                            fontWeight = FontWeight.SemiBold
+                                        )
                                     }
-                                    Text(item.release ?: "Release", color = TextSecondary, fontSize = 12.sp)
+                                    Text(
+                                        item.release ?: "Release",
+                                        color = TextSecondary,
+                                        fontSize = 12.sp,
+                                        maxLines = 1,
+                                        overflow = TextOverflow.Ellipsis,
+                                        modifier = Modifier.weight(1f, fill = false)
+                                    )
                                     if (item.hearingImpaired) {
-                                        Text("[HI/Hearing Impaired]", color = AccentAmber, fontSize = 11.sp)
+                                        Text("[HI]", color = AccentAmber, fontSize = 11.sp, fontWeight = FontWeight.SemiBold)
                                     }
                                 }
                             }
+                            Spacer(Modifier.width(8.dp))
                             IconButton(onClick = { downloadAndImport(item) }) {
                                 Icon(Icons.Default.Download, contentDescription = "Import", tint = SecondaryTeal)
                             }

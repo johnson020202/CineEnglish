@@ -102,6 +102,7 @@ fun ReviewScreen(
             } else {
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
+                    contentPadding = PaddingValues(bottom = 24.dp),
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
                     items(dueItems, key = { it.id }) { item ->
@@ -149,42 +150,42 @@ fun ReviewScreen(
 
                                 Spacer(Modifier.height(12.dp))
 
-                                // SRS Quality Buttons
+                                // SRS Quality Buttons (Anti-squeeze, compact & single line)
                                 Row(
                                     modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                    horizontalArrangement = Arrangement.spacedBy(4.dp)
                                 ) {
                                     OutlinedButton(
                                         onClick = { submitReviewResult(item, 1) },
                                         modifier = Modifier.weight(1f),
                                         colors = ButtonDefaults.outlinedButtonColors(contentColor = ScoreRed),
-                                        contentPadding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
+                                        contentPadding = PaddingValues(horizontal = 2.dp, vertical = 4.dp)
                                     ) {
-                                        Text("Forgot", fontSize = 12.sp)
+                                        Text("Forgot", fontSize = 11.sp, maxLines = 1)
                                     }
                                     OutlinedButton(
                                         onClick = { submitReviewResult(item, 2) },
                                         modifier = Modifier.weight(1f),
                                         colors = ButtonDefaults.outlinedButtonColors(contentColor = ScoreYellow),
-                                        contentPadding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
+                                        contentPadding = PaddingValues(horizontal = 2.dp, vertical = 4.dp)
                                     ) {
-                                        Text("Hard", fontSize = 12.sp)
+                                        Text("Hard", fontSize = 11.sp, maxLines = 1)
                                     }
                                     OutlinedButton(
                                         onClick = { submitReviewResult(item, 3) },
                                         modifier = Modifier.weight(1f),
                                         colors = ButtonDefaults.outlinedButtonColors(contentColor = SecondaryTeal),
-                                        contentPadding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
+                                        contentPadding = PaddingValues(horizontal = 2.dp, vertical = 4.dp)
                                     ) {
-                                        Text("Good", fontSize = 12.sp)
+                                        Text("Good", fontSize = 11.sp, maxLines = 1)
                                     }
                                     OutlinedButton(
                                         onClick = { submitReviewResult(item, 4) },
                                         modifier = Modifier.weight(1f),
                                         colors = ButtonDefaults.outlinedButtonColors(contentColor = ScoreGreen),
-                                        contentPadding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
+                                        contentPadding = PaddingValues(horizontal = 2.dp, vertical = 4.dp)
                                     ) {
-                                        Text("Mastered", fontSize = 12.sp)
+                                        Text("Mastered", fontSize = 11.sp, maxLines = 1)
                                     }
                                 }
                             }

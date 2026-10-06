@@ -18,6 +18,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.cineenglish.app.data.local.AppSettings
@@ -640,7 +641,14 @@ fun SettingsScreen(
                     ) {
                         Icon(Icons.Default.VolumeUp, contentDescription = null, modifier = Modifier.size(16.dp), tint = SecondaryTeal)
                         Spacer(Modifier.width(6.dp))
-                        Text("🔊 Test TTS (Listen)", fontSize = 12.sp, color = SecondaryTeal, fontWeight = FontWeight.Medium)
+                        Text(
+                            "🔊 Test TTS",
+                            fontSize = 12.sp,
+                            color = SecondaryTeal,
+                            fontWeight = FontWeight.Medium,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis
+                        )
                     }
 
                     OutlinedButton(
@@ -653,7 +661,14 @@ fun SettingsScreen(
                     ) {
                         Icon(Icons.Default.Mic, contentDescription = null, modifier = Modifier.size(16.dp), tint = AccentAmber)
                         Spacer(Modifier.width(6.dp))
-                        Text("🎙️ Test STT (Scorer)", fontSize = 12.sp, color = AccentAmber, fontWeight = FontWeight.Medium)
+                        Text(
+                            "🎙️ Test STT",
+                            fontSize = 12.sp,
+                            color = AccentAmber,
+                            fontWeight = FontWeight.Medium,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis
+                        )
                     }
                 }
             }

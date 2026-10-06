@@ -252,10 +252,11 @@ fun LibraryScreen(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Column {
+                Column(modifier = Modifier.weight(1f, fill = false)) {
                     Text("Total Titles: ${materials.size}", color = TextPrimary, fontWeight = FontWeight.SemiBold)
                     Text("Practice with authentic lines", color = TextSecondary, fontSize = 12.sp)
                 }
+                Spacer(Modifier.width(8.dp))
                 Button(
                     onClick = { onNavigate(Screen.SearchSubtitle.route) },
                     colors = ButtonDefaults.buttonColors(containerColor = PrimaryIndigo),
@@ -304,6 +305,7 @@ fun LibraryScreen(
             } else {
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
+                    contentPadding = PaddingValues(bottom = 24.dp),
                     verticalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
                     items(filteredMaterials, key = { it.id }) { mat ->

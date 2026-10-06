@@ -136,8 +136,8 @@ fun LearningRecordsScreen(
             Text("Practice Log", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = TextPrimary)
             Spacer(Modifier.height(8.dp))
 
-            // History Records List
-            val recordsFlow = remember { db.practiceRecordDao().getRecordsByMaterialFlow(0) }
+            // History Records List (Displays all practice recordings across all materials)
+            val recordsFlow = remember { db.practiceRecordDao().getAllRecordsFlow() }
             val records by recordsFlow.collectAsState(initial = emptyList())
 
             if (records.isEmpty()) {
@@ -147,6 +147,7 @@ fun LearningRecordsScreen(
             } else {
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
+                    contentPadding = PaddingValues(bottom = 24.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     items(records, key = { it.id }) { rec ->

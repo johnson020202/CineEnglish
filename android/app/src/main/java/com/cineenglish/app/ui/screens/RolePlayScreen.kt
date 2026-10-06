@@ -3,6 +3,8 @@ package com.cineenglish.app.ui.screens
 import android.net.Uri
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -177,12 +179,17 @@ fun RolePlayScreen(
                 Column(modifier = Modifier.padding(12.dp)) {
                     Text("Select Your Character:", fontSize = 12.sp, color = TextMuted)
                     Spacer(Modifier.height(6.dp))
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .horizontalScroll(rememberScrollState()),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
                         speakers.forEach { spk ->
                             FilterChip(
                                 selected = (userCharacter == spk),
                                 onClick = { userCharacter = spk },
-                                label = { Text(spk, fontSize = 12.sp) },
+                                label = { Text(spk, fontSize = 12.sp, maxLines = 1) },
                                 leadingIcon = {
                                     if (userCharacter == spk) Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(14.dp))
                                 }
@@ -199,6 +206,7 @@ fun RolePlayScreen(
                 modifier = Modifier
                     .weight(1f)
                     .fillMaxWidth(),
+                contentPadding = PaddingValues(bottom = 16.dp),
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
                 items(dialogueHistory) { msg ->

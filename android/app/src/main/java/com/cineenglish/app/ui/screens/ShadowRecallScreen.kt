@@ -3,6 +3,8 @@ package com.cineenglish.app.ui.screens
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -110,198 +112,223 @@ fun ShadowRecallScreen(
                 .padding(horizontal = 20.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Mode Selector: Exact Recitation vs Free Paraphrase
-            Row(
+            // Scrollable upper content (Cards and feedback never clipped)
+            Column(
                 modifier = Modifier
+                    .weight(1f)
                     .fillMaxWidth()
-                    .clip(RoundedCornerShape(10.dp))
-                    .background(DarkSurface)
-                    .padding(4.dp),
-                horizontalArrangement = Arrangement.SpaceEvenly
+                    .verticalScroll(rememberScrollState()),
+                horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                FilterChip(
-                    selected = isFreeParaphraseMode,
-                    onClick = { isFreeParaphraseMode = true; recallResult = null },
-                    label = { Text("Free Paraphrase", fontSize = 13.sp) },
-                    leadingIcon = { Icon(Icons.Default.AutoFixHigh, contentDescription = null, modifier = Modifier.size(16.dp)) }
-                )
-                FilterChip(
-                    selected = !isFreeParaphraseMode,
-                    onClick = { isFreeParaphraseMode = false; recallResult = null },
-                    label = { Text("Exact Recitation", fontSize = 13.sp) },
-                    leadingIcon = { Icon(Icons.Default.RecordVoiceOver, contentDescription = null, modifier = Modifier.size(16.dp)) }
-                )
-            }
-
-            Spacer(Modifier.height(20.dp))
-
-            if (currentSentence != null) {
-                val words = currentSentence.text.split(" ")
-                val keyHints = words.filter { it.length > 5 }.take(2)
-
-                // Obscured Subtitle Card
-                Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(16.dp),
-                    colors = CardDefaults.cardColors(containerColor = DarkCard)
-                ) {
-                    Column(
-                        modifier = Modifier.padding(20.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
-                        if (isSubtitleRevealed) {
-                            Text(
-                                currentSentence.text,
-                                style = MaterialTheme.typography.titleLarge,
-                                fontWeight = FontWeight.Bold,
-                                color = TextPrimary
-                            )
-                        } else {
-                            // Hidden / Masked mode
-                            Text(
-                                "●●●●●●●●●●●●●●●●●●●●●●●●",
-                                fontSize = 20.sp,
-                                color = DarkSurfaceVariant,
-                                letterSpacing = 2.sp
-                            )
-                            Spacer(Modifier.height(10.dp))
-                            Text(
-                                "Sentence length: ${words.size} words",
-                                fontSize = 12.sp,
-                                color = TextMuted
-                            )
-                            if (keyHints.isNotEmpty()) {
-                                Spacer(Modifier.height(6.dp))
-                                Text(
-                                    "Keywords hint: ${keyHints.joinToString(", ")}",
-                                    fontSize = 13.sp,
-                                    color = AccentAmber,
-                                    fontWeight = FontWeight.Medium
-                                )
-                            }
-                        }
-
-                        Spacer(Modifier.height(14.dp))
-
-                        TextButton(onClick = { isSubtitleRevealed = !isSubtitleRevealed }) {
-                            Icon(
-                                if (isSubtitleRevealed) Icons.Default.VisibilityOff else Icons.Default.Visibility,
-                                contentDescription = null,
-                                modifier = Modifier.size(18.dp)
-                            )
-                            Spacer(Modifier.width(6.dp))
-                            Text(if (isSubtitleRevealed) "Hide Script" else "Reveal Script", color = SecondaryTeal)
-                        }
-                    }
-                }
-
-                Spacer(Modifier.height(20.dp))
-
-                // Feedback & Evaluation Result
-                if (isEvaluating) {
-                    CircularProgressIndicator(color = SecondaryTeal)
-                } else recallResult?.let { res ->
-                    Card(
-                        modifier = Modifier.fillMaxWidth(),
-                        colors = CardDefaults.cardColors(containerColor = DarkSurface),
-                        shape = RoundedCornerShape(12.dp)
-                    ) {
-                        Column(modifier = Modifier.padding(16.dp)) {
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween,
-                                verticalAlignment = Alignment.CenterVertically
-                            ) {
-                                Text(
-                                    "Overall: ${res.overallScore.toInt()}%",
-                                    fontSize = 20.sp,
-                                    fontWeight = FontWeight.Bold,
-                                    color = if (res.isAcceptable) ScoreGreen else ScoreYellow
-                                )
-                                Text(
-                                    if (res.isAcceptable) "Valid Paraphrase" else "Meaning Drift",
-                                    color = if (res.isAcceptable) ScoreGreen else ScoreYellow,
-                                    fontSize = 12.sp,
-                                    fontWeight = FontWeight.SemiBold
-                                )
-                            }
-                            Spacer(Modifier.height(8.dp))
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween
-                            ) {
-                                MetricItem("Meaning", res.meaningScore.toInt())
-                                MetricItem("Grammar", res.grammarScore.toInt())
-                                MetricItem("Naturalness", res.naturalnessScore.toInt())
-                            }
-                            Spacer(Modifier.height(10.dp))
-                            Text(res.suggestionsEn, fontSize = 13.sp, color = TextPrimary)
-                        }
-                    }
-                }
-
-                Spacer(Modifier.weight(1f))
-
-                // Record / Paraphrase Speak Button
-                Box(
+                // Mode Selector: Exact Recitation vs Free Paraphrase
+                Row(
                     modifier = Modifier
-                        .size(80.dp)
-                        .clip(CircleShape)
-                        .background(if (isRecording) ScoreRed else PrimaryIndigo)
-                        .clickable {
-                            if (isRecording) {
-                                isRecording = false
-                                val f = recorder.stopRecording()
-                                lastFile = f
-                                submitRecallEvaluation()
-                            } else {
-                                val f = recorder.startRecording(currentSentence.id, enableSilenceStop = true)
-                                if (f != null) {
-                                    isRecording = true
-                                    lastFile = f
-                                }
-                            }
-                        },
-                    contentAlignment = Alignment.Center
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(10.dp))
+                        .background(DarkSurface)
+                        .padding(4.dp),
+                    horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Icon(
-                        if (isRecording) Icons.Default.Stop else Icons.Default.Mic,
-                        contentDescription = "Speak",
-                        tint = Color.White,
-                        modifier = Modifier.size(38.dp)
+                    FilterChip(
+                        selected = isFreeParaphraseMode,
+                        onClick = { isFreeParaphraseMode = true; recallResult = null },
+                        label = { Text("Free Paraphrase", fontSize = 13.sp) },
+                        leadingIcon = { Icon(Icons.Default.AutoFixHigh, contentDescription = null, modifier = Modifier.size(16.dp)) }
+                    )
+                    FilterChip(
+                        selected = !isFreeParaphraseMode,
+                        onClick = { isFreeParaphraseMode = false; recallResult = null },
+                        label = { Text("Exact Recitation", fontSize = 13.sp) },
+                        leadingIcon = { Icon(Icons.Default.RecordVoiceOver, contentDescription = null, modifier = Modifier.size(16.dp)) }
                     )
                 }
 
                 Spacer(Modifier.height(16.dp))
 
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween
-                ) {
-                    IconButton(
-                        onClick = {
-                            if (currentIndex > 0) {
-                                currentIndex--
-                                isSubtitleRevealed = false
-                                recallResult = null
-                            }
-                        },
-                        enabled = currentIndex > 0
+                if (currentSentence != null) {
+                    val words = currentSentence.text.split(" ")
+                    val keyHints = words.filter { it.length > 5 }.take(2)
+
+                    // Obscured Subtitle Card
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(16.dp),
+                        colors = CardDefaults.cardColors(containerColor = DarkCard)
                     ) {
-                        Icon(Icons.Default.SkipPrevious, contentDescription = "Previous")
+                        Column(
+                            modifier = Modifier.padding(20.dp),
+                            horizontalAlignment = Alignment.CenterHorizontally
+                        ) {
+                            if (isSubtitleRevealed) {
+                                Text(
+                                    currentSentence.text,
+                                    style = MaterialTheme.typography.titleLarge,
+                                    fontWeight = FontWeight.Bold,
+                                    color = TextPrimary
+                                )
+                            } else {
+                                // Hidden / Masked mode
+                                Text(
+                                    "●●●●●●●●●●●●●●●●●●●●●●●●",
+                                    fontSize = 20.sp,
+                                    color = DarkSurfaceVariant,
+                                    letterSpacing = 2.sp
+                                )
+                                Spacer(Modifier.height(10.dp))
+                                Text(
+                                    "Sentence length: ${words.size} words",
+                                    fontSize = 12.sp,
+                                    color = TextMuted
+                                )
+                                if (keyHints.isNotEmpty()) {
+                                    Spacer(Modifier.height(6.dp))
+                                    Text(
+                                        "Keywords hint: ${keyHints.joinToString(", ")}",
+                                        fontSize = 13.sp,
+                                        color = AccentAmber,
+                                        fontWeight = FontWeight.Medium
+                                    )
+                                }
+                            }
+
+                            Spacer(Modifier.height(14.dp))
+
+                            TextButton(onClick = { isSubtitleRevealed = !isSubtitleRevealed }) {
+                                Icon(
+                                    if (isSubtitleRevealed) Icons.Default.VisibilityOff else Icons.Default.Visibility,
+                                    contentDescription = null,
+                                    modifier = Modifier.size(18.dp)
+                                )
+                                Spacer(Modifier.width(6.dp))
+                                Text(if (isSubtitleRevealed) "Hide Script" else "Reveal Script", color = SecondaryTeal)
+                            }
+                        }
                     }
 
-                    IconButton(
-                        onClick = {
-                            if (currentIndex < sentences.size - 1) {
-                                currentIndex++
-                                isSubtitleRevealed = false
-                                recallResult = null
+                    Spacer(Modifier.height(16.dp))
+
+                    // Feedback & Evaluation Result
+                    if (isEvaluating) {
+                        CircularProgressIndicator(color = SecondaryTeal)
+                    } else recallResult?.let { res ->
+                        Card(
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = CardDefaults.cardColors(containerColor = DarkSurface),
+                            shape = RoundedCornerShape(12.dp)
+                        ) {
+                            Column(modifier = Modifier.padding(16.dp)) {
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Text(
+                                        "Overall: ${res.overallScore.toInt()}%",
+                                        fontSize = 20.sp,
+                                        fontWeight = FontWeight.Bold,
+                                        color = if (res.isAcceptable) ScoreGreen else ScoreYellow
+                                    )
+                                    Text(
+                                        if (res.isAcceptable) "Valid Paraphrase" else "Meaning Drift",
+                                        color = if (res.isAcceptable) ScoreGreen else ScoreYellow,
+                                        fontSize = 12.sp,
+                                        fontWeight = FontWeight.SemiBold
+                                    )
+                                }
+                                Spacer(Modifier.height(8.dp))
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween
+                                ) {
+                                    MetricItem("Meaning", res.meaningScore.toInt())
+                                    MetricItem("Grammar", res.grammarScore.toInt())
+                                    MetricItem("Naturalness", res.naturalnessScore.toInt())
+                                }
+                                Spacer(Modifier.height(10.dp))
+                                Text(res.suggestionsEn, fontSize = 13.sp, color = TextPrimary)
                             }
-                        },
-                        enabled = currentIndex < sentences.size - 1
+                        }
+                    }
+                    Spacer(Modifier.height(16.dp))
+                }
+            }
+
+            if (currentSentence != null) {
+                // Fixed Bottom Control Dock (Speak button & Navigation)
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = 12.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    // Record / Paraphrase Speak Button
+                    Box(
+                        modifier = Modifier
+                            .size(76.dp)
+                            .clip(CircleShape)
+                            .background(if (isRecording) ScoreRed else PrimaryIndigo)
+                            .clickable {
+                                if (isRecording) {
+                                    isRecording = false
+                                    val f = recorder.stopRecording()
+                                    lastFile = f
+                                    submitRecallEvaluation()
+                                } else {
+                                    val f = recorder.startRecording(currentSentence.id, enableSilenceStop = true)
+                                    if (f != null) {
+                                        isRecording = true
+                                        lastFile = f
+                                    }
+                                }
+                            },
+                        contentAlignment = Alignment.Center
                     ) {
-                        Icon(Icons.Default.SkipNext, contentDescription = "Next")
+                        Icon(
+                            if (isRecording) Icons.Default.Stop else Icons.Default.Mic,
+                            contentDescription = "Speak",
+                            tint = Color.White,
+                            modifier = Modifier.size(36.dp)
+                        )
+                    }
+
+                    Spacer(Modifier.height(12.dp))
+
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        IconButton(
+                            onClick = {
+                                if (currentIndex > 0) {
+                                    currentIndex--
+                                    isSubtitleRevealed = false
+                                    recallResult = null
+                                }
+                            },
+                            enabled = currentIndex > 0
+                        ) {
+                            Icon(Icons.Default.SkipPrevious, contentDescription = "Previous")
+                        }
+
+                        Text(
+                            "${currentIndex + 1} / ${sentences.size}",
+                            color = TextMuted,
+                            fontSize = 12.sp
+                        )
+
+                        IconButton(
+                            onClick = {
+                                if (currentIndex < sentences.size - 1) {
+                                    currentIndex++
+                                    isSubtitleRevealed = false
+                                    recallResult = null
+                                }
+                            },
+                            enabled = currentIndex < sentences.size - 1
+                        ) {
+                            Icon(Icons.Default.SkipNext, contentDescription = "Next")
+                        }
                     }
                 }
             }

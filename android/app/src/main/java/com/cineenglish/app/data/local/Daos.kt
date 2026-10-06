@@ -53,6 +53,9 @@ interface PracticeRecordDao {
     @Query("SELECT * FROM practice_records WHERE materialId = :materialId ORDER BY createdAt DESC")
     fun getRecordsByMaterialFlow(materialId: Long): Flow<List<PracticeRecordEntity>>
 
+    @Query("SELECT * FROM practice_records ORDER BY createdAt DESC")
+    fun getAllRecordsFlow(): Flow<List<PracticeRecordEntity>>
+
     @Query("SELECT * FROM practice_records WHERE syncStatus = 0")
     suspend fun getPendingSyncRecords(): List<PracticeRecordEntity>
 
