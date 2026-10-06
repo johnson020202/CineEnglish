@@ -110,57 +110,31 @@ fun LibraryScreen(
         it.title.contains(searchQuery, ignoreCase = true)
     }
 
-    fun loadDemoMaterials() {
-        scope.launch(Dispatchers.IO) {
-            val friendsMatId = db.materialDao().insertMaterial(
-                MaterialEntity(
-                    title = "Friends S01E01 - Central Perk Encounter",
-                    subtitleSource = "builtin_demo",
-                    mediaType = "tv_show",
-                    season = 1,
-                    episode = 1,
-                    releaseVersion = "Classic Sitcom Audio",
-                    sentenceCount = 8,
-                    durationMs = 32000L
-                )
-            )
-            val friendsSentences = listOf(
-                SentenceEntity(materialId = friendsMatId, index = 0, startMs = 0, endMs = 3500, speaker = "Monica", text = "There's nothing to tell! He's just some guy I work with!"),
-                SentenceEntity(materialId = friendsMatId, index = 1, startMs = 3800, endMs = 7200, speaker = "Joey", text = "C'mon, you're going out with the guy! There's gotta be something wrong with him!"),
-                SentenceEntity(materialId = friendsMatId, index = 2, startMs = 7500, endMs = 11500, speaker = "Chandler", text = "All right Joey, be nice. So does he have a hump? A hump and a hairpiece?"),
-                SentenceEntity(materialId = friendsMatId, index = 3, startMs = 12000, endMs = 14500, speaker = "Phoebe", text = "Wait, does he eat chalk?"),
-                SentenceEntity(materialId = friendsMatId, index = 4, startMs = 15000, endMs = 19000, speaker = "Phoebe", text = "Just, 'cause, I don't want her to go through what I went through with Carl- oh!"),
-                SentenceEntity(materialId = friendsMatId, index = 5, startMs = 19500, endMs = 24500, speaker = "Monica", text = "Okay, everybody relax. This is not even a date. It's just two people going out to dinner and not having sex."),
-                SentenceEntity(materialId = friendsMatId, index = 6, startMs = 25000, endMs = 27500, speaker = "Joey", text = "Sounds like a date to me."),
-                SentenceEntity(materialId = friendsMatId, index = 7, startMs = 28000, endMs = 32000, speaker = "Chandler", text = "Alright, so I'm back in high school, I'm standing in the middle of the cafeteria, and I realize I am totally naked.")
-            )
-            db.sentenceDao().insertSentences(friendsSentences)
+    var isImportingClassics by remember { mutableStateOf(false) }
 
-            val gumpMatId = db.materialDao().insertMaterial(
-                MaterialEntity(
-                    title = "Forrest Gump - Box of Chocolates",
-                    subtitleSource = "builtin_demo",
-                    mediaType = "movie",
-                    releaseVersion = "Academy Award Classic",
-                    sentenceCount = 5,
-                    durationMs = 22000L
+    fun loadFullClassics(force: Boolean = false) {
+        scope.launch {
+            isImportingClassics = true
+            try {
+                com.cineenglish.app.data.local.BuiltinMaterialsLoader.ensureFullClassicsImported(
+                    context = context,
+                    db = db,
+                    forceReload = force
                 )
-            )
-            val gumpSentences = listOf(
-                SentenceEntity(materialId = gumpMatId, index = 0, startMs = 0, endMs = 4500, speaker = "Forrest", text = "Hello. My name's Forrest, Forrest Gump. Do you want a chocolate?"),
-                SentenceEntity(materialId = gumpMatId, index = 1, startMs = 5000, endMs = 9500, speaker = "Forrest", text = "Mama always said life was like a box of chocolates. You never know what you're gonna get."),
-                SentenceEntity(materialId = gumpMatId, index = 2, startMs = 10000, endMs = 13500, speaker = "Forrest", text = "My mama always said you've got to put the past behind you before you can move on."),
-                SentenceEntity(materialId = gumpMatId, index = 3, startMs = 14000, endMs = 18000, speaker = "Forrest", text = "I'm not a smart man, but I know what love is."),
-                SentenceEntity(materialId = gumpMatId, index = 4, startMs = 18500, endMs = 22000, speaker = "Forrest", text = "You have to do the best with what God gave you.")
-            )
-            db.sentenceDao().insertSentences(gumpSentences)
+            } finally {
+                isImportingClassics = false
+            }
         }
     }
 
     LaunchedEffect(Unit) {
-        val count = withContext(Dispatchers.IO) { db.materialDao().getMaterialCount() }
-        if (count == 0) {
-            loadDemoMaterials()
+        // Automatically ensure full scripts for Shawshank Redemption & Forrest Gump are loaded
+        loadFullClassics(force = false)
+    }
+
+    LaunchedEffect(materials) {
+        materials.forEach {
+            android.util.Log.i("LibraryDebug", "Material in DB: id=${it.id}, title=${it.title}, sentenceCount=${it.sentenceCount}")
         }
     }
 
@@ -283,13 +257,13 @@ fun LibraryScreen(
                         Text("Search online or import your SRT/VTT subtitle files.", color = TextMuted, fontSize = 13.sp)
                         Spacer(Modifier.height(16.dp))
                         Button(
-                            onClick = { loadDemoMaterials() },
+                            onClick = { loadFullClassics(force = true) },
                             colors = ButtonDefaults.buttonColors(containerColor = PrimaryIndigo),
                             shape = RoundedCornerShape(10.dp)
                         ) {
                             Icon(Icons.Default.AutoAwesome, contentDescription = null)
                             Spacer(Modifier.width(8.dp))
-                            Text("Load Demo Dialogues (Friends & Gump)")
+                            Text("Load Full Classics (Shawshank & Forrest Gump)")
                         }
                         Spacer(Modifier.height(10.dp))
                         OutlinedButton(
@@ -303,6 +277,24 @@ fun LibraryScreen(
                     }
                 }
             } else {
+                if (isImportingClassics) {
+                    Card(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(bottom = 12.dp),
+                        colors = CardDefaults.cardColors(containerColor = DarkSurfaceVariant)
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(12.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            CircularProgressIndicator(modifier = Modifier.size(20.dp), strokeWidth = 2.dp, color = PrimaryIndigo)
+                            Spacer(Modifier.width(12.dp))
+                            Text("Importing full movie scripts (Shawshank & Forrest Gump)...", fontSize = 13.sp, color = TextPrimary)
+                        }
+                    }
+                }
+
                 LazyColumn(
                     modifier = Modifier.fillMaxSize(),
                     contentPadding = PaddingValues(bottom = 24.dp),
@@ -311,7 +303,10 @@ fun LibraryScreen(
                     items(filteredMaterials, key = { it.id }) { mat ->
                         MaterialItemCard(
                             material = mat,
-                            onPractice = { onNavigate(Screen.SentencePractice.createRoute(mat.id)) },
+                            onPractice = {
+                                android.util.Log.i("LibraryDebug", "Clicked practice for id=${mat.id}, title=${mat.title}, count=${mat.sentenceCount}")
+                                onNavigate(Screen.SentencePractice.createRoute(mat.id))
+                            },
                             onVideo = { onNavigate(Screen.VideoPractice.createRoute(mat.id)) },
                             onRecall = { onNavigate(Screen.ShadowRecall.createRoute(mat.id)) },
                             onRolePlay = { onNavigate(Screen.RolePlay.createRoute(mat.id)) },
@@ -332,15 +327,15 @@ fun LibraryScreen(
             onDismissRequest = { showImportDialog = false },
             title = { Text("Import Subtitle or Media") },
             text = {
-                Text("Select a subtitle file (SRT, VTT, ASS, TXT) from your device storage. CineEnglish will automatically parse and merge natural dialogue sentences.")
+                Text("Select a subtitle file (SRT, VTT, ASS, TXT) from device storage, or load full official scripts of classic movies (The Shawshank Redemption & Forrest Gump).")
             },
             confirmButton = {
                 Row {
                     TextButton(onClick = {
                         showImportDialog = false
-                        loadDemoMaterials()
+                        loadFullClassics(force = true)
                     }) {
-                        Text("Load Demo", color = SecondaryTeal)
+                        Text("Load Full Classics", color = SecondaryTeal)
                     }
                     TextButton(onClick = {
                         showImportDialog = false

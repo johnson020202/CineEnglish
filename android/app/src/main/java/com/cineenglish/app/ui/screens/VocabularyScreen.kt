@@ -47,24 +47,7 @@ fun VocabularyScreen(
     }
 
     fun playWordAudio(word: String) {
-        scope.launch(Dispatchers.IO) {
-            val baseUrl = settings.backendUrlFlow.first()
-            val aiApiKey = settings.getAiApiKeyFlow().first()
-            val aiBaseUrl = settings.aiBaseUrlFlow.first()
-            val voiceUrl = "$baseUrl/api/v1/ai/synthesize-american-voice?text=${Uri.encode(word)}&voice=alloy&api_key=${Uri.encode(aiApiKey)}&base_url=${Uri.encode(aiBaseUrl)}"
-
-            withContext(Dispatchers.Main) {
-                player.onPlaybackError = {
-                    player.onPlaybackError = null
-                    NativeTtsEngine.speak(word)
-                }
-                try {
-                    player.playAudio(Uri.parse(voiceUrl))
-                } catch (e: Exception) {
-                    NativeTtsEngine.speak(word)
-                }
-            }
-        }
+        NativeTtsEngine.speak(word)
     }
 
     Scaffold(

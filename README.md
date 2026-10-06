@@ -1,20 +1,25 @@
 # 🎬 CineEnglish (影视英语口语影子跟读工作台)
 
-[![Release](https://img.shields.io/badge/version-v1.0.4-blue.svg)](https://github.com/johnson020202/CineEnglish)
+[![Release](https://img.shields.io/badge/version-v1.0.5-blue.svg)](https://github.com/johnson020202/CineEnglish)
 [![Platform](https://img.shields.io/badge/Android-10%2B-green.svg)](https://developer.android.com)
 [![Backend](https://img.shields.io/badge/FastAPI-0.110%2B-teal.svg)](https://fastapi.tiangolo.com)
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
 
-**CineEnglish** 是一款专为英语学习者打造的高品质影视台词跟读与口语纠音 Android 应用。通过经典电影/美剧的原声台词、高精度时间轴对齐、神经网络美式发音示范、逐词声学对齐评分与大模型角色对戏，让你在沉浸式影视场景中告别中式哑巴英语。
+**CineEnglish** 是一款专为英语学习者打造的高品质影视台词跟读与口语纠音 Android 应用。内置经典电影全本英文台词、高精度时间轴对齐、零延迟原生美式发音示范、逐词声学对齐评分与大模型角色对戏，让你在沉浸式影视场景中告别中式哑巴英语。
 
 ---
 
 ## ✨ 核心特性
 
-- 🎙️ **逐句影子跟读与声学评测 (Shadowing & Scoring)**
-  - 毫秒级原生/美音示范播放（内置 Edge-TTS 神经网络美音合成）。
+- 🎬 **海量官方经典电影全本台词 (Full Authentic Movie Scripts)**
+  - 内置《肖申克的救赎》(The Shawshank Redemption，1994) **1686 句**完整英文剧本。
+  - 内置《阿甘正传》(Forrest Gump，1994) **1547 句**完整英文剧本。
+  - 支持随包离线加载、字幕自动清洗、智能断句合并与时间轴毫秒级对齐。
+
+- 🎙️ **零延迟原生美式示范发音 (Zero-Latency Native Audio)**
+  - 深度优化示范发音管线，优先调度端侧系统级高保真美音引擎，即点即播，彻底告别网络连接卡顿与握手超时。
   - 声学发音对齐引擎（Quality GateKeeper），对准确度（Accuracy）、完整度（Completeness）、流利度（Fluency）进行客观评分。
-  - 支持手动复习、发音回听、再练一次与达标后进入下一句。
+  - 支持手动复习、发音回听、示范音与录音一键连播对比、达标后自由切句。
 
 - 🎥 **本地视频时间轴联动 (Video Timeline Sync)**
   - 导入本地视频或音轨，自动与 SRT/ASS 字幕时间轴精准同步。

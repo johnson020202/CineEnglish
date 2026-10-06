@@ -50,16 +50,17 @@ object NativeTtsEngine {
                     engine.setSpeechRate(speed.coerceIn(0.5f, 2.0f))
                     engine.setPitch(1.0f)
 
+                    val mainHandler = android.os.Handler(android.os.Looper.getMainLooper())
                     val utteranceId = UUID.randomUUID().toString()
                     engine.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
                         override fun onStart(id: String?) {
-                            if (id == utteranceId) onStart?.invoke()
+                            if (id == utteranceId) mainHandler.post { onStart?.invoke() }
                         }
                         override fun onDone(id: String?) {
-                            if (id == utteranceId) onDone?.invoke()
+                            if (id == utteranceId) mainHandler.post { onDone?.invoke() }
                         }
                         override fun onError(id: String?) {
-                            if (id == utteranceId) onError?.invoke("Native TTS error")
+                            if (id == utteranceId) mainHandler.post { onError?.invoke("Native TTS error") }
                         }
                     })
 
@@ -67,10 +68,11 @@ object NativeTtsEngine {
                     params.putString(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, utteranceId)
                     val result = engine.speak(text, TextToSpeech.QUEUE_FLUSH, params, utteranceId)
                     if (result != TextToSpeech.SUCCESS) {
-                        onError?.invoke("Speak returned status $result")
+                        mainHandler.post { onError?.invoke("Speak returned status $result") }
                     }
                 } ?: run {
-                    onError?.invoke("TTS not available")
+                    val mainHandler = android.os.Handler(android.os.Looper.getMainLooper())
+                    mainHandler.post { onError?.invoke("TTS not available") }
                 }
             } catch (e: Exception) {
                 Log.e(TAG, "speak exception: ${e.message}", e)

@@ -82,27 +82,10 @@ fun RolePlayScreen(
             // Pause and wait for user voice
             dialogueHistory = dialogueHistory + DialogueMessage(turn.speaker ?: userCharacter, turn.text, isUser = true)
         } else {
-            // Opponent turn: synthesize voice and play
+            // Opponent turn: instantly speak with Native American English TTS
             val speakerName = turn.speaker ?: "OPPONENT"
             dialogueHistory = dialogueHistory + DialogueMessage(speakerName, turn.text, isUser = false)
-            scope.launch(Dispatchers.IO) {
-                val baseUrl = settings.backendUrlFlow.first()
-                val aiApiKey = settings.getAiApiKeyFlow().first()
-                val aiBaseUrl = settings.aiBaseUrlFlow.first()
-                val voiceUrl = "$baseUrl/api/v1/ai/synthesize-american-voice?text=${Uri.encode(turn.text)}&voice=alloy&api_key=${Uri.encode(aiApiKey)}&base_url=${Uri.encode(aiBaseUrl)}"
-
-                withContext(Dispatchers.Main) {
-                    player.onPlaybackError = {
-                        player.onPlaybackError = null
-                        NativeTtsEngine.speak(turn.text)
-                    }
-                    try {
-                        player.playAudio(Uri.parse(voiceUrl))
-                    } catch (e: Exception) {
-                        NativeTtsEngine.speak(turn.text)
-                    }
-                }
-            }
+            NativeTtsEngine.speak(turn.text)
         }
     }
 

@@ -63,6 +63,10 @@ fun SentencePracticeScreen(
     var currentIndex by remember { mutableIntStateOf(0) }
     val currentSentence = sentences.getOrNull(currentIndex)
 
+    LaunchedEffect(materialId, sentences.size) {
+        android.util.Log.i("PracticeDebug", "Practice screen loaded: materialId=$materialId, sentencesCount=${sentences.size}")
+    }
+
     // Audio Engines
     val recorder = remember { AudioRecorder(context) }
     val player = remember { AudioPlayer(context) }
@@ -204,42 +208,13 @@ fun SentencePracticeScreen(
             return
         }
 
-        // Priority 2: Online synthesis via backend (Edge-TTS / External AI TTS)
-        scope.launch(Dispatchers.IO) {
-            val baseUrl = settings.backendUrlFlow.first()
-            val aiApiKey = settings.getAiApiKeyFlow().first()
-            val aiBaseUrl = settings.aiBaseUrlFlow.first()
-
-            val ttsUrl = "$baseUrl/api/v1/ai/synthesize-american-voice?text=${Uri.encode(sentence.text)}&voice=$defaultVoice&speed=$playbackSpeed&api_key=${Uri.encode(aiApiKey)}&base_url=${Uri.encode(aiBaseUrl)}"
-
-            withContext(Dispatchers.Main) {
-                player.onPlaybackEnded = {
-                    player.onPlaybackEnded = null
-                    isPlayingDemo = false
-                }
-                player.onPlaybackError = {
-                    player.onPlaybackError = null
-                    // Seamless Fallback to Android Native American English TTS
-                    NativeTtsEngine.speak(
-                        text = sentence.text,
-                        speed = playbackSpeed,
-                        onDone = { isPlayingDemo = false },
-                        onError = { isPlayingDemo = false }
-                    )
-                }
-
-                try {
-                    player.playAudio(Uri.parse(ttsUrl), speed = playbackSpeed)
-                } catch (e: Exception) {
-                    NativeTtsEngine.speak(
-                        text = sentence.text,
-                        speed = playbackSpeed,
-                        onDone = { isPlayingDemo = false },
-                        onError = { isPlayingDemo = false }
-                    )
-                }
-            }
-        }
+        // Priority 2: Instant Native American English TTS (Zero latency, pure authentic US pronunciation)
+        NativeTtsEngine.speak(
+            text = sentence.text,
+            speed = playbackSpeed,
+            onDone = { isPlayingDemo = false },
+            onError = { isPlayingDemo = false }
+        )
     }
 
     fun playMyRecording() {
@@ -269,41 +244,17 @@ fun SentencePracticeScreen(
             return
         }
 
-        // Priority 2: Online synthesis
-        scope.launch(Dispatchers.IO) {
-            val baseUrl = settings.backendUrlFlow.first()
-            val aiApiKey = settings.getAiApiKeyFlow().first()
-            val aiBaseUrl = settings.aiBaseUrlFlow.first()
-            val ttsUrl = "$baseUrl/api/v1/ai/synthesize-american-voice?text=${Uri.encode(sentence.text)}&voice=$defaultVoice&api_key=${Uri.encode(aiApiKey)}&base_url=${Uri.encode(aiBaseUrl)}"
-
-            withContext(Dispatchers.Main) {
-                player.onPlaybackEnded = {
-                    player.onPlaybackEnded = null
-                    player.playAudio(Uri.fromFile(recorded))
-                }
-                player.onPlaybackError = {
-                    player.onPlaybackError = null
-                    NativeTtsEngine.speak(
-                        text = sentence.text,
-                        speed = playbackSpeed,
-                        onDone = {
-                            player.playAudio(Uri.fromFile(recorded))
-                        }
-                    )
-                }
-                try {
-                    player.playAudio(Uri.parse(ttsUrl), speed = playbackSpeed)
-                } catch (e: Exception) {
-                    NativeTtsEngine.speak(
-                        text = sentence.text,
-                        speed = playbackSpeed,
-                        onDone = {
-                            player.playAudio(Uri.fromFile(recorded))
-                        }
-                    )
-                }
+        // Priority 2: Instant Native American English TTS, followed by user recording comparison
+        NativeTtsEngine.speak(
+            text = sentence.text,
+            speed = playbackSpeed,
+            onDone = {
+                player.playAudio(Uri.fromFile(recorded))
+            },
+            onError = {
+                player.playAudio(Uri.fromFile(recorded))
             }
-        }
+        )
     }
 
     fun evaluateRecording(audioFile: File) {

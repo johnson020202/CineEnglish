@@ -14,6 +14,9 @@ import androidx.core.content.ContextCompat
 import androidx.navigation.compose.rememberNavController
 import com.cineenglish.app.ui.navigation.CineNavHost
 import com.cineenglish.app.ui.theme.CineEnglishTheme
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import com.cineenglish.app.ui.theme.DarkBackground
 
 class MainActivity : ComponentActivity() {
@@ -30,6 +33,17 @@ class MainActivity : ComponentActivity() {
 
         // Check and request microphone permission
         checkAndRequestPermissions()
+
+        val forceReload = intent.getBooleanExtra("force_reload_classics", false)
+        // Asynchronously ensure classic movie dialogues are fully loaded into Room database
+        kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch {
+            val db = com.cineenglish.app.data.local.AppDatabase.getInstance(applicationContext)
+            com.cineenglish.app.data.local.BuiltinMaterialsLoader.ensureFullClassicsImported(
+                context = applicationContext,
+                db = db,
+                forceReload = forceReload
+            )
+        }
 
         val targetRoute = intent.getStringExtra("target_route")
 

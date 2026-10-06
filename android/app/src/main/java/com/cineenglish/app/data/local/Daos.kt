@@ -20,6 +20,12 @@ interface MaterialDao {
     @Update
     suspend fun updateMaterial(material: MaterialEntity)
 
+    @Query("SELECT * FROM materials WHERE title LIKE :query LIMIT 1")
+    suspend fun findMaterialByTitleLike(query: String): MaterialEntity?
+
+    @Query("DELETE FROM materials WHERE title LIKE :query")
+    suspend fun deleteMaterialsByTitleLike(query: String)
+
     @Delete
     suspend fun deleteMaterial(material: MaterialEntity)
 }
@@ -34,6 +40,9 @@ interface SentenceDao {
 
     @Query("SELECT * FROM sentences WHERE id = :id")
     suspend fun getSentenceById(id: Long): SentenceEntity?
+
+    @Query("SELECT COUNT(*) FROM sentences WHERE materialId = :materialId")
+    suspend fun getSentenceCountByMaterial(materialId: Long): Int
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertSentences(sentences: List<SentenceEntity>)
