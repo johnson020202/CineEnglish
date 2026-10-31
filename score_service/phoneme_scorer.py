@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 SAMPLING_RATE = 16000
 
 MODEL_DIR = os.environ.get("PHONEME_MODEL_DIR", "/opt/cine_score")
-ONNX_PATH = os.environ.get("PHONEME_ONNX_PATH", os.path.join(MODEL_DIR, "phone_int8.onnx"))
+ONNX_PATH = os.environ.get("PHONEME_ONNX_PATH", os.path.join(MODEL_DIR, "phone_int8_mm.onnx"))
 VOCAB_PATH = os.environ.get("PHONEME_VOCAB_PATH", os.path.join(MODEL_DIR, "vocab.json"))
 
 # Weights for the overall score. Accuracy dominates because it is the only term that
@@ -138,6 +138,10 @@ def _session():
     opts = ort.SessionOptions()
     opts.intra_op_num_threads = int(os.environ.get("PHONEME_THREADS", "2"))
     opts.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
+    # The default arena keeps a growing pool of freed buffers, which pushed RSS past
+    # 630 MB on a 1.7 GB host and got the service OOM-killed. The model is loaded once
+    # and inference is single-shot per request, so the arena buys nothing here.
+    opts.enable_cpu_mem_arena = False
     return ort.InferenceSession(ONNX_PATH, opts, providers=["CPUExecutionProvider"])
 
 

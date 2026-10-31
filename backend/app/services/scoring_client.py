@@ -15,8 +15,27 @@ from typing import Dict
 
 logger = logging.getLogger(__name__)
 
-SERVICE_URL = os.environ.get("PHONEME_SERVICE_URL", "").rstrip("/")
-TIMEOUT_SECONDS = float(os.environ.get("PHONEME_TIMEOUT", "60"))
+def _service_url() -> str:
+    """Read the scorer address at call time.
+
+    ``.env`` is parsed by pydantic Settings and does not populate ``os.environ``, so
+    reading the environment directly here would silently ignore the configured URL
+    and every request would fall back to duration-only scoring.
+    """
+    try:
+        from app.config import settings
+        url = getattr(settings, "PHONEME_SERVICE_URL", "") or ""
+    except Exception:  # noqa: BLE001 - config import must not break scoring
+        url = ""
+    return (url or os.environ.get("PHONEME_SERVICE_URL", "")).rstrip("/")
+
+
+def _timeout() -> float:
+    try:
+        from app.config import settings
+        return float(getattr(settings, "PHONEME_TIMEOUT", 60))
+    except Exception:  # noqa: BLE001
+        return float(os.environ.get("PHONEME_TIMEOUT", "60"))
 
 
 class ScorerUnavailable(RuntimeError):
@@ -32,7 +51,7 @@ async def score(wav_path: str, reference_text: str) -> Dict:
     if not reference_text or not reference_text.strip():
         raise ValueError("reference_text is required")
 
-    if SERVICE_URL:
+    if _service_url():
         return await _score_remote(wav_path, reference_text)
     return await _score_in_process(wav_path, reference_text)
 
@@ -40,14 +59,15 @@ async def score(wav_path: str, reference_text: str) -> Dict:
 async def _score_remote(wav_path: str, reference_text: str) -> Dict:
     import httpx
 
+    url = _service_url()
     try:
         with open(wav_path, "rb") as f:
             files = {"file": (os.path.basename(wav_path), f, "audio/wav")}
-            async with httpx.AsyncClient(timeout=TIMEOUT_SECONDS) as client:
-                res = await client.post(f"{SERVICE_URL}/score", files=files,
+            async with httpx.AsyncClient(timeout=_timeout()) as client:
+                res = await client.post(f"{url}/score", files=files,
                                         data={"reference_text": reference_text})
     except Exception as e:  # noqa: BLE001 - any transport failure degrades the same way
-        raise ScorerUnavailable(f"scoring service unreachable at {SERVICE_URL}: {e}") from e
+        raise ScorerUnavailable(f"scoring service unreachable at {url}: {e}") from e
 
     if res.status_code == 503:
         raise ScorerUnavailable("scoring service has no model loaded")
@@ -59,14 +79,24 @@ async def _score_remote(wav_path: str, reference_text: str) -> Dict:
 
 
 async def _score_in_process(wav_path: str, reference_text: str) -> Dict:
-    """Load the scorer here. Only works where numpy/onnxruntime are installed."""
+    """Fall back to a scorer in this process.
+
+    Not used in production: the API server runs on Python 3.14, where onnxruntime
+    and numpy are unavailable. It exists so a single-interpreter install can still
+    score, provided the caller put ``score_service`` on sys.path.
+    """
     import asyncio
+    import sys
+
+    if "score_service" not in sys.path:
+        import os as _os
+        sys.path.insert(0, _os.path.join(_os.path.dirname(__file__), "..", "..", "..", "score_service"))
 
     try:
-        from app.services import phoneme_scorer
+        import phoneme_scorer
     except ImportError as e:
         raise ScorerUnavailable(
-            "no scoring service configured and the local scorer cannot be imported"
+            "no PHONEME_SERVICE_URL configured and the in-process scorer is unavailable"
         ) from e
 
     if not phoneme_scorer.is_available():
@@ -75,4 +105,4 @@ async def _score_in_process(wav_path: str, reference_text: str) -> Dict:
 
 
 def is_configured() -> bool:
-    return bool(SERVICE_URL)
+    return bool(_service_url())

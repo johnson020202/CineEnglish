@@ -40,9 +40,17 @@ class Settings(BaseSettings):
     DEFAULT_CHAT_MODEL: str = os.getenv("DEFAULT_CHAT_MODEL", "gpt-4o-mini")
     DEFAULT_TTS_MODEL: str = os.getenv("DEFAULT_TTS_MODEL", "tts-1")
     DEFAULT_STT_MODEL: str = os.getenv("DEFAULT_STT_MODEL", "whisper-1")
-    
+
+    # Phoneme scorer sidecar. Declared explicitly so .env values are read: the API
+    # server runs Python 3.14, where onnxruntime has no wheels, so scoring lives in a
+    # separate Python 3.12 process reached over HTTP.
+    PHONEME_SERVICE_URL: Optional[str] = ""
+    PHONEME_TIMEOUT: float = 60.0
+
     class Config:
-        env_file = ".env"
+        # Absolute path: the service is started by systemd, whose working directory
+        # is not the backend package, and a relative .env would silently be ignored.
+        env_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".env")
         extra = "allow"
 
 settings = Settings()
