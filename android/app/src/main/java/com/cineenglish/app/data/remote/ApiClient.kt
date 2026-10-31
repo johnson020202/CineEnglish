@@ -11,9 +11,12 @@ object ApiClient {
     private var apiService: CineApiService? = null
 
     private val okHttpClient = OkHttpClient.Builder()
-        .connectTimeout(15, TimeUnit.SECONDS)
-        .readTimeout(30, TimeUnit.SECONDS)
-        .writeTimeout(30, TimeUnit.SECONDS)
+        .connectTimeout(20, TimeUnit.SECONDS)
+        // Scoring is a server round trip: the wav is uploaded, decoded by a phone
+        // recognizer, and compared phone by phone. A cold run measured 29.8 s, so a
+        // 30 s read timeout would make the first attempt of a session fail.
+        .readTimeout(120, TimeUnit.SECONDS)
+        .writeTimeout(90, TimeUnit.SECONDS)
         .addInterceptor(HttpLoggingInterceptor().apply {
             level = HttpLoggingInterceptor.Level.BASIC
         })
