@@ -93,11 +93,11 @@ class PronunciationEvaluator:
         pass_completeness: float
     ) -> Optional[PronunciationAssessmentResult]:
         """Score with the phoneme recognizer; returns None when it is unavailable."""
-        from app.services import phoneme_scorer
+        from app.services import scoring_client
 
         try:
-            analysis = await phoneme_scorer.score(audio_path, reference_text)
-        except phoneme_scorer.ScorerUnavailable as e:
+            analysis = await scoring_client.score(audio_path, reference_text)
+        except scoring_client.ScorerUnavailable as e:
             logger.warning("phoneme scorer unavailable: %s", e)
             return None
         except Exception as e:  # noqa: BLE001 - fall through to the duration fallback
