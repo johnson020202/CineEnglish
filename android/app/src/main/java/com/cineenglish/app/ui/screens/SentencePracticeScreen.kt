@@ -100,30 +100,6 @@ fun SentencePracticeScreen(
         scrollState.scrollTo(0)
     }
 
-    LaunchedEffect(currentSentence?.id) {
-        val flag = File(context.cacheDir, "debug_score.flag")
-        if (flag.exists() && assessmentResult == null && currentSentence != null) {
-            val mockAudio = File(context.cacheDir, "sample_demo.m4a")
-            if (!mockAudio.exists()) mockAudio.createNewFile()
-            lastRecordedFile = mockAudio
-            assessmentResult = PronunciationResultDto(
-                engineName = "Acoustic Neural Tier",
-                engineVersion = "2.4",
-                assessmentTier = "acoustic_engine",
-                overallScore = 85.0f,
-                accuracyScore = 88.0f,
-                completenessScore = 90.0f,
-                fluencyScore = 82.0f,
-                prosodyScore = 85.0f,
-                isPassed = true,
-                wordDetails = emptyList(),
-                feedbackEn = "Your pronunciation is very clear! Try to pay attention to the natural rhythm and linking between words in this line.",
-                confidenceEvidence = "formant_prosody_match",
-                canAutoAdvance = true
-            )
-        }
-    }
-
     // Dictionary Bottom Sheet State
     var selectedWord by remember { mutableStateOf<String?>(null) }
     var dictDefinition by remember { mutableStateOf<DictDefinitionDto?>(null) }
@@ -315,17 +291,19 @@ fun SentencePracticeScreen(
                     Unit
                 }
             } catch (e: Exception) {
-                // Offline Dynamic Acoustic Engine: Evaluates pacing, syllable duration & energy envelope
+                // Offline fallback: the device has no phoneme model, so only pacing can be
+                // measured. Per-word scores are deliberately not produced — deriving them
+                // from the word text would say nothing about the learner's audio.
                 val words = currentSentence.text.trim().split(Regex("\\s+")).filter { it.isNotBlank() }
                 val wordCount = maxOf(1, words.size)
                 val audioBytes = audioFile.length()
-                // Estimated duration from byte stream (supports both raw WAV and compressed audio)
+                // Estimated duration from the byte stream (works for raw WAV and compressed audio).
                 val estDurationMs = if (audioBytes > 80000) audioBytes / 32 else (audioBytes * 1000) / 6000
                 val safeDurationMs = maxOf(400L, estDurationMs)
                 val expectedMs = maxOf(800L, wordCount * 380L)
                 val ratio = safeDurationMs.toFloat() / expectedMs.toFloat()
 
-                // Completeness: Did the user speak long enough for the sentence?
+                // Completeness: did the learner speak long enough for the sentence?
                 val completeness = when {
                     ratio < 0.35f -> maxOf(25.0f, ratio * 120.0f)
                     ratio < 0.70f -> 50.0f + (ratio - 0.35f) * 110.0f
@@ -333,7 +311,7 @@ fun SentencePracticeScreen(
                     else -> maxOf(70.0f, 95.0f - (ratio - 1.40f) * 20.0f)
                 }
 
-                // Fluency: Syllable pacing
+                // Fluency: syllable pacing against the natural reading rate.
                 val fluency = when {
                     ratio < 0.5f -> 50.0f + ratio * 30.0f
                     ratio in 0.8f..1.3f -> minOf(98.0f, 88.0f + (1.0f - kotlin.math.abs(1.0f - ratio)) * 10.0f)
@@ -341,68 +319,33 @@ fun SentencePracticeScreen(
                     else -> 60.0f
                 }
 
-                val wordDetails = mutableListOf<WordAssessmentDto>()
-                var lowestWord = ""
-                var lowestScore = 100f
-                val stepMs = safeDurationMs / wordCount
-
-                words.forEachIndexed { i, w ->
-                    val cleanWord = w.replace(Regex("[^a-zA-Z']"), "")
-                    val isComplex = cleanWord.length > 6 || listOf("th", "str", "r", "l", "ts", "pl", "gr").any { cleanWord.lowercase().contains(it) }
-                    val base = 80.0f + (kotlin.math.abs(cleanWord.hashCode()) % 15).toFloat() + (attemptCount - 1) * 3.0f
-                    val wScore = if (isComplex && (i % 2 == 1 || kotlin.math.abs(cleanWord.hashCode()) % 3 == 0)) {
-                        val penalized = maxOf(62.0f, minOf(80.0f, base - 10.0f))
-                        if (penalized < lowestScore) {
-                            lowestScore = penalized
-                            lowestWord = cleanWord
-                        }
-                        penalized
-                    } else {
-                        minOf(98.0f, maxOf(75.0f, base))
-                    }
-                    val isProb = wScore < 80.0f
-                    wordDetails.add(
-                        WordAssessmentDto(
-                            word = w,
-                            score = kotlin.math.round(wScore * 10) / 10f,
-                            isProblematic = isProb,
-                            problemType = if (isProb) "needs_articulation" else null,
-                            startMs = i * stepMs,
-                            endMs = (i + 1) * stepMs
-                        )
-                    )
-                }
-
-                val avgAccuracy = wordDetails.map { it.score }.average().toFloat()
-                val prosody = minOf(96.0f, maxOf(50.0f, (avgAccuracy * 0.6f + fluency * 0.4f) + (if (ratio in 0.85f..1.25f) 2.0f else -3.0f)))
-                val overall = kotlin.math.round((avgAccuracy * 0.35f + completeness * 0.35f + fluency * 0.20f + prosody * 0.10f) * 10) / 10f
-                val isPassed = overall >= passThresholdOverall && completeness >= passThresholdCompleteness
+                // Articulation is not assessed offline, so it is reported as not assessed
+                // rather than guessed: accuracy stays 0 and the tier says text_matching.
+                val overall = kotlin.math.round((completeness * 0.6f + fluency * 0.4f) * 10) / 10f
 
                 val feedback = when {
-                    lowestWord.isNotBlank() && lowestScore < 80f ->
-                        "Pay attention to clarity on '$lowestWord'—keep articulation distinct."
                     ratio < 0.6f ->
                         "Sentence was cut a bit short; practice holding through the final syllable."
                     ratio > 1.6f ->
-                        "Good attempt! Try connecting adjacent words to build conversational momentum."
+                        "Try connecting adjacent words to build conversational momentum."
                     else ->
-                        "Terrific acoustic rhythm! Natural intonation and clear syllable stress."
+                        "Pacing looks natural. Connect to the server to have pronunciation scored."
                 }
 
                 val localResult = PronunciationResultDto(
-                    engineName = "Acoustic GateKeeper (On-Device)",
-                    engineVersion = "1.3",
-                    assessmentTier = "device_acoustic_profile",
+                    engineName = "Offline Timing Engine",
+                    engineVersion = "2.0",
+                    assessmentTier = "text_matching",
                     overallScore = overall,
-                    accuracyScore = kotlin.math.round(avgAccuracy * 10) / 10f,
+                    accuracyScore = 0f,
                     completenessScore = kotlin.math.round(completeness * 10) / 10f,
                     fluencyScore = kotlin.math.round(fluency * 10) / 10f,
-                    prosodyScore = kotlin.math.round(prosody * 10) / 10f,
-                    isPassed = isPassed,
-                    wordDetails = wordDetails,
+                    prosodyScore = 0f,
+                    isPassed = false,
+                    wordDetails = emptyList(),
                     feedbackEn = feedback,
-                    confidenceEvidence = "on_device_syllable_envelope",
-                    canAutoAdvance = isPassed
+                    confidenceEvidence = "Recording length and pacing only; pronunciation not assessed offline.",
+                    canAutoAdvance = false
                 )
                 try {
                     db.practiceRecordDao().insertRecord(
