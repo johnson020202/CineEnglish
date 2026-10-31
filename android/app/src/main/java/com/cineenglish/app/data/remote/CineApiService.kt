@@ -8,27 +8,27 @@ import retrofit2.http.*
 
 interface CineApiService {
 
-    @GET("/health")
+    @GET("health")
     suspend fun checkHealth(): Map<String, String>
 
-    @GET("/api/v1/materials")
+    @GET("api/v1/materials")
     suspend fun getMaterials(): List<MaterialNetDto>
 
-    @GET("/api/v1/materials/{id}")
+    @GET("api/v1/materials/{id}")
     suspend fun getMaterialDetail(@Path("id") id: Long): MaterialNetDto
 
-    @GET("/api/v1/materials/{id}/sentences")
+    @GET("api/v1/materials/{id}/sentences")
     suspend fun getSentences(@Path("id") id: Long): List<SentenceNetDto>
 
     @FormUrlEncoded
-    @POST("/api/v1/materials/{id}/sentences/shift-time")
+    @POST("api/v1/materials/{id}/sentences/shift-time")
     suspend fun shiftTimeline(
         @Path("id") id: Long,
         @Field("offset_ms") offsetMs: Long
     ): Response<ResponseBody>
 
     @Multipart
-    @POST("/api/v1/materials/import-file")
+    @POST("api/v1/materials/import-file")
     suspend fun importLocalSubtitle(
         @Part("title") title: RequestBody,
         @Part("year") year: RequestBody?,
@@ -36,7 +36,7 @@ interface CineApiService {
         @Part file: MultipartBody.Part
     ): MaterialNetDto
 
-    @GET("/api/v1/subtitles/search")
+    @GET("api/v1/subtitles/search")
     suspend fun searchSubtitles(
         @Query("query") query: String,
         @Query("season") season: Int? = null,
@@ -45,14 +45,14 @@ interface CineApiService {
         @Query("api_key") apiKey: String? = null
     ): SubtitleSearchResponseDto
 
-    @POST("/api/v1/subtitles/download-and-import")
+    @POST("api/v1/subtitles/download-and-import")
     suspend fun downloadSubtitle(
         @Body body: Map<String, Any>,
         @Query("api_key") apiKey: String? = null
     ): MaterialNetDto
 
     @Multipart
-    @POST("/api/v1/assessment/evaluate-sentence")
+    @POST("api/v1/assessment/evaluate-sentence")
     suspend fun evaluateSentence(
         @Part("sentence_id") sentenceId: RequestBody,
         @Part("reference_text") referenceText: RequestBody? = null,
@@ -63,20 +63,20 @@ interface CineApiService {
         @Part audioFile: MultipartBody.Part
     ): PronunciationResultDto
 
-    @POST("/api/v1/assessment/evaluate-free-recall")
+    @POST("api/v1/assessment/evaluate-free-recall")
     suspend fun evaluateFreeRecall(
         @Body body: Map<String, Any>
     ): FreeRecallResultDto
 
     @FormUrlEncoded
-    @POST("/api/v1/assessment/report-unreasonable-score")
+    @POST("api/v1/assessment/report-unreasonable-score")
     suspend fun reportUnreasonableScore(
         @Field("record_id") recordId: Long,
         @Field("reason") reason: String
     ): Response<ResponseBody>
 
     @Multipart
-    @POST("/api/v1/recordings/upload")
+    @POST("api/v1/recordings/upload")
     suspend fun uploadRecording(
         @Part("material_id") materialId: RequestBody,
         @Part("sentence_id") sentenceId: RequestBody,
@@ -94,14 +94,14 @@ interface CineApiService {
         @Part audioFile: MultipartBody.Part
     ): Response<ResponseBody>
 
-    @GET("/api/v1/dictionary/lookup")
+    @GET("api/v1/dictionary/lookup")
     suspend fun lookupDictionary(
         @Query("word") word: String,
         @Query("context") context: String? = null,
         @Query("simplify_level") level: Int = 1
     ): DictDefinitionDto
 
-    @GET("/api/v1/ai/synthesize-american-voice")
+    @GET("api/v1/ai/synthesize-american-voice")
     @Streaming
     suspend fun synthesizeVoice(
         @Query("text") text: String,
@@ -109,18 +109,18 @@ interface CineApiService {
         @Query("speed") speed: Float = 1.0f
     ): Response<ResponseBody>
 
-    @POST("/api/v1/ai/test-capability")
+    @POST("api/v1/ai/test-capability")
     suspend fun testAiCapability(
         @Body body: Map<String, Any>
     ): AiCapabilityTestDto
 
-    @GET("/api/v1/ai/models")
+    @GET("api/v1/ai/models")
     suspend fun getAiModels(
         @Query("base_url") baseUrl: String,
         @Query("api_key") apiKey: String? = null
     ): AiModelsResponseDto
 
-    @POST("/api/v1/ai/roleplay-extend")
+    @POST("api/v1/ai/roleplay-extend")
     suspend fun extendRolePlay(
         @Body body: Map<String, Any>
     ): RolePlayExtendDto

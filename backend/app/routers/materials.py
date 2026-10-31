@@ -19,7 +19,13 @@ router = APIRouter(prefix="/api/v1/materials", tags=["Materials & Sentences"])
 
 @router.get("", response_model=List[MaterialResponse])
 async def list_materials(db: AsyncSession = Depends(get_db)):
-    result = await db.execute(select(Material).order_by(Material.updated_at.desc()))
+    # sentences must be eager-loaded: the response model includes it, and async
+    # SQLAlchemy cannot lazy-load during serialization (MissingGreenlet).
+    result = await db.execute(
+        select(Material)
+        .options(selectinload(Material.sentences))
+        .order_by(Material.updated_at.desc())
+    )
     materials = result.scalars().all()
     return materials
 

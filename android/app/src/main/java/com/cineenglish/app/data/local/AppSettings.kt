@@ -27,6 +27,11 @@ class AppSettings(private val context: Context) {
         val KEY_TTS_VOICE = stringPreferencesKey("tts_voice")
         val KEY_PLAYBACK_SPEED = floatPreferencesKey("playback_speed")
 
+        // Public HTTPS entry point, proxied by nginx to the backend on 127.0.0.1:8008.
+        // Serving the API under a path (not a dedicated host) keeps it on the existing
+        // certificate; the trailing slash matters because the Retrofit paths are relative.
+        const val PUBLIC_BACKEND_URL = "https://api.dognosay.dpdns.org/cine/"
+
         fun isEmulator(): Boolean {
             return (android.os.Build.FINGERPRINT.startsWith("generic")
                     || android.os.Build.FINGERPRINT.startsWith("unknown")
@@ -40,7 +45,7 @@ class AppSettings(private val context: Context) {
         }
 
         fun getDefaultBackendUrl(): String {
-            return if (isEmulator()) "http://10.0.2.2:8000" else "http://127.0.0.1:8000"
+            return if (isEmulator()) "http://10.0.2.2:8008" else PUBLIC_BACKEND_URL
         }
     }
 
