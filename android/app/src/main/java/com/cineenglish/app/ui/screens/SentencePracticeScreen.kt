@@ -373,7 +373,7 @@ fun SentencePracticeScreen(
                     isEvaluating = false
                     assessmentResult = localResult
                     // Keep user on current page to inspect feedback
-                    if (!isPassed) {
+                    if (!localResult.isPassed) {
                         attemptCount++
                     }
                     Unit
