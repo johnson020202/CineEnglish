@@ -166,3 +166,20 @@ async def import_local_subtitle(
     await db.commit()
     await db.refresh(material)
     return material
+
+
+@router.get("/search-by-quote")
+async def search_by_quote(
+    q: str = Query(..., description="A line of dialogue to look up, e.g. 'May the Force be with you'"),
+    limit: int = Query(10, ge=1, le=30),
+):
+    """Find movies whose dialogue contains ``q``.
+
+    Returns matches from Subzin (full-text over ~63M lines), falling back to the
+    OpenSubtitles XML-RPC full-text search. Downloading the subtitle afterwards goes
+    through ``/download-and-import`` with the returned ``subtitle_id``.
+    """
+    from app.services.quote_search import search_by_quote as _search
+
+    results = await _search(q, limit=limit)
+    return {"query": q, "count": len(results), "results": results}

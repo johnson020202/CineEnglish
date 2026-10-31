@@ -1,4 +1,5 @@
 import os
+import shutil
 import subprocess
 import json
 import logging
@@ -8,17 +9,33 @@ logger = logging.getLogger(__name__)
 
 class AudioService:
     @staticmethod
+    def _find_binary(name: str) -> str:
+        """Return the first executable path for ``name``.
+
+        A hardcoded path is not enough here: this project is deployed on Linux and
+        developed on macOS, and a stale binary earlier on PATH (an x86 build on Apple
+        Silicon, for instance) fails at exec time with "Bad CPU type in executable".
+        """
+        candidates = [
+            f"/opt/homebrew/bin/{name}",
+            f"/usr/local/bin/{name}",
+            f"/usr/bin/{name}",
+        ]
+        found = shutil.which(name)
+        if found:
+            candidates.insert(0, found)
+        for path in candidates:
+            if path and os.path.isfile(path) and os.access(path, os.X_OK):
+                return path
+        return name
+
+    @staticmethod
     def get_ffmpeg_cmd() -> str:
-        # Check local paths or system path
-        if os.path.exists("/Users/xindao/.local/bin/ffmpeg"):
-            return "/Users/xindao/.local/bin/ffmpeg"
-        return "ffmpeg"
+        return AudioService._find_binary("ffmpeg")
 
     @staticmethod
     def get_ffprobe_cmd() -> str:
-        if os.path.exists("/Users/xindao/.local/bin/ffprobe"):
-            return "/Users/xindao/.local/bin/ffprobe"
-        return "ffprobe"
+        return AudioService._find_binary("ffprobe")
 
     @classmethod
     def convert_to_wav_16k_mono(cls, input_path: str, output_path: str) -> bool:

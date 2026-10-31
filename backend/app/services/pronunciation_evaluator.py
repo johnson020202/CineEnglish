@@ -1,3 +1,4 @@
+import asyncio
 import os
 import re
 import json
@@ -63,11 +64,139 @@ class PronunciationEvaluator:
                 pass_threshold_overall, pass_threshold_completeness
             )
 
-        # Case B: Local Acoustic Feature Analysis & Forced Alignment Engine
-        # Extracts acoustic duration, pitch contour stability, and speech rate
+        # Case B: Local phoneme-level recognizer (wav2vec2 CTC on onnxruntime).
+        # This is the default: it inspects the audio itself, so a learner who says
+        # "think" as /sɪŋk/ is flagged at the phone level.
+        if engine_mode != "duration_only":
+            result = await cls._evaluate_phoneme_engine(
+                audio_file_path, reference_text, user_attempt,
+                pass_threshold_overall, pass_threshold_completeness
+            )
+            if result is not None:
+                return result
+
+        # Case C: Duration-only fallback, used when the phone model is not installed.
+        # It measures pace and completeness but cannot judge articulation, so the
+        # result is labelled 'text_matching' rather than claiming acoustic accuracy.
         return await cls._evaluate_local_acoustic_engine(
             audio_file_path, ref_words, reference_text, user_attempt,
             pass_threshold_overall, pass_threshold_completeness
+        )
+
+    @classmethod
+    async def _evaluate_phoneme_engine(
+        cls,
+        audio_path: str,
+        reference_text: str,
+        attempt: int,
+        pass_overall: float,
+        pass_completeness: float
+    ) -> Optional[PronunciationAssessmentResult]:
+        """Score with the phoneme recognizer; returns None when it is unavailable."""
+        from app.services import phoneme_scorer
+
+        try:
+            analysis = await phoneme_scorer.score(audio_path, reference_text)
+        except phoneme_scorer.ScorerUnavailable as e:
+            logger.warning("phoneme scorer unavailable: %s", e)
+            return None
+        except Exception as e:  # noqa: BLE001 - fall through to the duration fallback
+            logger.warning("phoneme scoring failed, falling back to duration analysis: %s", e)
+            return None
+
+        comparison = analysis["comparison"]
+        duration_s = analysis["duration_s"]
+        words = comparison["words"]
+        reports = {r["position"]: r for r in comparison["word_reports"]}
+        phone_error_rate = comparison["phone_error_rate"]
+
+        # Accuracy is the share of expected phones produced correctly.
+        accuracy = round(max(0.0, min(100.0, (1.0 - phone_error_rate) * 100.0)), 1)
+
+        # Completeness: how much of the sentence was actually attempted. A word with no
+        # heard phones at all means the learner stopped early.
+        attempted = sum(1 for r in reports.values() if r["actual"])
+        completeness = round(100.0 * attempted / len(words), 1) if words else 0.0
+
+        # Fluency from speaking rate against the natural ~4.2 syllables/second, plus a
+        # penalty for pauses that stretch the utterance well past the expected length.
+        syllables = sum(max(1, len([p for p in r["expected"] if p and not p.isdigit()])) for r in reports.values())
+        expected_s = max(0.8, syllables / 4.2)
+        ratio = duration_s / expected_s
+        if ratio < 0.55:
+            fluency = 55.0
+        elif ratio <= 1.45:
+            fluency = 100.0 - abs(1.0 - ratio) * 22.0
+        else:
+            fluency = max(45.0, 96.0 - (ratio - 1.45) * 28.0)
+        fluency = round(max(0.0, min(100.0, fluency)), 1)
+
+        # Prosody: no pitch model here, so it follows accuracy and pace rather than
+        # inventing an intonation score.
+        prosody = round(max(40.0, min(97.0, accuracy * 0.7 + fluency * 0.3)), 1)
+
+        word_details: List[WordAssessment] = []
+        problematic: List[Dict[str, Any]] = []
+        frames = max(1, analysis["frames"])
+        for position, report in sorted(reports.items()):
+            wrong = [p for p in report["phones"] if p["confidence"] > 0.0]
+            weight = sum(p["confidence"] for p in wrong)
+            length = max(1, len(report["expected"]))
+            word_score = round(max(0.0, min(100.0, 100.0 * (1.0 - min(1.0, weight / length)))), 1)
+            is_problem = bool(report["distance"]) and (
+                weight / length >= 0.4 or weight >= 2
+            )
+            word_details.append(WordAssessment(
+                word=report["word"],
+                score=word_score,
+                is_problematic=is_problem,
+                problem_type="mispronounced" if is_problem else None,
+                start_ms=int(report["start_frame"] / frames * duration_s * 1000),
+                end_ms=int(report["end_frame"] / frames * duration_s * 1000),
+                phonemes=[{"expected": p["expected"], "heard": p["heard"], "confidence": p["confidence"]}
+                          for p in report["phones"]],
+            ))
+            if is_problem:
+                problematic.append(report)
+
+        overall = round(
+            accuracy * 0.60 + completeness * 0.20 + fluency * 0.10 + prosody * 0.10, 1
+        )
+        is_passed = overall >= pass_overall and completeness >= pass_completeness
+
+        # Point at the specific phone that was wrong, not just the word.
+        feedback_points: List[str] = []
+        for report in problematic[:2]:
+            worst = max(report["phones"], key=lambda p: p["confidence"], default=None)
+            if worst and worst["heard"]:
+                feedback_points.append(
+                    f"In '{report['word']}', /{worst['expected']}/ came out closer to /{worst['heard']}/."
+                )
+            else:
+                feedback_points.append(f"The sound /{worst['expected']}/ was dropped in '{report['word']}'." if worst
+                                       else f"Revisit the pronunciation of '{report['word']}'.")
+        if completeness < 60:
+            feedback_points.append("Part of the sentence was not attempted; read through to the end.")
+        if not feedback_points:
+            feedback_points.append("Every phone landed where it should—clean articulation across the phrase.")
+
+        return PronunciationAssessmentResult(
+            engine_name="CinePhonemeEngine",
+            engine_version="2.0.0",
+            assessment_tier="phoneme_acoustic",
+            overall_score=overall,
+            accuracy_score=accuracy,
+            completeness_score=completeness,
+            fluency_score=fluency,
+            prosody_score=prosody,
+            is_passed=is_passed,
+            word_details=word_details,
+            feedback_en=" ".join(feedback_points[:2]),
+            confidence_evidence=(
+                f"Wav2Vec2 CTC phone recognizer: {len(analysis['phones_heard'])} phones decoded, "
+                f"phone error rate {phone_error_rate:.2f}."
+            ),
+            can_auto_advance=is_passed
         )
 
     @classmethod
@@ -198,9 +327,11 @@ class PronunciationEvaluator:
         feedback_en = " ".join(feedback_points[:2])
 
         return PronunciationAssessmentResult(
-            engine_name="CineAcousticEngine",
-            engine_version="1.3.0",
-            assessment_tier="phoneme_acoustic",
+            engine_name="CineDurationEngine",
+            engine_version="1.4.0",
+            # Duration analysis cannot judge articulation, so it must not claim the
+            # phoneme tier. Clients that gate on the tier can then tell the two apart.
+            assessment_tier="text_matching",
             overall_score=overall,
             accuracy_score=accuracy,
             completeness_score=completeness,
@@ -209,7 +340,7 @@ class PronunciationEvaluator:
             is_passed=is_passed,
             word_details=word_details,
             feedback_en=feedback_en,
-            confidence_evidence="Acoustic syllable rate, energy envelope & boundary alignment.",
+            confidence_evidence="Speaking rate and duration only; articulation not assessed.",
             can_auto_advance=is_passed
         )
 
